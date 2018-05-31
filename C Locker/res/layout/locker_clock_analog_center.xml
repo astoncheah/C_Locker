@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytAnalogClockCenter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtAnalogClockCenterDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/lytAnalogClockCenterAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAnalogClockCenterDay"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtAnalogClockCenterAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="12dp"
+            android:contentDescription="@string/img_desc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_alarm" />
+    </LinearLayout>
+    <!-- hand_hour: size 150px*150px/w=8px/h=40/position=72*40 -->
+    <!-- hand_minute: size 150px*150px/w=8px/h=60/position=72*20 -->
+    <com.ccs.lockscreen.appwidget.MyAnalogClock
+        android:id="@+id/analogClockCenter"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lytAnalogClockCenterAlarm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/txtAnalogClockCenterAmPm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/analogClockCenter"
+        android:layout_alignTop="@+id/analogClockCenter"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+</RelativeLayout>    

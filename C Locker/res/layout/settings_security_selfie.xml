@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <LinearLayout
+                android:id="@+id/lytSecuritySelfie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_security_selfie"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_security_selfie_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxSecuritySelfie"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytEmailSelfie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_selfie"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_selfie_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxEmailSelfie"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytShowSelfie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_picture_on_unlock"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_picture_on_unlock_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxShowSelfie"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytFailAttempts"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="@string/attempts"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/text_size_title" />
+
+                <Spinner
+                    android:id="@+id/spnFailAttempts"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

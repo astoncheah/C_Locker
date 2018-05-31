@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <TextView
+                android:id="@+id/txtTips1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_01"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_02"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_03"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_04"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_05"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_06"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_07"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:id="@+id/txtTips8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/tips_tricks_youtube_08"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <include layout="@layout/view_line_vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

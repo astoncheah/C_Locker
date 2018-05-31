@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="@string/show_bottombar_style"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/show_battery_bar_desc"
+                android:textColor="@color/colorTextDesc"
+                android:textSize="@dimen/text_size_decs" />
+
+            <RadioButton
+                android:id="@+id/rBtnShowArrowUpIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/bottom_bar_show_arrow_up_icon" />
+
+            <RadioButton
+                android:id="@+id/rBtnShowBatteryLevelBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/bottom_bar_show_battery_bar" />
+
+            <View
+                android:id="@+id/viewBttyLevelBar"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_x_large"
+                android:layout_marginRight="@dimen/padding_x_large"
+                android:layout_marginTop="@dimen/padding_small" />
+
+            <RadioButton
+                android:id="@+id/rBtnShowBottomTransparentBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/bottom_bar_show_info_bar" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytEnableBottomBarDrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable_desc1"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable_desc3"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable_desc4"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bottom_bar_drag_enable_desc5"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxEnableBottomBarDrag"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytBottomBarNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bottom_bar_enable_list_desc"
+                    android:textColor="@color/colorTextDesc"
+                    android:textSize="@dimen/text_size_decs" />
+
+                <CheckBox
+                    android:id="@+id/cBoxEnableGmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_enable_gmail" />
+
+                <CheckBox
+                    android:id="@+id/cBoxEnableSms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_enable_sms" />
+
+                <CheckBox
+                    android:id="@+id/cBoxEnableMissedCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_enable_miss_call" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_selector"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cBoxEnableEvents"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/bottom_bar_enable_cld_event" />
+
+                    <ImageView
+                        android:id="@+id/imgEnableEventsSettings"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/layout_selector"
+                        android:clickable="true"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/ic_settings_white_48dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_selector"
+                    android:gravity="left|center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cBoxEnableRss"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/bottom_bar_enable_rss" />
+
+                    <ImageView
+                        android:id="@+id/imgRssList"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/layout_selector"
+                        android:clickable="true"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/icon_rss" />
+
+                    <ImageView
+                        android:id="@+id/imgEnableRssSettings"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/layout_selector"
+                        android:clickable="true"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/ic_settings_white_48dp" />
+                </LinearLayout>
+
+                <include layout="@layout/view_line_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_popup_enable_desc"
+                    android:textColor="@color/colorTextDesc"
+                    android:textSize="@dimen/text_size_decs" />
+
+                <CheckBox
+                    android:id="@+id/cBoxEnableBottomBarPopup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_popup_enable" />
+
+                <include layout="@layout/view_line_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_test_sms_desc"
+                    android:textColor="@color/colorTextDesc"
+                    android:textSize="@dimen/text_size_decs" />
+
+                <Button
+                    android:id="@+id/btnTestSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/bottom_bar_test_sms" />
+
+                <include layout="@layout/view_line_vertical" />
+
+                <LinearLayout
+                    android:id="@+id/lytSetNoticeTextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:background="@drawable/layout_selector"
+                    android:gravity="left|center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_large">
+
+                    <TextView
+                        android:id="@+id/txtSetNoticeTextColor"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/padding_large"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:text="@string/bottom_bar_notice_text_color"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <include layout="@layout/view_img_open" />
+                </LinearLayout>
+
+                <include layout="@layout/view_line_vertical" />
+
+                <LinearLayout
+                    android:id="@+id/lytSetBottomBarTabColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:background="@drawable/layout_selector"
+                    android:gravity="left|center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/padding_large"
+                    android:paddingRight="@dimen/padding_large">
+
+                    <TextView
+                        android:id="@+id/txtSetBottomBarTabColor"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/padding_large"
+                        android:layout_weight="1"
+                        android:gravity="left|center"
+                        android:text="@string/settings_bottom_bar_tab_color2"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <include layout="@layout/view_img_open" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout> 

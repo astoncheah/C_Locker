@@ -1,0 +1,235 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ccs.lockscreen"
+          xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tablet // stop publishing for tablet until ui redesign -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+
+    <!-- Samsung FingerPrint Permission -->
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <!-- Home Key Permission -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Google Map permission-->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- LVL(License) permission -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" tools:node="remove"/>
+    <!-- System Permission -->
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <!-- Normal Permission -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" /><!-- 7.3.0 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" /><!-- 7.2.0 -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" /><!-- 7.8.0 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" /><!-- 7.9.0 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="com.google.android.gm.permission.READ_CONTENT_PROVIDER" />
+
+    <!-- Change the Icon if copy from PRO-->
+    <!-- android:largeHeap="true" -->
+    <!-- <application
+        android:name="android.support.multidex.MultiDexApplication"-->
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/c_lockscreen_icon_small"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:node="replace">
+        <!-- Google Map, debug key (disable this when publish)
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB2mrmTTGbuhZhtly6tmhMybwteau3hrSI"/>-->
+        <!-- Google Map, publish key (Free version)-->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="KEY_IS_HIDDEN"
+            tools:node="replace"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!--<meta-data android:name="android.max_aspect" android:value="ratio_float"/>-->
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.Locker"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Locker" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.CaptureHome"
+            android:enabled="false"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.LockerCustomWallpaper">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ccs.lockscreen_pro.CaptureSearchLongPress"
+            android:enabled="false"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.LockerCustomWallpaper">
+            <intent-filter>
+                <!--<action android:name="android.intent.action.SEARCH_LONG_PRESS" />-->
+                <action android:name="android.intent.action.ASSIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ccs.lockscreen_pro.CaptureSystemSettings"
+            android:enabled="false"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.LockerCustomWallpaper">
+            <intent-filter>
+                <!--<action android:name="android.intent.action.SEARCH_LONG_PRESS" />-->
+                <action android:name="android.settings.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ccs.lockscreen_pro.SettingsLockerMain"
+            android:label="@string/lock_screen_settings"
+            android:launchMode="singleTask">
+            <!-- android:launchMode="singleInstance">  -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ccs.lockscreen_pro.SettingsWidgets" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsBottombar" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsSecurityRoot" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsProfilePriority" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsProfilePin" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsUnlockSelection" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsShortcuts" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsShortcutList" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsAddLocation" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsMap" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsTips" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsTipsYoutube" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsAbout" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsClockAnalog" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsClockDigital" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsCalendar" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsRSS" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsPersonalMsg" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsPasswordUnlock" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsTasker" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsHomeKey" />
+        <activity android:name="com.ccs.lockscreen_pro.ListRSS" />
+        <activity android:name="com.ccs.lockscreen_pro.ListCalendarAccount" />
+        <activity android:name="com.ccs.lockscreen_pro.ListAppsSelector" />
+        <activity android:name="com.ccs.lockscreen_pro.ListSavedWifi" />
+        <activity android:name="com.ccs.lockscreen_pro.ListSavedBluetooth" />
+        <activity android:name="com.ccs.lockscreen_pro.SettingsSecuritySelfie" />
+        <activity android:name="com.ccs.lockscreen_pro.SecuritySelfie" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.ListInstalledApps"
+            android:label="@string/apps_shortcut"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.ListWidgetApps"
+            android:label="@string/apps_shortcut"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.PickerColor"
+            android:label="@string/select_a_color"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.PickerTextStyle"
+            android:label="@string/select_a_texttype"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.MinWidth" />
+        <activity
+            android:name="com.ccs.lockscreen_pro.PickerDefaultIcons"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.ccs.lockscreen_pro.ServiceMain" />
+        <service android:name="com.ccs.lockscreen_pro.ServiceDialog" />
+        <service
+            android:name="com.ccs.lockscreen_pro.ServiceNotification"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.ccs.lockscreen_pro.ServiceAccessibility2"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/access_service" />
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.ccs.lockscreen.utils.StartupReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ccs.lockscreen.utils.DeviceAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+</manifest>

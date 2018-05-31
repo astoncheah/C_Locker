@@ -1,0 +1,127 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    implementation fileTree(include: '*.jar, *.aar', dir: 'libs')
+    //compile project(':SupportGoogleService')
+    implementation project(':SupportLicensingVerification')
+    //compile project(':C Locker Pro')
+    //compile project(':SupportV7AppCompat')
+    implementation files('libs/pass-v1.2.1.jar')
+    implementation files('libs/sdk-v1.0.0.jar')
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/google-api-client-1.20.0.jar')
+    implementation files('libs/google-api-client-android-1.20.0.jar')
+    implementation files('libs/google-http-client-1.20.0.jar')
+    implementation files('libs/google-http-client-android-1.20.0.jar')
+    implementation files('libs/google-http-client-jackson2-1.20.0.jar')
+    implementation files('libs/google-oauth-client-1.20.0.jar')
+    implementation files('libs/jackson-core-2.1.3.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/google-api-services-gmail-v1-rev29-1.20.0.jar')
+
+
+    implementation files('libs/mmspot-release.aar')
+    implementation 'com.android.support:design:25.3.1'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+
+    //compile 'com.android.support:design:24.2.1'
+    //compile 'com.android.support:support-v4:24.2.1'
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'com.google.android.gms:play-services-maps:10.2.1'
+    // for google maps use
+    implementation 'com.google.android.gms:play-services-drive:10.2.1'
+    // for google drive backup use
+    implementation 'com.google.android.gms:play-services-ads:10.2.1'
+    // for google ads
+    implementation 'com.google.android.gms:play-services-auth:10.2.1'
+    //for google account authentication use
+    //compile 'com.google.android.gms:play-services:9.6.1'//compile this will exceed 65k methods limit
+    //compile 'com.android.support:multidex:1.0.0'// no need this if no compiling whole google play api
+}
+
+android {
+    signingConfigs {
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('/Users/cheahchinseng/Dropbox/Android/debug.keystore')
+            storePassword 'android'
+        }
+        release {
+            keyAlias 'cwidget'
+            keyPassword 'seng0207'
+            storeFile file('/Users/cheahchinseng/Dropbox/Android/Signed Apk/my-release-key.keystore')
+            storePassword 'seng0207'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+    defaultConfig {
+        applicationId "com.ccs.lockscreen"
+        minSdkVersion 16
+        targetSdkVersion 21
+        // Enabling multidex support.
+        //multiDexEnabled true
+        versionCode 570      // increment with every release
+        versionName '8.3.3'   // change with every release
+        setProperty("archivesBaseName", "C Locker-$versionName")
+    }
+    flavorDimensions "default"
+    productFlavors {
+        free {
+            applicationId 'com.ccs.lockscreen'
+            //buildConfigField "String", "FREE", '"FREE"'
+        }
+        xda {
+            applicationId 'com.ccs.lockscreen'
+            //buildConfigField "String", "XDA", '"XDA"'
+        }
+        paid {
+            applicationId 'com.ccs.lockscreen_pro'
+            //buildConfigField "String", "PAID", '"PAID"'
+        }
+    }
+    buildTypes {
+        release {
+            //minifyEnabled true
+            //shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets', 'src/main/assets', 'src/main/assets/']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        androidTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+}

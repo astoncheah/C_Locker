@@ -1,0 +1,5 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:canRequestFilterKeyEvents="true"
+    android:summary="@string/access_summary"
+    android:description="@string/access_desc">
+</accessibility-service>

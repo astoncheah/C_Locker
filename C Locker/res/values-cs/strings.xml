@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Strings -->
+    <string name="hide_carrier">Skrýt operátora</string>
+    <string name="back_key_unlock">Odemmknout tlačítkem Zpět</string>
+    <string name="hide_forgot_pin">Hide Forgot PIN</string>
+    <string name="smart_unlock">Inteligentní odemknutí</string>
+    <string name="smart_unlock_desc">Zařízení se automaticky odemkne, splní-li se podmínky nastavené v profile</string>
+    <!-- 8.0.0 -->
+    <string name="enable_keyboard_typing">Povolit klávesnici</string>
+    <string name="block_kome_key1">Povolit \'Přístup k používaní pro aplikace\'\n(Doporučeno)</string>
+    <string name="block_kome_key1_desc">Povolit C Locker v \'Přístup k používaní pro aplikace\' aby bylo možné zablokovat klávesy Domů, Poslední aplikace a jiné aplikace</string>
+    <string name="block_kome_key2">Nastavit jako klávesu Domů</string>
+    <string name="block_kome_key2_desc">Nastavit C Locker jako klávesu Domů, aby byla klávesa Domů blokována</string>
+    <string name="widget_grid">Nastavení mřížku Widgetů</string>
+    <string name="widget_grid_w">Šířka mřížky widgetů</string>
+    <string name="widget_grid_h">Výška mřížky widgetů</string>
+    <string name="widget_settings_tips">
+        -Dlouhým stisknutím na prázdnem místě můžete nastavit widget, tapetu, mřížku\n\n
+        -Dlouhým stisknutím Widget-u můžete změniť jeho velikost, vymazat\n\n
+        -Dlouhým stisknutím hodin můžete měnit 12 a 24h formát </string>
+    <string name="access_desc_enable">Skrolovat dolů pro \nPOVOLENÍ [C Locker-u]</string>
+    <string name="access_desc_disable">Skrolovat dolů pro \nZAKÁZÁNÍ [C Locker-u]</string>
+	<string name="access_desc">C Locker vyžaduje \'Přístup k používaní pro aplikace\' pro zapnutí funkcí Vysoké Bezpečnosti.
+	    \n\nMůžete být upozorněn na možnost ohrožení soukromí, je to pouze standartní upozornění pro jakékoliv \'služby pro ulehčení\'.
+	    C Locker NESHROMAŽĎUJE a NIKDY NEBUDE shromažďovat jakékoliv informace nebo texty zadané v rámci \'služeb pro ulehčení\'.</string>
+    <string name="notice_desc_dialog">ZAŠKRTNĚTE [C Locker]\nv Nastaveních Upozornění</string>
+    <string name="notice_black_list">Černý seznam</string>
+    <string name="notice_black_list_desc">Vyberte aplikace, kterých upozornění nechcete zobrazovat</string>
+    <string name="introduction">[C] Locker\nYour [C]ustomization\n\nTahle obrazovka zmizne po úplném načtení C Locker-u\nTahle obrazovka slouží k zamezení porušení bezpečnosti</string>
+
+    <!-- 7.9.0 -->
+    <string name="fingerprint_unsupport">Tohle zařízení nepodporuje funkce otisků prstů</string>
+    <string name="fingerprint_scan">Skenujte otisk prstu, aby se za 10vt. zpřístupnili funkce odkazů</string>
+    <string name="fingerprint_registration_required">Před využitím odemknutí otiskem, musí být zaregistrován v nastaveních bezpečnosti systému</string>
+    <string name="fingerprint_shortcut_cancelled">Akce odkazů použitím otisku prstů zrušené</string>
+    <!-- 7.8.0 -->
+    <string name="group_notice">Skupinové upozornění</string>
+    <string name="group_notice_desc">Rovnaké upozornění budou seskupené do jednoho upozornění</string>
+    <string name="lollipop_style_widget">Styl widgetů jako v Lollipop-e</string>
+    <string name="lollipop_style_widget_desc">Stiskněte pro přidání vlastního widgetu, dlouhým podržením smazat vlastní widget</string>
+    <string name="required_pin">[Povoliť odomknutie PIN-om] vyžadováno</string>
+    <string name="notice_style">Styl upozornění</string>
+    <string name="notice_style_lollipop">Lollipop</string>
+    <string name="notice_style_side_icon">Ikony na straně</string>
+    <string name="hide_emergency_call">Nezobrazovat nouzové volání</string>
+    <string name="enter_pattern">Zadejte vzor</string>
+
+    <!-- 7.5.0 -->
+    <string name="block_settings">Zablokovat systémová nastavení</string>
+    <string name="block_settings_desc">Zabránit přístupu k Systémovým nastavením stažením stavové lišty, když je C Locker zamčen</string>
+    <string name="block_settings_selection">VYBRAT předvolenou aplikaci Systémových nastavení</string>
+
+    <!-- 7.4.0 -->
+    <string name="pin_required">Možnosti PIN</string>
+    <string name="pin_required_desc">Zvolte jestli zadat bezpečnostní PIN při otevíraní fotoaparátu nebo odkazu hovoru
+        \nPoznámka: Bezpečnostní PIN musí být povolen</string>
+    <string name="hide_pin_animation">Skrýt PIN/Vzor</string>
+    <string name="hide_pin_animation_desc">PIN/Animace vzoru se nebude zobrazovat počas zadávání kódů</string>
+    <string name="sound_mode">Režim zvuku</string>
+    <string name="sound_mode_silent">Tichý režim</string>
+    <string name="sound_mode_vibration">Vibrační režim</string>
+    <string name="sound_mode_normal">Normální režim</string>
+    <string name="add_location">Přidat umístnění</string>
+
+    <!-- 7.3.0 -->
+    <string name="home_key_bypass">Povolit obejití blokování tlačítka Domů</string>
+    <string name="home_key_bypass_warn">C Locker se obchází, počkejte chvíli na znovu načtení Lockeru.
+        \n\nTuhle zprávu můžete zakázat v:
+        \nNastavení C Locker > Iné nastavení  > Zrušit zaškrtnutí:\n[Povolit obejití blokování tlačítka Domů]</string>
+    <string name="auto_security_selfie">Automatická bezpečnost Selfie</string>
+    <string name="auto_security_selfie_desc">Automaticky udělat Selfie přední kamerou, uložit na SD kartu a poslat emailem, když zlyhá odblokování</string>
+    <string name="auto_security_selfie_desc1">Táto osoba se pokusila odblokovat Váš smartfón \n</string>
+    <string name="email_selfie">Odeslat emailem zachycenou selfie</string>
+    <string name="email_selfie_desc">Po zachycení okamžitě odeslat email s fotkou na Váš gmail účet,
+        \n[Povolení k Gmail-u vyžadováno]</string>
+    <string name="show_picture_on_unlock">Zobrazit foto</string>
+    <string name="show_picture_on_unlock_desc">Okamžitě zobrazit zachycenou foto po odblokování PINem</string>
+    <string name="no_front_camera">Žádná podporována kamera</string>
+    <string name="attempts">Neuspěšných pokusů</string>
+    <string name="select_security_type">Vybrat typ zabezpečení</string>
+    <string name="share">Sdílet</string>
+    <string name="share_friends">Sdílet s přáteli</string>
+    <string name="pin">PIN</string>
+    <string name="pattern">Vzor</string>
+    <string name="forgot">Zapomněli jste PIN?</string>
+    <string name="checking_connection">Kontrola připojení k internetu..</string>
+    <string name="required_internet">Oveření pomocí účtu Google vyžaduje připojení k internetu, zapnout Mobilní Data?</string>
+
+    <!-- 7.1.1.5 -->
+    <string name="sec">sekund</string>
+    <string name="secs">sekund</string>
+    <string name="min">minuta</string>
+    <string name="mins">minutys</string>
+    <string name="hr">hodina</string>
+    <string name="hrs">hodiny</string>
+    <string name="center">Na střed</string>
+    <string name="bottom">Dolů</string>
+    <string name="unlocking_style">Styl odemčení</string>
+    <string name="lolipop_unlock">Jednoduché odemčení</string>
+    <string name="lolipop_unlock_desc1">Táhnout nahoru pro odemčení</string>
+    <string name="lolipop_unlock_desc2">Táhnout nahoru pro kameru</string>
+    <string name="lolipop_unlock_desc3">Táhnout nahoru pro volání</string>
+    <string name="lolipop_unlock_desc4">Táhnout z LEVÉHO/PRAVÉHO okraje pro zobrazení seznamu odkazů</string>
+    <string name="gesture_unlock">Odemčení gestem</string>
+    <string name="gesture_unlock_desc1">Odemknut tažením NAHORU/DOLŮ/VLEVO/VPRAVO</string>
+    <string name="fingerprint_unlock">Odemknout otiskem</string>
+    <string name="fingerprint_unlock_desc1">Skenovat otisk prstu</string>
+    <string name="fingerprint_unlock_desc2">Tažením z PRAVÉHO OKRAJE zobrazit seznam odkazů</string>
+    <string name="fingerprint_unlock_desc3">Tažením z LEVÉHO OKRAJE odblokovat PIN kódem, jestli odblokování otiskem selhalo.</string>
+    <string name="center_ring">Středový prstenec</string>
+    <string name="center_ring_desc">Táhněte středovou ikonu uzamčení na kteroukoliv ikonu pro odemčení a otevření odkazu</string>
+    <string name="bottom_ring">Spodní prstenec</string>
+    <string name="bottom_triagle">Spodná pyramida</string>
+    <string name="block_recent_apps">Blokovat poslední aplikace</string>
+    <string name="block_recent_apps_desc">Zaškrtněte pro zablokování vyskakování nedávných aplikacií</string>
+    <string name="block_other_apps">Zablokovat iné aplikace</string>
+    <string name="block_other_apps_desc">Zablokovat všechny notifikace systému a aplikacií, které nejsou z odkazů C Lockeru, když se objeví</string>
+    <string name="direct_call">Přímé volání</string>
+    <string name="open_dia_pad">Otevřít vytáčení</string>
+    <string name="unlock_to_launcher">Odemknout do domácího Launcheru</string>
+    <string name="unlock_to_launcher_desc">Vždy odemknout Locker do domácího Launcheru</string>
+    <string name="block_widget_click">Widgets Clickable</string>
+    <string name="block_widget_click_desc1">Select widgets to be clickable on Lock Screen, the Non-Clickable Widgets can be UNLOCKED by TRIPLE SWIPE DOWN gesture on the Lock Screen</string>
+
+    <!-- 7.0.10 -->
+    <string name="select_launcher">Krok 1: Vyberte Launcher</string>
+    <string name="select_launcher_desc">Vyberte domácí Launcher po odemčení</string>
+    <string name="clear_other_home_launcher">Krok 2: Smazat předvolený domácí Launcher</string>
+    <string name="clear_other_home_launcher_desc">STLAČTE [Smazat předvolené] v [App info]</string>
+    <string name="clear_other_home_launcher_desc1">Předvolený domácí Launcher je smazán, pokračujte na [Krok 3]</string>
+    <string name="clear_other_home_launcher_desc3">C Locker je nastaven jako Váš domácí Launcher, chcete ho smazat?</string>
+    <string name="set_clocker_as_home">Krok 3: Nastavit C Locker jako domů</string>
+    <string name="set_clocker_as_home_desc">Nastavit [C Locker] s [Vždy]</string>
+    <string name="set_clocker_as_home_desc1">Smažte prosím ostatní domácí Launchery v [Kroku 2]</string>
+    <string name="select_launcher_default_title">Vybrat C-Locker</string>
+
+    <!-- 7.0.4 -->
+    <string name="skip">Přeskočit</string>
+    <string name="previous">Zpět</string>
+    <string name="next">Dále</string>
+    <string name="lets_start">Mám To!</string>
+    <string name="quick_guide">Rychlý návod</string>
+
+    <string name="q_title_page1">Vítejte v C Lockeru</string>
+    <string name="q_desc_page1_1">1) Stlačením [Start], Vás C Locker provede doporučenými nastaveními,
+        které jsou nejvhodnější pro nové uživatele.</string>
+    <string name="q_desc_page1_2">2) Stlačte [Přeskočit] pro obrazovku s hlavním nastavením.</string>
+
+    <string name="q_title_page2">Nejdřív: Povolte C Locker</string>
+    <string name="q_desc_page2_1">Pro začátek povolte C Locker z bočního menu.</string>
+    <string name="q_desc_page2_2">Po povolení, můžete začít s přizpůsobením Obrazovky uzamčení pomocí 6 hlavních nabídek nastavení:
+        \n- Profily Locker-u
+        \n- Styl odblokování
+        \n- Zobrazení
+        \n- Upozornění
+        \n- Bezpečnost
+        \n- Jiné nastavení</string>
+
+    <string name="q_title_page3_1">Nastavení 1: Profily Locker-u</string>
+    <string name="q_desc_page3_1">C Locker má 5 různých profilů: Běžný,
+        Hudba, podle Umístnění, podle Času, Wi-Fi. Po splnění nastavených podmínek, zobrazuje se příslušná Obrazovka uzamčení. Když není splněna ani jedna podmínka, zobrazí se uzamykací obrazovka profilu "Běžný".</string>
+
+    <string name="q_title_page3_2">Nastavení 1.1: Profily Widgetů</string>
+    <string name="q_desc_page3_2">Pro každý profil můžete widgety přidávat, přesouvat, měnit velikost, mazat.</string>
+    <string name="q_desc_page3_3">Poznámka: Pro přidání widgetů jděte do Profily Locker-u > Profily Widgetů.</string>
+
+    <string name="q_title_page3_3">Nastavení 1.2: Profily odkazů na aplikace</string>
+    <string name="q_desc_page3_4">Pro přidání odkazů na aplikace a jiné akce jděte do Profily Locker-u > Profily odkazů na aplikace.</string>
+
+    <string name="q_title_page4_1">Nastavení 2: Styl odblokování</string>
+    <string name="q_desc_page4_1">Můžete si vybrat ze 6 Stylů odblokování například: Jednoduché odemčení, Odemčení otiskem, Odemčení gestem a pod.</string>
+    <string name="q_desc_page4_2">Poznámka: Odemčení otiskem je zatím možné pouze u posledních modelů Samsungu s čtečkou otisků prstů.</string>
+
+    <string name="q_title_page5_1">Nastavení 3: Zobrazení</string>
+    <string name="q_desc_page5_1">Můžete změnit pozadí podle libosti, nebo zůstat při předvoleném pozadí zařízení.</string>
+    <string name="q_desc_page5_2">Poznámka: C Locker podporuje "Živé pozadí".</string>
+
+    <string name="q_title_page6_1">Nastavení 4: Upozornění</string>
+    <string name="q_desc_page6_1">C Locker může zobrazovat upozornění Vámi vybraných aplikacií. Povolte Přístup k Upozorněním z bočního menu a vyberte si aplikace se seznamu. </string>
+    <string name="q_desc_page6_2">Poznámka: Vzhledem  k systémovým omezením Androidu, pro přístup k upozorněním je potřebný Android 4.3+.</string>
+
+    <string name="q_title_page7_1">Nastavení 5: Bezpečnost</string>
+    <string name="q_desc_page7_1">-[Povolit odblokování PINem] pro zvětšení bezpečnosti odemykání.</string>
+    <string name="q_desc_page7_2">-[Nastavit tlačítko Domů] Zabránit přístupu k domácemu Launcheru 	stisknutím tlačítka Domů na uzamčené obrazovce a
+		současně nastavit C Locker jako první aplikaci zobrazenou po restartování zařízení. Doporučeno.
+    </string>
+    <string name="q_desc_page7_3">-[Aktivovat Administrátora zařízení] pro nastavení Automatického vypnutí obrazovky. Doporučeno.</string>
+    <string name="q_desc_page7_4">-[Automatická Selfie] pro snímaní selfie při neúspešném zadání PINu</string>
+	<string name="q_desc_page7_5">Poznámka: po aktivaci C Locker-u jako Administrátora zařízení, systém zabrání odinstalaci C Locker-u.
+		Pro odinstalaci C Locker-u musíte odškrtnout [Povolit C Locker] v hlavním menu Nastavení.</string>
+
+    <string name="q_title_page8_1">Nastavení 6: Jiné nastavení</string>
+    <string name="q_desc_page8_1">Doporučené další Nastavení:
+        \n- [Návrat na uzamčenou obrazovku]
+        \n- [Vypnout neaktivní obrazovku]
+        \n- [Povolit sensor vzdálenosti]</string>
+
+    <string name="q_title_page9_1">Nakonec: Zpětná vazba a podpora</string>
+    <string name="q_desc_page9_1">Po nastavení podle Vašich představ, doporučujeme udělat zálohu nastavení.
+        Soubor záloh nalezněte v [/sdcard/.C Lock Screen] (je to skrytý soubor).</string>
+    <string name="q_desc_page9_2">Klikněte na [Email developerovi] jestli chcete zaslat zpětnou vazbu nebo nahlásit chybu.</string>
+    <string name="q_desc_page9_3">Přidejte se k naší Beta skupině na Google+ a získejte přístup k nejnovějších Beta aktualizacím aplikacií série C.</string>
+    <string name="q_desc_page9_4">Odhalte skrytý potenciál C Locker-u prostřednictvím množstva dalších nastavení uzamykací obrazovky. Užijte si!!</string>
+
+    <!-- 7.0.0.14 -->
+    <string name="copy_time_profile">Kopírovat z časového profilu</string>
+    <string name="copy_wifi_profile">Kopírovat z profilu WiFi</string>
+    <string name="copy_Bluetooth_profile">Kopírovat z profilu BlueTooth</string>
+    <string name="fragment_time_profile">Časový profil</string>
+    <string name="fragment_wifi_profile">Profil WiFi</string>
+    <string name="fragment_bluetooth_profile">Profil BlueTooth</string>
+    <string name="settings_profile_time">Povolit Časový profil</string>
+    <string name="settings_profile_time_desc">Automaticky zobrazit Widgety a odkazy Časového profilu v nastaveném čase.</string>
+    <string name="settings_profile_wifi">Povolit Profil WiFi</string>
+    <string name="settings_profile_wifi_desc">Automaticky zobrazit Widgety a odkazy profilu WiFi po připojení k důvěryhodné síti WiFi.</string>
+    <string name="settings_profile_bluetooth">Povolit Profil BlueTooth</string>
+    <string name="settings_profile_bluetooth_desc">Automaticky zobrazit Widgety a odkazy  profilu BlueTooth po připojení zařízení BlueTooth.</string>
+    <string name="start">Start</string>
+    <string name="end">Konec</string>
+    <string name="select_wifi">Vybrat Wifi</string>
+    <string name="select_bluetooth">Vybrat Bluetooth</string>
+    <string name="monday">Po</string>
+    <string name="tuesday">Út</string>
+    <string name="wednesday">St</string>
+    <string name="thursday">Čt</string>
+    <string name="friday">Pá</string>
+    <string name="saturday">So</string>
+    <string name="sunday">Ne</string>
+    <string name="enable_wifi">Pro pokračování v tomhle nastavení ZAPNĚTE WiFi.</string>
+    <string name="enable_bluetooth">Pro pokračování v tomhle nastavení ZAPNĚTE BlueTooth.</string>
+    <string name="no_wifi_found">Žádné uložené sítě WiFi (SSID)</string>
+    <string name="no_bluetooth_found">Žádné spárované zařízení BlueTooth</string>
+    <string name="profile_prority">Priorita profilů</string>
+    <string name="profile_prority_desc">Seřaďte profily podle priority od nejvyšší po nejnižší</string>
+    <string name="profile_pin">Bezpečnostní PIN profilu</string>
+    <string name="profile_pin_desc">Nastavit různé bezpečnostní PINy pro jednotlivé profily</string>
+    <string name="move_up">Nahoru</string>
+    <string name="fragment_default_profile">Běžný profil</string>
+    <string name="delay_pin">Zpoždění PIN </string>
+    <string name="sms_unlock">SMS odblokování</string>
+    <string name="enable_c_locker">Povolit C Locker</string>
+    <string name="test_size">Velikost textu</string>
+    <string name="small">Malá</string>
+    <string name="medium">Střední</string>
+    <string name="large">Velká</string>
+    <string name="settings_personal_msg">Osobní informace</string>
+    <string name="resize_widget">Změnit velikost/přesunout</string>
+    <string name="settings">Nastavení</string>
+    <string name="settings_digital_clock">Nastavení digitálních hodin</string>
+    <string name="settings_analog_clock">Nastavení analogových hodin</string>
+    <string name="settings_calendar">Nastavení událostí kalendáře</string>
+    <string name="settings_location">Místní nastavení</string>
+    <string name="usage_info">Informace o použití</string>
+    <string name="max_widget">[Free Verze] umožňuje použití nejvíc 2 widgetů</string>
+    <string name="settings_widget_error_text1">Problém při načtení widgetu..</string>
+    <string name="settings_widget_error_text2">Pro obnovení zde podržet</string>
+    <string name="settings_notices_icon_bg">Pozadí ikony</string>
+    <string name="settings_notices_icon_position">Pozice ikony</string>
+    <string name="show_bottombar_style">Nastavit styl spodní lišty upozornění</string>
+    <string name="wallpaper">Tapeta</string>
+    <string name="delay_lock">Zpoždění zámku</string>
+    <string name="locker_stability">Stabilita Locker-u</string>
+    <string name="priority_service_low">Nízká</string>
+    <string name="priority_service_mid">Střední(Zobrazí ikonu v liště upozornění)</string>
+    <string name="priority_service_high">Vysoká(Zobrazí ikonu v stavové liště)</string>
+    <string name="volume_key_map">Mapování tlačítek hlasitosti</string>
+    <string name="settings_gesture_music_key_map1">Typ 1</string>
+    <string name="settings_gesture_music_key_map2">Typ 2</string>
+    <string name="screen_timeout_system">Zpoždění obrazovky domácího Launcheru</string>
+    <string name="screen_timeout_system_desc">nastavte zpoždění zobrazení domácího launcheru po odemčení, tohle přepíše systémové nastavení</string>
+
+    <!-- 6.1.21 -->
+    <string name="promotion_day_desc1">Promo akce C Locker-u!</string>
+    <string name="promotion_day_desc2">Stlačte [Aktivovat] pro odblokování PRO možností díky App of the Day!</string>
+    <string name="promotion_day_desc3">Aktivace úspěšná, pozor SMAZÁNÍ dat aplikace nebo ODINSTALACE spůsobí konec promo akce a zablokování PRO možností</string>
+    <string name="promotion_day_desc4">Datum promo akce se neshoduje</string>
+    <string name="promotion_day_desc5">Chyba sítě, povolte přístup k internetu pro aktivaci PRO možností</string>
+    <string name="activate">Aktivovat</string>
+    <string name="other_event_day_text_color">Vyberte barvu textu pro jiný den</string>
+    <string name="security_set_long_press_app">Nastavit dlouhé podržení pro Vyhledávání Google</string>
+    <string name="security_set_long_press_app_desc">Zabrání spuštění Vyhledávání Google dlouhým podržením tlačítka Domů</string>
+    <string name="select_long_press_app_title">Vyberte aplikaci</string>
+    <string name="select_long_press_app_desc">Vyberte PROSÍM aplikaci na dlouhé podržení klávesy Domů</string>
+    <string name="firnger_print">Odemknutí otiskem prstu</string>
+    <string name="firnger_print_desc">Odemknout pomocí zabezpečeného otisku prstu podporované několika zařízeními Samsung</string>
+    <string name="firnger_print_cancel">Registrace otisku prstu byla neúspěšná, zkuste to znovu prosím</string>
+    <string name="firnger_print_not_registered">Otisk prstu není zaregistrován</string>
+    <string name="firnger_print_enable_PIN">Povolte prosím [Odemknutí PINem] jako alternativu pro otisk prstu</string>
+
+    <!-- 6.1.0 -->
+    <string name="show_notice_content">Zobrazit obsah oznámení</string>
+    <string name="show_notice_content_desc">Zobrazit obsah stlačením ikony oznámení</string>
+    <string name="inactive_screen_off">Vypnout neaktivní obrazovku</string>
+    <string name="inactive_screen_off_decs">Obrazovka se automaticky vypne 10 sekund po zapnutí obrazovky, jestli se jí mezitím nedotkněte</string>
+    <string name="tasker_unlock_desc1">Níže zadejte text pro odblokování a zkopírujte jej do Taskeru, když pak Tasker pošle tenhle [Úmysl] do [Události Taskeru] C Locker se odblokuje</string>
+    <string name="tasker_unlock_desc2">Text pro odblokování</string>
+    <string name="copy">Kopírovat</string>
+    <string name="pin_digit_4">4 číslice</string>
+    <string name="pin_digit_6">6 číslic</string>
+    <string name="pin_digit_8">8 číslic</string>
+    <string name="delay_10_min">Prodleva 10 minut</string>
+    <string name="delay_15_min">Prodleva 15 minut</string>
+    <string name="delay_30_min">Prodleva 30 minut</string>
+    <string name="widget_profile">Widget Profily</string>
+    <string name="shortcut_profile">Profily zkratek aplikací</string>
+    <string name="tapping_shortcut">Dotykové zkratky</string>
+    <string name="double_tab1">Dvojité klepnutí (1 prstem)</string>
+    <string name="double_tab2">Dvojité klepnutí (2 prsty)</string>
+    <string name="triple_tab1">Trojité klepnutí (1 prstem)</string>
+    <string name="triple_tab2">Trojité klepnutí (2 prsty)</string>
+    <string name="turn_off_screen">Vypnout obrazovku</string>
+    <string name="Locker_Profiles">Locker Profily</string>
+    <string name="device_admin">Aktivovat správce zařízení</string>
+    <string name="device_admin_desc">C Locker needs Device Admin permission to perform [Auto Screen Off] feature, activating Device Admin will prevent the system from uninstalling C Locker. To UNINSTALL this app, you can UNTICK [Enable C Locker] in the main settings OR DEACTIVATE C Locker in the System Device Admin Settings</string>
+
+    <!-- 6.0.0 -->
+    <string name="watch">Přehrát</string>
+    <string name="bottom_bar_enable_sms">Povolit seznam SMS</string>
+    <string name="bottom_bar_enable_miss_call">Povolit seznam zmeškaných hovorů</string>
+    <string name="settings_root_move_to_system_tick_note1">Odinstalace: ODŠKRTNĚTE [Nastavit jako systémovou aplikaci], restartujte a poté budete moci aplikaci odebrat</string>
+    <string name="shortcut_lock_circle">Ikony zkratek</string>
+    <string name="shortcut_lock_1">Ikona nahoře</string>
+    <string name="shortcut_lock_2">Ikona vpravo nahoře</string>
+    <string name="shortcut_lock_3">Ikona vpravo</string>
+    <string name="shortcut_lock_4">Ikona vpravo dole</string>
+    <string name="shortcut_lock_5">Ikona dole</string>
+    <string name="shortcut_lock_6">Ikona dole vlevo</string>
+    <string name="shortcut_lock_7">Ikona vlevo</string>
+    <string name="shortcut_lock_8">Ikona vlevo nahoře</string>
+    <string name="shortcut_gesture">Gesta zkratek</string>
+    <string name="shortcut_gesture1_up">Posunout nahoru</string>
+    <string name="shortcut_gesture1_down">Posunout dolů</string>
+    <string name="shortcut_gesture1_left">Posunout doleva</string>
+    <string name="shortcut_gesture1_right">Posunout doprava</string>
+    <string name="shortcut_gesture2_up">Posunout nahoru (2 prsty)</string>
+    <string name="shortcut_gesture2_down">Posunout dolů (2 prsty)</string>
+    <string name="shortcut_gesture2_left">Posunout doleva (2 prsty)</string>
+    <string name="shortcut_gesture2_right">Posunout doprava (2 v)</string>
+	<string name="shortcut_gesture3_horizotal">[Posunout doleva/doprava] (3 prsty)
+	   změní ručně profil a vypne automatickou změnu profilu do restartu Lockeru</string>
+	<string name="shortcut_gesture3_vertical">[Posunout dolů] (3 prsty)
+	   obnoví Místo, pokud není Profil Místa aktivován z důvodu chyby sítě</string>
+    <string name="shortcut_volume_key">Ovládání hlasitostí</string>
+    <string name="shortcut_volume_key_up">Zesílení</string>
+    <string name="shortcut_volume_key_down">Zeslabení</string>
+    <string name="shortcut_volume_key_default">Výchozí hlasitost</string>
+    <string name="no_action">Bez akce</string>
+    <string name="copy_locker_profile">Kopírovat z Locker Profilu</string>
+    <string name="copy_music_profile">Kopírovat z Hudebního Profilu</string>
+    <string name="copy_location_profile">Kopírovat z Profilu Místa</string>
+    <string name="select_all_pin">Vybrat všechny PINy</string>
+    <string name="deselect_all_pin">Odebrat všechny PINy</string>
+    <string name="reset_current_profile">Obnovit aktivní profil</string>
+    <string name="reset_all_profile">Obnovit všechny profily</string>
+    <string name="select_location">Výběr Místa</string>
+    <string name="app_shortcut_layout">Vzhled zkratek aplikací</string>
+    <string name="fragment_location_profile">Profil Místa</string>
+    <string name="app_shortcut_list_desc">Nastavení zkratek aplikací, ovládání hlasitostí, gesty a PINy</string>
+    <string name="map_location_error">Místo nebylo nalezeno, chyba sítě</string>
+    <string name="map_on_click_desc1">Klepnutím na mapu zjistíte informace o místě</string>
+    <string name="map_location_distance_cover">Okruh Místa: </string>
+    <string name="map_location_distance_50m">50 metrů</string>
+    <string name="map_location_distance_100m">100 metrů</string>
+    <string name="map_location_distance_200m">200 metrů</string>
+    <string name="map_location_distance_500m">500 metrů</string>
+    <string name="map_location_distance_1km">1 km</string>
+    <string name="map_location_distance_2km">2 km</string>
+    <string name="map_location_distance_5km">5 km</string>
+    <string name="map_location_current">Aktivní Profil Místa: </string>
+    <string name="map_location_null">Není vybráno</string>
+    <string name="map_maker_title">Klepnutím zde ULOŽÍTE Profil Místa</string>
+    <string name="settings_profile_default">Povolit Locker Profil</string>
+    <string name="settings_profile_music">Povolit Hudební Profil</string>
+    <string name="settings_profile_location1">Povolit Profil Místa</string>
+    <string name="settings_profile_default_desc">Zobrazit výchozí Locker widgety a zkratky, toto není možné zakázat</string>
+    <string name="settings_profile_music_desc">Zobrazit widgety a zkratky Hudebního Profilu automaticky při přehrávání hudby či při zasunutí sluchátek</string>
+    <string name="settings_profile_location1_desc">Zobrazit widgety a zkratky Profilu Místa automaticky jakmile budete v dosahu nastaveného místa</string>
+    <string name="pin_not_allow">Ve verzi zdarma [Free Version] je možné nastavit pouze 1 PIN</string>
+    <string name="ctr_tv_animation_desc">Povolit animaci ze starších TV při zapnutí obrazovky</string>
+    <string name="ctr_tv_animation">Povolit CRT Animaci</string>
+    <string name="finish_anim_desc">Nastavit animaci odemknutí</string>
+    <string name="default_">Výchozí</string>
+    <string name="finish_anim_zoom_out">Oddálení</string>
+    <string name="finish_anim_zoom_in">Přiblížení</string>
+    <string name="finish_anim_rotation">Otočení</string>
+    <string name="personal_msg">Osobní informace</string>
+    <string name="personal_msg_desc">Své osobní informace zapište tady</string>
+    <string name="delay_pin_desc">Doba aktivace PINu po VYPNUTÍ obrazovky</string>
+    <string name="security_pin_unlock_desc">Povolit odemknutí PINem</string>
+    <string name="show_sender_picture">Zobrazit obrázek odesílatele</string>
+    <string name="show_sender_picture_desc">Zobrazit obrázek odesílatele příchozí zprávy či emailu, tedy pokud existuje</string>
+
+    <!-- 5.1.0 -->
+    <string name="settings_root">Pokročilé zabezpečení (Root)</string>
+    <string name="settings_root_desc">[VYŽADOVÁN ROOT] Povoluje skrýt hodiny ze stavové lišty, blokovat stavovou lištu</string>
+    <string name="settings_root_move_to_system">Nastavit jako systémovou aplikaci</string>
+    <string name="settings_root_move_to_system_tick">Nastavit C Locker jako systémovou aplikaci, což umožní zvýšit systémová oprávnění k provedení níže uvedených vlastností</string>
+    <string name="settings_root_move_to_system_untick">Odškrtnutím přesunete aplikaci ze systémových mezi normální</string>
+    <string name="settings_root_move_to_system_steps">Poznámky procesu</string>
+    <string name="settings_root_dialog_1">Přejímám oprávnění SU..</string>
+    <string name="settings_root_dialog_2">Přesouvám apk mezi systémové aplikace..</string>
+    <string name="settings_root_dialog_3">Pokud je akce USPĚŠNÁ, dojde k pádu C Lockeru - Force-Close(FC)</string>
+    <string name="settings_root_dialog_4">Tomuto pádu nevěnujte pozornost, restartujte zařízení a znovu proveďte nastavení C Lockeru</string>
+    <string name="settings_root_dialog_5">Přeinstaluji apk.. čekejte prosím několik vteřin</string>
+    <string name="settings_root_failed">Akce nebyla provedena, opakujte prosím znovu</string>
+    <string name="settings_root_denied">Akce nebyla provedena, nepodařilo se získat přístup SU</string>
+    <string name="settings_root_successful">Akce byla provedena, restartujete zařízení, prosím</string>
+    <string name="settings_root_note">Nastavte C Locker jako systémovou aplikaci, prosím</string>
+    <string name="settings_root_block_statusbar">Znepřístupnit stavovou lištu</string>
+    <string name="settings_root_block_statusbar_desc">Zabraňuje stažení stavové lišty dolů</string>
+    <string name="settings_root_hide_clock">Skrýt hodiny stavové lišty</string>
+    <string name="settings_root_hide_clock_desc">Na odemykací obrazovce nebudou hodiny ve stavové liště zobrazeny</string>
+    <string name="configuring">Nastavuji..</string>
+    <string name="settings_main_backup_found">Obnovit nastavení</string>
+    <string name="settings_main_backup_found_desc">Byly nalezeny zálohy nastavení C Locker, chcete toto nastavení obnovit?</string>
+    <string name="settings_root_hide_icon">Skrýt ikony stavové lišty</string>
+    <string name="settings_root_hide_icon_desc">Na odemykací obrazovce nebudou notifikační ikony ve stavové liště zobrazeny</string>
+    <string name="settings_root_hide_alert">Skrýt upozornění stavové lišty</string>
+    <string name="settings_root_hide_alert_desc">Toto zablokuje zvuk, vibrace a další vizuální či zvukové upozornění</string>
+    <string name="settings_root_hide_navi_keys">Skrýt navigační klávesy</string>
+    <string name="settings_root_hide_navi_keys_desc">Na odemykací obrazovce nebudou zobrazeny softwareová tlačítka Domů, Zpět, Spuštěné (Toto NEPLATÍ pro hardwareová tlačítka)</string>
+	<string name="settings_root_move_to_system_tick_note">Poznámka: Funkčnost výše uvedených vlastností NENÍ zaručena,
+	    záleží na jejich podpoře v příslušné verzi systému Android. Stejně tak upravené systémy či modifikace systému nemusejí s uvedenou funkčností pracovat správně.</string>
+    <string name="settings_root_move_to_system_tick2">Poznámka: Nastavením C Locker jako systémové aplikace také umožní jej aktivovat rychleji, protože bude mít vyšší prioritu než běžné aplikace</string>
+
+    <!-- 5.0.0 -->
+    <string name="sound_type_1">Klávesa 1</string>
+    <string name="sound_type_2">Klávesa 2</string>
+    <string name="sound_system_ringtone">Systémové vyzvánění</string>
+    <string name="notice_settings_screen_on">Zapnutí obrazovky</string>
+    <string name="notice_settings_screen_on_desc1">zapnout obrazovku na 5 sekund při příjmu upozornění a vypnuté obrazovce</string>
+    <string name="notice_settings_screen_on_desc2">Poznáma: obrazovka se NEZAPNE, pokud je přístroj v kapse nebo obrazovka směřuje dolů nebo pokud přijde opakované upozornění stejné aplikace</string>
+    <string name="settings_gesture_music_key_map_desc">Pokud nefunguje přeskočení na NÁSLEDUJÍCÍ/PŘEDCHOZÍ píseň pomocí kláves hlasitosti, zkuste vybrat jiný typ</string>
+    <string name="settings_notices_bg_empty">Průhledné</string>
+    <string name="settings_notices_bg_black">Černé</string>
+    <string name="settings_notices_bg_desc">Nastavte pozadí ikon upozornění</string>
+    <string name="settings_widget_desc">Nastavte výchozí widgety či widgety jiných aplikací na uzamykací obrazovce</string>
+    <string name="settings_widget_dialog">Vyberte widget</string>
+    <string name="settings_widget_locker_widget">C Locker Widgety</string>
+    <string name="settings_widget_apps_widget">Widgety aplikací (Pro)</string>
+    <string name="settings_widget_help">Tipy</string>
+    <string name="settings_widget_size_over">Widget nemůže být přidán, protože jeho velikost je větší než volná plocha</string>
+    <string name="settings_widget_not_allow">Widget již byl přidán</string>
+    <string name="settings_display_statusbar_hide">Skrýt stavovou lištu</string>
+    <string name="settings_display_transparentbar">Průhledná stavová lišta</string>
+    <string name="settings_display_transparentbar_error">Toto je podporováno pouze v Android 4.4v Kitkat</string>
+    <string name="settings_widget_analog_center">Analogové hodiny - uprostřed</string>
+    <string name="settings_widget_digital_center">Digitální hodiny - uprostřed</string>
+    <string name="settings_widget_event_list">Kalendář</string>
+    <string name="settings_widget_rss_list">Seznam RSS</string>
+    <string name="list_rss">RSS kanály</string>
+    <string name="list_apps_select">Vyberte aplikace</string>
+    <string name="fragment_locker_profile">Locker Profil</string>
+    <string name="fragment_music_profile">Hudební profil</string>
+    <string name="settings_widget_add">Dlouhým PODRŽENÍM zde přidejte widget</string>
+    <string name="settings_widget_delete">Vymazat</string>
+    <string name="settings_widget_delete_all">Odebrat všechny widgety</string>
+    <string name="settings_widget_music_profile">-Widgety nastavené v Hudebním profilu se zobrazí při přehrávání hudby nebo po připojení sluchátek</string>
+    <string name="settings_widget_long_press_note">-Dlouhým PODRŽENÍM na widgetu můžete změnit výšku, odebrat jej atd.</string>
+    <string name="set">Nastavit</string>
+    <string name="settings_widget_music_widget">Hudební widgety</string>
+    <string name="tips_tricks_youtube_01">Odemknout klepnutí do widgetu (3.1mb)</string>
+    <string name="tips_tricks_youtube_02">Skrytí ikony C Locker v liště(4.2mb)</string>
+    <string name="tips_tricks_youtube_03">Chování tlačítka Domů (4.9mb)</string>
+    <string name="tips_tricks_youtube_04">Ikony upozornění - Otevří aplikaci (2.4mb)</string>
+    <string name="tips_tricks_youtube_05">Ikony upozornění - Smazat jednu ikonu (1.3mb)</string>
+    <string name="tips_tricks_youtube_06">Ikony upozornění - Smazat všechny ikony (1.2mb)</string>
+    <string name="tips_tricks_youtube_07">Otevřít odkaz RSS (4.6mb)</string>
+    <string name="tips_tricks_youtube_08">Otevřít odkaz RSS na web (7.4mb)</string>
+    <string name="later">Později</string>
+    <string name="settings_about">O aplikaci C Locker</string>
+    <string name="settings_about_translation">Překlady</string>
+	<string name="settings_about_translation_desc">Pokud není překlad pro C Locker ve vaší zemi dostupný,
+	    ocenil bych Vaši podporu stáhnout si soubor odtud a pomoci přeložit je a jakmile je budete mít přeložení
+	    oznamte mi to na výše uvedených odkazech na Google++ či v diskuzi na XDA</string>
+    <string name="email_logs">Pošlete mi email</string>
+    <string name="email_logs_desc">Pošlete mi email s přiloženými logy, verzí telefonu a jeho softwaru, abych mohl odstranit chyby a vylepšit program</string>
+
+    <!-- 4.6.4 -->
+    <string name="settings_clock_analog_color1">Analogové hodiny</string>
+    <string name="settings_clock_analog_color2">Barva analogových hodin</string>
+    <string name="settings_bottom_bar_tab_color1">Záložka spodní lišty</string>
+    <string name="settings_bottom_bar_tab_color2">Barva záložky spodní lišty</string>
+    <string name="settings_bottom_bar">Spodní informační lišta</string>
+    <string name="settings_main_general">Obecné možnosti</string>
+    <string name="settings_main_visual">Zobrazení</string>
+    <string name="settings_main_shortcut">Aplikace</string>
+    <string name="settings_main_more">Další..</string>
+    <string name="dialog_title">Příjemné upozornění</string>
+    <string name="tips_tricks_youtube_0">Odkazy na Youtube(v angličtině):</string>
+    <string name="security_set_homekey_">Chování tlačítka Domů</string>
+    <string name="security_set_homekey_desc">Nespouštět launcher stisknutím tlačítka Domů</string>
+    <string name="security_set_default_locker_none">Vypnout výchozí uzamykací obrazovku</string>
+    <string name="security_set_default_locker_none_desc">Nastavte výchozí uzamykací obrazovku na [Žádný], jinak budete mít obě uzamykací obrazovky</string>
+    <string name="security_set_default_locker_none_not_support">Nastavení uzamykací obrazovky není podporováno</string>
+    <string name="notice_settings_desc">Nastavení příchozích upozornění, facebook, g+, whatsapp, gmail, sms, zmeškané hovory, událostí kalendáře, rss kanály atd.</string>
+    <string name="tips_tricks_decs">Zobrazit některé vlastnosti či nastavení na videu Youtube (v angličtině)</string>
+    <string name="notice_show_icon_clear_desc">Povolit odstranění ikony upozornění při jejím přesunu uchopení a vyhozením nad mazací ikonou</string>
+    <string name="notice_show_icon_clear">Zobrazit mazací ikonu</string>
+    <string name="settings_tasker">Tasker</string>
+    <string name="settings_tasker_desc">Pokročilí uživatelé mohou nechat Locker spolupracovat s populární aplikací - [Tasker] a vytvářet složité akce (ponecháno v angličtině)</string>
+    <string name="settings_tasker_shortcut_count_desc">Send an intent to Tasker when there is a shortcut app being launched from locker, providing extra data for total count of apps openning, type of action, shortcut index</string>
+    <string name="settings_tasker_shortcut_count">Enable Shortcut Apps Openning Listener</string>
+    <string name="settings_tasker_feedback">For more details and requesting new intents, welcome to contact me at email: [cheahchinseng@gmail.com]</string>
+    <string name="settings_tasker_shortcut_count_intent">Action: com.ccs.lockscreen_pro.mTASKER_ACTION</string>
+    <string name="settings_tasker_shortcut_count_ex_data1">Extra#1 data:%shortcut_app_count</string>
+    <string name="settings_tasker_shortcut_count_ex_data2">Extra#2 data:%shortcut_launch_type</string>
+    <string name="settings_tasker_shortcut_count_ex_data3">Extra#3 data:%shortcut_app_index</string>
+
+    <!-- 4.6.0 -->
+    <string name="event_today_text_color">Vyberte barvu textu Dnes</string>
+    <string name="notice_only2_app_fv">Ve verzi zdarma [Free Version] mohou být vybrány maximálně 2 aplikace</string>
+    <string name="notice_tap_to_open">Spusťte přesunutím sem</string>
+    <string name="notice_tap_to_clear_all">Přesunutím sem smažete všechna upozornění</string>
+    <string name="notice_settings">Upozornění</string>
+    <string name="notice_apps_layout_desc">Nastavte ikony upozornění zobrazené na levém/pravém panelu</string>
+    <string name="notice_apps_layout_left">Vlevo</string>
+    <string name="notice_apps_layout_right">Vpravo</string>
+    <string name="notice_apps_select_desc1">Nastavte aplikace, pro které se mají zobrazovat upozornění</string>
+    <string name="notice_apps_select_desc2">Ve verzi zdarma [Free Version] mohou být vybrány maximálně 2 aplikace</string>
+    <string name="notice_apps_select">Vyberte aplikace k upozornění</string>
+    <string name="bottom_bar_statusbar_notices">Povolit upozornění z aplikací</string>
+    <string name="bottom_bar_statusbar_notices_desc1">Povolit upozornění z aplikací facebook, whatsapp, google+ atd.. v podstatě jsou podporovány všechna upozornění</string>
+    <string name="bottom_bar_statusbar_notices_desc2">Poznámka: Podporováno pouze ve verzi Android 4.3 a výše</string>
+    <string name="bottom_bar_statusbar_notices_desc3">Poznámka: Je VYŽADOVÁNO právo pro [C Locker] pro přístup k upozornění</string>
+    <string name="bottom_bar_statusbar_notices_desc4">Podporováno pouze ve verzi Android 4.3 a výše</string>
+    <string name="bottom_bar_set_notices_app_desc">Prosím POVOLTE upozornění z aplikací</string>
+    <string name="settings_shortcut_icon_visible">Ikony zůstávají viditelné </string>
+    <string name="settings_shortcut_animation">Povolit animaci umístění ikon</string>
+    <string name="settings_shortcut_style">Styl</string>
+    <string name="settings_shortcut_style_desc">Vyberte styl animace a barvu</string>
+    <string name="settings_shortcut_effect_on_press">Povolit efekt při stisknutí ikony</string>
+    <string name="settings_shortcut_effect_on_press_desc">Vyberte styl efektu a barvu</string>
+    <string name="picker_color_custom_color_wrong_text">Zadejte 6 místný hexa kód (RRGGBB)</string>
+    <string name="picker_color_custom_color">Zadejte vlastní kód barvy "RRGGBB"</string>
+
+    <!-- 4.4.0 -->
+    <string name="locker_widget_click_enable">Povolit klepnutí na widget</string>
+    <string name="locker_widget_click_enabled">Klepnutí na widget povoleno</string>
+    <string name="settings_shortcut_icon_app">Vyberte ikonu z aplikací</string>
+    <string name="settings_shortcut_icon_gallery">Vyberte ikonu z Galerie</string>
+    <string name="security_sms_unlock">Zadejte heslo odemknutí Lockeru zaslání SMS z jiného telefonu, pokud NENÍ NASTAVENO heslo ze systému</string>
+
+    <!-- 4.1.0 -->
+    <string name="color_dialog_title">Použít barvy</string>
+    <string name="color_dialog_desc">Chcete použít tuto barvu na položky uvedené níže?</string>
+    <string name="color_locker_text">Locker texty</string>
+    <string name="color_locker_blinking">Animace umístění zámku</string>
+    <string name="color_locker_icon_bg">Pozadí ikon</string>
+    <string name="color_bottom_bar_btty_lvl">Stav baterie na spodní liště</string>
+    <string name="color_bottom_bar_text">Texty na spodní liště</string>
+    <string name="settings_others_proxi_sensor_desc1">Povolte Proximity Senzor pro automatické VYPNUTÍ obrazovky při zasunutí do kapsy, tašky atd.</string>
+    <string name="settings_others_proxi_sensor_desc2">__Toto nastavení VYPNE obrazovku i pokud se omylem ZAPNE v kapse, tašce atd.</string>
+    <string name="settings_others_proxi_sensor_desc3">__POZNÁMKA: Pro některé zařízení Samsung - povolení Smart Stay, Swipe Screen Capture, Android DayDream a podobných nastavení mohou způsobit NEFUNKČNOST</string>
+    <string name="settings_others_proxi_sensor">Povolit Proximity Senzor</string>
+
+    <!-- 4.0.0 -->
+    <string name="settings_display_desc">Nastavení pozadí, jeho jasu a animací</string>
+    <string name="settings_app_shortcut_desc">Nastavení aplikací a ikon</string>
+    <string name="settings_other_options_desc">Nastavení intervalu zamknutí, prodlevy, zvuků a vibrací</string>
+    <string name="settings_security_desc">Nastavení hesla, ovládání tlačítka Domů a nastavení systému</string>
+    <string name="settings_backup_restore_desc">Zálohování nastavení a obnovení po reinstalaci</string>
+    <string name="settings_rate_myapp">Ohodnoťe aplikaci</string>
+    <string name="settings_rate_myapp_desc">Pokud se Vám Locker líbí, OHODNOŤTE JEJ či NAPIŠTE RECENZI v Obchodě Play :)</string>
+
+    <!-- 3.2.0 -->
+    <string name="other_option_shortcuts_no_lock_desc1">Zámek nebude AKTIVOVÁN po spuštění aplikace z Lockeru po VYPNUTÍ a ZAPNUTÍ</string>
+    <string name="other_option_shortcuts_no_lock_desc2">Toto ponechá aplikaci na obrazovce</string>
+    <string name="other_option_shortcuts_no_lock">Povolit návrat na aplikaci</string>
+    <string name="other_option_shortcuts_delay_lock_desc">Čas aktivace zámku po VYPNUTÍ obrazovky</string>
+    <string name="other_option_shortcuts_delay_lock_now">Zamknout ihned</string>
+    <string name="other_option_shortcuts_delay_lock_5_sec">Prodleva 5 sekund</string>
+    <string name="other_option_shortcuts_delay_lock_10_sec">Prodleva 10 sekund</string>
+    <string name="other_option_shortcuts_delay_lock_15_sec">Prodleva 15 sekund</string>
+    <string name="other_option_shortcuts_delay_lock_30_sec">Prodleva 30 sekund</string>
+    <string name="other_option_shortcuts_delay_lock_1_min">Prodleva 1 minut</string>
+    <string name="other_option_shortcuts_delay_lock_2_min">Prodleva 2 minuty</string>
+    <string name="other_option_shortcuts_delay_lock_5_min">Prodleva 5 minut</string>
+    <string name="bottom_bar_enable_list_desc">Povolit ZOBRAZIT/SKRÝT seznam</string>
+    <string name="bottom_bar_enable_gmail">Povolit seznamu Gmail</string>
+    <string name="bottom_bar_enable_cld_event">Povolit seznam událostí kalendáře</string>
+    <string name="bottom_bar_enable_rss">Povolit seznam RSS kanálů</string>
+    <string name="bottom_bar_notice_text_color">Vyberte barvu textu upozornění</string>
+    <string name="bottom_bar_show_arrow_up_icon">Zobrazit pouze ikonu se šipkou</string>
+    <string name="bottom_bar_show_battery_bar">Zobrazit lištu s baterií a informačními texty</string>
+    <string name="bottom_bar_show_info_bar">Zobrazit pouze informační texty</string>
+
+    <!-- 3.0.0 -->
+    <string name="settings_backup_restore">Záloha a Obnova</string>
+    <string name="settings_backup">Záloha nastavení</string>
+    <string name="settings_restore">Obnova nastavení</string>
+    <string name="clock_analog_update_in_second_desc">Povolit aktualizaci analogových hodin každou sekundu a zobrazit červenou vteřinovou ručičku, jinak bude aktualizováno každou minutu</string>
+    <string name="clock_analog_update_in_second">Vteřinová ručička hodin</string>
+    <string name="tips_tricks">Tipy a triky</string>
+    <string name="settings_dont_show_again">Tuto zprávu již nezobrazovat</string>
+    <string name="clock_analog_enable">Analogové hodiny</string>
+    <string name="viewpager_events">Události</string>
+    <string name="viewpager_gmail">Gmail</string>
+    <string name="viewpager_call_log">Hovory</string>
+    <string name="viewpager_sms">SMS</string>
+    <string name="viewpager_rss">RSS</string>
+    <string name="bottom_bar_unread">Nepřečteno</string>
+    <string name="bottom_bar_today">Dnes</string>
+    <string name="bottom_bar_new_notice">Nové</string>
+    <string name="bottom_bar_drag_enable_desc">Povolit posunutí spodní lišty nahoru k zobrazení níže uvedených oznámení:</string>
+    <string name="bottom_bar_drag_enable_desc1">1)Gmail</string>
+    <string name="bottom_bar_drag_enable_desc2">2)Nové SMS</string>
+    <string name="bottom_bar_drag_enable_desc3">3)Zmeškané hovory</string>
+    <string name="bottom_bar_drag_enable_desc4">4)Události kalendáře</string>
+    <string name="bottom_bar_drag_enable_desc5">5)RSS kanály</string>
+    <string name="bottom_bar_drag_enable">Povolit oznamovací lištu</string>
+    <string name="bottom_bar_popup_enable_desc">Spodní mini oznamovací lišta zobrazí upozornění při nové události</string>
+    <string name="bottom_bar_popup_enable">Povolit mini zobrazení spodní lišty</string>
+    <string name="bottom_bar_sms_calllog_desc">Možnosti SMS / Zmeškané hovory</string>
+    <string name="bottom_bar_show_sms_content">Zobrazit SMS číslo, obsah</string>
+    <string name="bottom_bar_show_last7day_sms">Zobrazit SMS za poslední týden</string>
+    <string name="bottom_bar_show_calllog_content">Zobrazit číslo zmeškaných hovorů</string>
+    <string name="bottom_bar_show_last7day_calllog">Zobrazit zmeškané hovory za poslední týden</string>
+    <string name="bottom_bar_test_sms_desc">Některá zařízení nemusí podporovat SMS upozornění, stisknutím tlačítka otestujete funkčnost. Pošlete prosím informace o zařízení vývojáří, pokud NENÍ funkční.</string>
+    <string name="bottom_bar_test_sms">Otestovat funkci SMS upozornění</string>
+    <string name="bottom_bar_test_sms_supported">SMS upozornění je podporováno</string>
+    <string name="bottom_bar_test_sms_not_supported">SMS upozornění NENÍ podporováno, zašlete email vývojáři nebo akci stornujte</string>
+    <string name="bottom_bar_notice_not_supported_assist">upozornění NENÍ podporováno, zašlete email o zařízení vývojáři</string>
+
+    <!-- 2.5.5 -->
+    <string name="security">Zabezpečení</string>
+    <string name="prevent_locker_kill_notice">C Locker je aktivní</string>
+    <string name="prevent_locker_kill_notice_desc">Klenutím otevřete nastavení Locker</string>
+    <string name="prevent_locker_kill_desc1">Zadejte Locker do seznamu priorit systému, aby nebyl systémem UKONČEN v případě NEDOSTATKU paměti</string>
+    <string name="select_settings_app">VYBERTE Nastavení systému</string>
+    <string name="select_settings_default_desc">VYBERTE prosím [C_Locker] s [Vždy] nebo [Jako výchozí], jinak bude akce ZRUŠENA.</string>
+    <string name="clear_settings_default_title">Smazat výchozí nastavení systému</string>
+    <string name="clear_settings_default_desc">STISKNĚTE [Odebrat výchozí] v Nastavení-Aplikace "Informace o aplikaci"</string>
+    <string name="clear_launcher_default_desc">STISKNĚTE [Odebrat výchozí] v Nastavení-Aplikace "Informace o aplikaci" vašeho Launcheru</string>
+
+    <!-- 2.5.0 -->
+    <string name="no_pass_set">Nebylo nastaveno nové heslo, opakujte prosím</string>
+    <string name="security_type">Vyberte typ zabezpečení</string>
+    <string name="system_lock">Systémový zámek - Vysoké zabezpečení</string>
+
+    <!-- 2.4.0 -->
+    <string name="enable_vibration">Povolit vibrace</string>
+
+    <!-- 2.3.3 -->
+    <string name="check_all">Zvolit vše</string>
+    <string name="uncheck_all">Odebrat vše</string>
+    <string name="custom_rss">Vlastní RSS</string>
+    <string name="preset_rss">Předvolené RSS</string>
+    <string name="test_rss">Test</string>
+    <string name="keyin_rss_url">Klíč v RSS adrese..</string>
+    <string name="empty_rss_url">Nenalezena RSS adresa</string>
+    <string name="error_rss_url">RSS adresa není podporována</string>
+
+    <!-- 2.3.2 -->
+    <string name="set_wallpaper_dim_desc">Nastavte úroveň jasu pozadí</string>
+    <string name="set_wallpaper_dim_none">Neměnit</string>
+    <string name="set_wallpaper_dim_light">Jemně tmavé</string>
+    <string name="set_wallpaper_dim_dark">Tmavé</string>
+
+    <!-- 2.3.0 -->
+    <string name="rss_display_style_fast_top">Posunutí Shora-Dolů(rychle)</string>
+    <string name="rss_display_style_fast">Posunutí Zprava-doleva(rychle)</string>
+    <string name="calendar_account">Seznam účtů kalendářů</string>
+    <string name="calendar_account_select">Vyberte účty kalendářů</string>
+    <string name="events_loading">Aktualizuji události, čekejte prosím</string>
+    <string name="password_unlock_settings">Nastavení odemknutí PINem</string>
+    <string name="emergency_unlock">Povolit odemknutí v nebezpečí DLOUHÝM stisknutím tlačítek ZPĚT a ZESLABIT</string>
+    <string name="emergency_call">Nouzové volání</string>
+    <string name="password_not_complete">PIN není úplný. Zkuste znovu</string>
+    <string name="type_new_password">Zadejte PIN</string>
+    <string name="type_confirm_password">Potvrďte PIN</string>
+    <string name="password_not_matched">Nesprávný PIN. Zkuste znovu</string>
+    <string name="try_ec_no">Zkuste zavolat 112, 911, 999 či JINÉ nouzové číslo</string>
+    <string name="change_password">Zadejte PIN k vypnutí</string>
+    <string name="dialog_pro_version_title">Aktualizova na verzi Pro</string>
+	<string name="dialog_pro_version">Aktualizujte prosím na verzi Pro, abyste men podpořili
+	   a povolili tuto funkci</string>
+    <string name="enable_screen_off_volume">Povolte ovládání hlasitostí při VYPNUTÉ OBRAZOVCE</string>
+    <string name="enable_screen_off_volume_desc1">Ovládejte hlasitostí při VYPNUTÉ OBRAZOVCE, pokud se přehrává:</string>
+    <string name="enable_screen_off_volume_desc2">1)JEDNÍM STISKNUTÍM ZESÍLENÍ/ZESLABENÍ se přehraje následující/předchozí píseň</string>
+    <string name="enable_screen_off_volume_desc3">2)DVOJITÝM KLEPNUTÍM zesílíte/zeslabíte hlasitost</string>
+    <string name="enable_screen_off_volume_desc4">*Toto nebude fungovat, používáte-li sluchátka</string>
+    <string name="show_apps_image_alltime_note">POZNÁMKA: když není Zobrazit zaškrtnuto, zobrazí se ikony automaticky po stisknutí tlačítka Zámku</string>
+
+    <!-- 2.2.8 -->
+    <string name="rss_display_style">Styl zobrazení na informační liště</string>
+    <string name="rss_display_style_slow">Běžící text (pomalý)</string>
+    <string name="network_error">Chyba sítě, zkuste to později, prosím</string>
+    <string name="rss_updated">C Locker RSS kanály aktualizovány</string>
+
+    <!-- 2.1.0 -->
+    <string name="next_event_1days">Zobrazit pouze dnešní události</string>
+    <string name="next_event_3days">Zobrazit události na další 3 dny</string>
+    <string name="next_event_7days">Zobrazit události na další týden</string>
+    <string name="next_event_14days">Zobrazit události na další 2 týdny</string>
+    <string name="next_event_30days">Zobrazit události na další měsíc</string>
+    <string name="next_event_60days">Zobrazit události na další 3 měsíce</string>
+    <string name="next_event_90days">Zobrazit události na dalších 6 měsíců</string>
+    <string name="drop_statusbar">Stáhnouot dolů stavovou lištu</string>
+    <string name="enable_rss_refresh_notice">Zobrazit upozornění na aktualizace RSS</string>
+    <string name="enable_calendar_events">Povolit události kalendáře</string>
+
+    <!-- 2.0.1 -->
+    <string name="gesture_desc">Nastavte Locker gesta pro spuštění akcí posunem do stran</string>
+    <string name="gesture_selection">Vyberte akci gesta</string>
+    <string name="gesture_action_sms_desc">Odeslat SMS na oblíbené</string>
+    <string name="gesture_action_call_desc">Zavolat Oblíbené</string>
+    <string name="gesture_action_sms">Odeslat SMS na</string>
+    <string name="gesture_action_call">Zavolat</string>
+    <string name="gesture_no_contact">Nebyl vybrán kontakt</string>
+    <string name="follow_system_timeout">Podle nastavení systému</string>
+
+    <!-- 2.0.0 -->
+    <string name="total_news">Zpráv celkem</string>
+    <string name="rss_settings">Nastavení kanálu RSS</string>
+    <string name="rss_select">Vyberte kanál zpráv</string>
+    <string name="rss_refresh">Aktualizace RSS kanálu</string>
+    <string name="show_rss">Zobrazit zprávy RSS</string>
+    <string name="show_rss_desc">Zobrazit zprávy RSS na spodní informační liště odemykací obrazovky po její aktivaci</string>
+    <string name="rss_updating">Aktualizuji kanál zpráv</string>
+    <string name="rss_update_interval">Interval aktualizace RSS</string>
+    <string name="next_update">Další aktualizace:</string>
+    <string name="next_update_never">Další aktualizace: Nikdy</string>
+    <string name="next_update_error">Další aktualizace: Chyba, změňte nastavení, prosím</string>
+    <string name="last_update_successful_at">Poslední úspěšná aktualizace v</string>
+    <string name="never">Nikdy</string>
+    <string name="every_1_hour">Každou hodinu</string>
+    <string name="every_2_hour">Každé 2 hodiny</string>
+    <string name="every_3_hour">Každé 3 hodiny</string>
+    <string name="every_6_hour">Každých 6 hodin</string>
+    <string name="every_12_hour">Každých 12 hodin</string>
+    <string name="once_a_day">Jadnou denně</string>
+    <string name="launch_rss">Spustit kanál RSS zpráv</string>
+
+    <!-- 1.9.0 -->
+    <string name="enable_animation_desc">Povolit změnu času na odemykací obrazovce, ikon aplikací, animace informační lišty</string>
+    <string name="enable_animation">Povolit animace</string>
+    <string name="show_apps_image_alltime">Zobrazit/Skrýt ikony na odemykací obrazovce</string>
+    <string name="donate">Darovat</string>
+
+    <!-- 1.7.0 -->
+    <string name="set_portrait">Povolit pouze zobrazení na výšku</string>
+    <string name="set_portrait_desc">Tímto nastavení se povolí pouze zobrazení na výšku a zakáže se zobrazení na šířku</string>
+    <string name="unknown_number">Neznámé číslo</string>
+
+    <!-- 1.6.0 -->
+    <string name="select_app">Vyberte aplikaci</string>
+    <string name="set_as_unlock">Nastavit jako odemykací tlačítko</string>
+    <string name="hide_icon">Skrýt ikonu</string>
+    <string name="shortcut_app_title">Přejmenování aplikace</string>
+
+    <!-- 1.5.0 -->
+    <string name="enable_volume_rocker_control">Povolit nastavení hlasitost</string>
+    <string name="set_volume_rocker_selection">Vyberte akci hlasitosti</string>
+
+    <!-- 1.4.2 -->
+    <string name="show_square_light_on_touch_desc">Zobrazit/Skrýt kulaté osvětlení kolem ikon při stisknutí</string>
+    <string name="hide_unused_icons">Zobrazit/Skrýt nepoužité ikony</string>
+
+    <!-- 1.4.1 -->
+    <string name="screen_timeout">Čas do uzamčení</string>
+    <string name="enable_returnLS_disc">Povolte toto pro návrat na uzamykací obrazovku po ukončení aplikace namísto návratu do Launcheru</string>
+    <string name="enable_returnLS">Povolit návrat do uzamykací obrazovky</string>
+
+    <!-- 1.4.0 -->
+    <string name="enable_setLockSound">Povolit Uzamykací zvuk</string>
+    <string name="enable_setUnlockSound">Povolit Odemykací zvuk</string>
+    <string name="sound_select">Vyberte zvuk</string>
+    <string name="imageType_1">Na výšku (720x1280)</string>
+    <string name="imageType_2">Na šířku (1280x720)</string>
+    <string name="imageType_3">Volná velikost</string>
+    <string name="selectImageType">Vyberte velikost oříznutí obrázku</string>
+    <string name="other_options">Další možnosti</string>
+
+    <!-- 1.3.2 -->
+    <string name="ringtone_notice">Pokud si přejete vlastné odemykací zvuk, zkopírujte prosím svůj [zvukový soubor] do složky [/sdcard/media/audio/ringtone/]. Objeví se v seznamu</string>
+    <string name="ringtone_title">Vyberte odemykací zvuk</string>
+    <string name="select_from_file">Ze systémových vyzvánění</string>
+
+    <!-- 1.3.1 -->
+    <string name="wallpaper_cancelled">Výběr vlastního pozadí byl přerušen</string>
+    <string name="wallpaper_not_supported">Vlastní pozadí není tímto zařízením podporováno</string>
+    <string name="wallpaper_crop_error">Chyba při oříznutí vlastního pozadí, zkuste vybrat jiné oříznutí</string>
+    <string name="select_launcher_default_desc">VYBERTE prosím [C_Locker] volbou [Vždy] nebo [Jako výchozí], jinak bude akce ZRUŠENA</string>
+    <string name="select_launcher_app_desc">Vyberte prosím Launcher, který se spustit po odemknutí obrazovky</string>
+
+    <!-- 1.2.2 -->
+    <string name="show_battery_bar_desc">Zobrazit/Skrýt informační lištu baterie na uzamykací obrazovce</string>
+    <string name="enable_vibration_desc">Povolit/Zakázat vibrace při táhnutí ikony po uzamykací obrazovce</string>
+    <string name="enable">Povolit</string>
+
+    <!-- 1.2.0 -->
+    <string name="time_format">Formát času</string>
+    <string name="show_clock_am">Zobrazit AM/PM</string>
+
+    <!-- LockScreenActivity -->
+    <string name="unlock">Odemknout</string>
+    <string name="lock">Uzamčeno</string>
+    <string name="call">Volání</string>
+    <string name="sms">SMS</string>
+    <string name="camera">Fotoaparát</string>
+    <string name="flash">Blesk</string>
+    <string name="off_flash">Vypnout blesk</string>
+    <string name="map">Mapy</string>
+    <string name="internet">Internet</string>
+    <string name="youtube">YouTube</string>
+    <string name="launch_lockscreen_settings">Spustit nastavení Uzamykací obrazovky</string>
+    <string name="launch_app">Spustit aplikaci</string>
+    <string name="alarm">Alarm</string>
+    <string name="battery">Baterie</string>
+    <string name="usb_charging">Nabíjení přes USB</string>
+    <string name="ac_charging">Nabíjení ze sítě</string>
+    <string name="miss_call">Zmeškané hovory</string>
+    <string name="from">od</string>
+
+    <!-- AppListsActivity -->
+    <string name="updating_apps_list">Aktualizuji seznam aplikací</string>
+
+    <!-- Picker Text Style -->
+    <string name="text_style_show_free">Styl 0123456789</string>
+    <string name="text_style_show_paid">Styl 0123456789 (Placená verze)</string>
+
+    <!-- Lock Screen Setting -->
+    <string name="display">Obrazovka</string>
+    <string name="set_wallpaper">Vyberte pozadí uzamykací obrazovky</string>
+    <string name="home_wallpaper">Domovský obrázek pozadí/Živé pozadí</string>
+    <string name="from_picture">Z Galerie obrázků</string>
+    <string name="mix_color">Směs barev</string>
+    <string name="show">Zobrazit</string>
+    <string name="hide">Skrýt</string>
+    <string name="set_clock_bg_style">Vyberte styl pozadí hodin</string>
+    <string name="clear">Vymazat</string>
+    <string name="transparent_blk">Průhledné černé</string>
+    <string name="clock_center">Hodiny na střed</string>
+    <string name="show_next_alarm">Zobrazit čas dalšího alarmu</string>
+    <string name="text_style">Styl textu</string>
+    <string name="text_color">Barva textu</string>
+    <string name="tap_icon_to_set_shortcut">-KLEPNUTÍM na ikonu nastavíte aplikaci na uzamykací obrazovce</string>
+    <string name="collecting_all_apps_info">Zjišťuji informace o všech aplikacích</string>
+    <string name="saving_wallpaper">Ukládám obrázek pozadí</string>
+
+    <!-- Image Content Desc -->
+    <string name="img_desc">Obrázek</string>
+
+    <!-- Activity Title -->
+    <string name="app_name">C Locker</string>
+    <string name="lock_screen_settings">C Locker Nastavení</string>
+    <string name="apps_shortcut">Vyberte aplikaci</string>
+    <string name="lockscreen_custom_background">Vlastní pozadí uzamykací obrazovky</string>
+    <string name="select_a_color">Vyberte barvu</string>
+    <string name="select_a_texttype">Vyberte styl textu uzamykaci obrazovky</string>
+    <string name="hide_fingerprint_icon">Hide Fingerprint Icon</string>
+    <string name="access_summary">C Locker Accessibility Service Information</string>
+</resources>

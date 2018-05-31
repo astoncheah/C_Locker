@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <LinearLayout
+                android:id="@+id/lytWidgetProfiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/widget_profile"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_widget_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytShortcutProfiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shortcut_profile"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_shortcut_list_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_default"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_default_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxProfileDefault"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_music"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_music_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxProfileMusic"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_location1"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_location1_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgMap"
+                    android:layout_width="@dimen/icon_mid"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:background="@drawable/layout_selector"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_mode_edit_white_48dp" />
+
+                <include
+                    android:id="@+id/cBoxProfileLocation"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_time"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_time_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTime"
+                    android:layout_width="@dimen/icon_mid"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:background="@drawable/layout_selector"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_mode_edit_white_48dp" />
+
+                <include
+                    android:id="@+id/cBoxProfileTime"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileWifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_wifi"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_wifi_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgWifi"
+                    android:layout_width="@dimen/icon_mid"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:background="@drawable/layout_selector"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_mode_edit_white_48dp" />
+
+                <include
+                    android:id="@+id/cBoxProfileWifi"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileBluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_bluetooth"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_profile_bluetooth_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgBluetooth"
+                    android:layout_width="@dimen/icon_mid"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:background="@drawable/layout_selector"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_mode_edit_white_48dp" />
+
+                <include
+                    android:id="@+id/cBoxProfileBluetooth"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfilePriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_prority"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_prority_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfilePin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_pin"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_pin_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytProfileSmartUnlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/smart_unlock"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/smart_unlock_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout> 

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Strings -->
+    <string name="hide_carrier">隐藏网络运营商</string>
+    <string name="back_key_unlock">返回键解锁</string>
+    <string name="hide_forgot_pin">隐藏忘记密码键</string>
+    <string name="smart_unlock">智能解锁设置</string>
+    <string name="smart_unlock_desc">在达到配置档案条件时自动解锁C锁屏</string>
+    <!-- 8.0.0 -->
+    <string name="enable_keyboard_typing">启用键盘打字</string>
+    <string name="block_kome_key1">启用C锁屏辅助服务\n(推荐)</string>
+    <string name="block_kome_key1_desc">启用C锁屏辅助服务可让锁屏阻止主页键</string>
+    <string name="block_kome_key2">设主页键</string>
+    <string name="block_kome_key2_desc">设C锁屏作为主页以阻止主页键</string>
+    <string name="widget_grid">小部件网格设置</string>
+    <string name="widget_grid_w">小部件网格宽度</string>
+    <string name="widget_grid_h">小部件网格高度</string>
+    <string name="widget_settings_tips">
+        -长按在空的布局以设置小部件，墙纸，网格\n\n
+        -长按在小部件以调整，删除小部件\n\n
+        -长按C锁屏时钟以打开12/24小时格式设置</string>
+    <string name="access_desc_enable">滚动到底部启用[C锁屏]</string>
+    <string name="access_desc_disable">滚动到底部解除[C锁屏]</string>
+	<string name="access_desc">C锁屏需要得到辅助服务允许以使用高安全性功能.
+	    \n\n您可能会被警告潜在的隐私风险, 这只是一项辅助服务的定期预警信息。 
+	    C锁屏没有，也永远不会在辅助服务中收集您的任何个人信息。</string>
+    <string name="notice_desc_dialog">勾选[C锁屏]在这个通知设置</string>
+    <string name="notice_black_list">黑名单</string>
+    <string name="notice_black_list_desc">设置哪些应用你不希望显示通知</string>
+    <string name="introduction">C锁屏\n您的自定锁屏</string>
+
+    <!-- 7.9.0 -->
+    <string name="fingerprint_unsupport">指纹识别功能不支持</string>
+    <string name="fingerprint_scan">在10秒内扫描指纹</string>
+    <string name="fingerprint_registration_required">请注册您的指纹在系统安全设置以继续设置指纹解锁</string>
+    <string name="fingerprint_shortcut_cancelled">快捷键操作指纹认证取消</string>
+    <!-- 7.8.0 -->
+    <string name="group_notice">组通知</string>
+    <string name="group_notice_desc">同样的通知应用将被组为一个通知</string>
+    <string name="lollipop_style_widget">棒棒堂风格小部件</string>
+    <string name="lollipop_style_widget_desc">按以添加新的自定小部件，长按删除自定小部件
+        \n注：小部件尺寸最大4x2</string>
+    <string name="required_pin">必需[启用解锁码]</string>
+    <string name="notice_style">通知方式</string>
+    <string name="notice_style_lollipop">棒糖</string>
+    <string name="notice_style_side_icon">侧图标</string>
+    <string name="hide_emergency_call">隐藏紧急呼叫</string>
+    <string name="enter_pattern">输入模式</string>
+
+    <!-- 7.5.0 -->
+    <string name="block_settings">阻止系统设置</string>
+    <string name="block_settings_desc">防止系统设置在拉下状态栏时被打开</string>
+    <string name="block_settings_selection">请选择您的默认系统设置</string>
+
+    <!-- 7.4.0 -->
+    <string name="pin_required">解锁码选项</string>
+    <string name="pin_required_desc">设置是否打开该快捷致电或相机时需的解锁码\n注意：解锁码必须启用</string>
+    <string name="hide_pin_animation">隐藏解锁码</string>
+    <string name="hide_pin_animation_desc">输入安全码时，密码/滑式的动画将不会显示</string>
+    <string name="sound_mode">音量模式</string>
+    <string name="sound_mode_silent">静音模式</string>
+    <string name="sound_mode_vibration">振动模式</string>
+    <string name="sound_mode_normal">音效模式</string>
+    <string name="add_location">添加新位置</string>
+
+    <!-- 7.3.0 -->
+    <string name="home_key_bypass">启用阻止主页键</string>
+    <string name="home_key_bypass_warn">C锁屏被撇开，请等待锁屏在几秒钟内重新启动。
+        \n\nYou can disable this message in: 
+        \nC Locker settings > Other Options > UNTICK:\n[Enable Home Key Bypass Block]</string>
+    <string name="auto_security_selfie">自动自拍</string>
+    <string name="auto_security_selfie_desc">摄像头自动拍摄与自拍并保存到SD卡和电子邮件给你当安全解锁尝试失败</string>
+    <string name="auto_security_selfie_desc1">此人试图解锁您的电话 \n在</string>
+    <string name="email_selfie">发电邮捕获自拍</string>
+    <string name="email_selfie_desc">一旦拍下图片，立即发送电邮给您的Gmail帐户,\n[需Gmail权限]</string>
+    <string name="show_picture_on_unlock">显示拍摄图片</string>
+    <string name="show_picture_on_unlock_desc">在解锁后，立即显示拍摄的图片通知你解锁码尝试失败</string>
+    <string name="no_front_camera">没有摄像头支持</string>
+    <string name="attempts">尝试失败</string>
+    <string name="select_security_type">选择安全类型</string>
+    <string name="share">分享</string>
+    <string name="share_friends">如果你喜欢C锁屏，请分享这个应用程式与您的朋友</string>
+    <string name="pin">密码</string>
+    <string name="pattern">滑式</string>
+    <string name="forgot">忘记密码？</string>
+    <string name="checking_connection">检查互联网连接..</string>
+    <string name="required_internet">谷歌帐户验证需要互联网连接，你想使移动数据？</string>
+
+    <!-- 7.1.1.5 -->
+    <string name="sec">秒</string>
+    <string name="secs">秒</string>
+    <string name="min">分钟</string>
+    <string name="mins">分钟</string>
+    <string name="hr">小时</string>
+    <string name="hrs">小时</string>
+    <string name="center">中</string>
+    <string name="bottom">底</string>
+    <string name="unlocking_style">解锁样式</string>
+    <string name="lolipop_unlock">简单解锁</string>
+    <string name="lolipop_unlock_desc1">向上滑动，解锁</string>
+    <string name="lolipop_unlock_desc2">向上滑动，摄像头</string>
+    <string name="lolipop_unlock_desc3">向上滑动，拨打电话</string>
+    <string name="lolipop_unlock_desc4">从左/右侧边缘滑动以打开快捷键列表</string>
+    <string name="gesture_unlock">手势滑动解锁</string>
+    <string name="gesture_unlock_desc1">手势滑动上/下/左/右解锁</string>
+    <string name="fingerprint_unlock">指纹解锁</string>
+    <string name="fingerprint_unlock_desc1">扫描您的指纹解锁</string>
+    <string name="fingerprint_unlock_desc2">手指从右侧边缘滑动以打开快捷键列表</string>
+    <string name="fingerprint_unlock_desc3">如果指纹失败，手指从左侧边缘滑动以打开解锁码</string>
+    <string name="center_ring">中部环形</string>
+    <string name="center_ring_desc">拖动中央锁图标到其他图标解锁/打开快捷</string>
+    <string name="bottom_ring">底部环形</string>
+    <string name="bottom_triagle">底部三角形</string>
+    <string name="block_recent_apps">阻止最近应用程序</string>
+    <string name="block_recent_apps_desc">勾选以阻止最近的应用程序弹出</string>
+    <string name="block_other_apps">阻止应用程序</string>
+    <string name="block_other_apps_desc">阻止所有的系统，应用程序，当他们启动不是从C锁屏快捷键</string>
+    <string name="direct_call">直接呼叫</string>
+    <string name="open_dia_pad">打开拨号盘</string>
+    <string name="unlock_to_launcher">解锁回主页</string>
+    <string name="unlock_to_launcher_desc">从锁屏解锁时回到主页</string>
+    <string name="block_widget_click">Widgets Clickable</string>
+    <string name="block_widget_click_desc1">Select widgets to be clickable on Lock Screen, the Non-Clickable Widgets can be UNLOCKED by TRIPLE SWIPE DOWN gesture on the Lock Screen</string>
+
+    <!-- 7.0.10 -->
+    <string name="select_launcher">步骤1： 选择主页</string>
+    <string name="select_launcher_desc">选择您解锁后的主页</string>
+    <string name="clear_other_home_launcher">步骤2： 清除默认主页</string>
+    <string name="clear_other_home_launcher_desc">在[应用信息]中按[清除默认设置]</string>
+    <string name="clear_other_home_launcher_desc1">默认主页被清除，请继续[步骤3]</string>
+    <string name="clear_other_home_launcher_desc3">C锁屏已被设为您的主页启动，你想删除它？</string>
+    <string name="set_clocker_as_home">步骤3：设置C锁屏首页</string>
+    <string name="set_clocker_as_home_desc">设[C锁屏]与[总是]</string>
+    <string name="set_clocker_as_home_desc1">在[步骤2]请清除其他默认主页</string>
+    <string name="select_launcher_default_title">选择C锁屏</string>
+
+    <!-- 7.0.4 -->
+    <string name="skip">跳过</string>
+    <string name="previous">上个</string>
+    <string name="next">下个</string>
+    <string name="lets_start">了解！</string>
+    <string name="quick_guide">快速指南</string>
+
+    <string name="q_title_page1">欢迎使用C锁屏</string>
+    <string name="q_desc_page1_1">1) 按[开始]，C锁屏将引导您推荐的设置，它提供了新用户的最好的初步经验。</string>
+    <string name="q_desc_page1_2">2) 按[跳过]导航到主设置屏幕。</string>
+
+    <string name="q_title_page2">首先：启用C锁屏</string>
+    <string name="q_desc_page2_1">从侧面菜单启用启动C锁屏。</string>
+    <string name="q_desc_page2_2">一旦启用，就可以开始定制您独特的锁屏，共有六个主菜单设置：
+        \n- 锁屏档案
+        \n- 解锁样式
+        \n- 视觉
+        \n- 通知
+        \n- 安全 
+        \n- 其他选项</string>
+
+    <string name="q_title_page3_1">设置1： 锁屏档案</string>
+    <string name="q_desc_page3_1">C锁屏提供六种不同的配置档案：默认，音乐，地点，时间，Wifi和蓝牙。
+        	当一些预设的条件得到满足，C锁屏将显示预设的档案。</string>
+
+    <string name="q_title_page3_2">设置1.1： 小部件档案</string>
+    <string name="q_desc_page3_2">您可以在各个档案中添加/移动/调整/删除小部件。</string>
+    <string name="q_desc_page3_3">注：要添加小部件，去锁屏档案>小部件档案.</string>
+
+    <string name="q_title_page3_3">设置1.2： 应用快捷档案</string>
+    <string name="q_desc_page3_4">要添加快捷和其他行动，去锁屏档案>应用快捷档案。</string>
+
+    <string name="q_title_page4_1">设置2： 解锁样式</string>
+    <string name="q_desc_page4_1">六种解锁样式供选择，包括：简单解锁，指纹解锁，手画解锁，戒指解锁等。</string>
+    <string name="q_desc_page4_2">注：指纹解锁只支持指纹支持三星最新的Galaxy型号。</string>
+
+    <string name="q_title_page5_1">设置3： 视觉</string>
+    <string name="q_desc_page5_1">您可以设置您所选择的壁纸或者系统的默认壁纸。</string>
+    <string name="q_desc_page5_2">注：C锁屏支持动态壁纸。</string>
+
+    <string name="q_title_page6_1">设置4： 通知</string>
+    <string name="q_desc_page6_1">C锁屏可以显示你喜欢的应用程序的所有最新通知。</string>
+    <string name="q_desc_page6_2">Note: Due to Android\'s system restrictions, notification access requires android version 4.3+</string><!-- no use -->
+
+    <string name="q_title_page7_1">设置5：安全</string>
+    <string name="q_desc_page7_1">-[启用解锁码]增加锁屏安全性。</string>
+    <string name="q_desc_page7_2">-[设为主页键]，以防止当按主页键时被进入主页，强烈推荐。</string>
+    <string name="q_desc_page7_3">-[启动系统设备管理]控制自动屏幕关闭功能。强烈推荐</string>
+    <string name="q_desc_page7_4">-[启动自动安全自拍]解锁码尝试失败时启动安全自拍解锁人并自动发邮件通知您。 强烈推荐。</string>
+	<string name="q_desc_page7_5">注意：一旦启用C锁屏在系统设备管理，系统将防止卸载C锁屏。
+		为了成功卸载，取消选中系统设备管理中的设置[启用]C锁屏。</string>
+
+    <string name="q_title_page8_1">设置6：其他选项</string> 
+    <string name="q_desc_page8_1">建议启用以下设置：
+        \n- [返回锁屏]
+        \n- [不活动屏幕关闭]
+        \n- [启动接近传感器]</string>
+
+    <string name="q_title_page9_1">最后：反馈和支持</string>
+    <string name="q_desc_page9_1">一旦你完成和满意当前设置，建议做一个备份。</string>
+    <string name="q_desc_page9_2">点击[发电邮给我]发送反馈和报告bug/问题。</string>
+    <string name="q_desc_page9_3">加入Google+，以便获得最新的C系列测试版的更新。</string>   
+    <string name="q_desc_page9_4">还有更多的选择和不同的方式来定制你的锁屏，
+        	您可尽情释放所有的C锁屏的隐藏潜力。 请享用！！</string>
+
+    <!-- 7.0.0.14 -->
+    <string name="copy_time_profile">复制时间档案</string>
+    <string name="copy_wifi_profile">复制Wifi档案</string>
+    <string name="copy_Bluetooth_profile">复制蓝牙档案</string>
+    <string name="fragment_time_profile">时间档案</string>
+    <string name="fragment_wifi_profile">Wifi档案</string>
+    <string name="fragment_bluetooth_profile">蓝牙档案</string>
+    <string name="settings_profile_time">启用时间档案设置</string>
+    <string name="settings_profile_time_desc">当时间到达时自动显示时间档案配置小部件和快捷</string>
+    <string name="settings_profile_wifi">启用Wifi设置</string>
+    <string name="settings_profile_wifi_desc">当Wifi设备连接时自动显示Wifi配置小部件和快捷</string>
+    <string name="settings_profile_bluetooth">启用蓝牙设置</string>
+    <string name="settings_profile_bluetooth_desc">当蓝牙设备连接时自动显示蓝牙配置小部件和快捷</string>
+    <string name="start">开始</string>
+    <string name="end">结束</string>
+    <string name="select_wifi">选择Wifi</string>
+    <string name="select_bluetooth">选择蓝牙</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="enable_wifi">请启用Wifi以继续设置</string>
+    <string name="enable_bluetooth">请启用蓝牙以继续设置</string>
+    <string name="no_wifi_found">没有找到Wifi存储</string>
+    <string name="no_bluetooth_found">没有找到配对的蓝牙设备</string>
+    <string name="profile_prority">档案优先级</string>
+    <string name="profile_prority_desc">管理配置档案的优先级从高到低</string>
+    <string name="profile_pin">档案密码</string>
+    <string name="profile_pin_desc">设置是否启用个人档案的密码</string>
+    <string name="move_up">移上</string>
+    <string name="fragment_default_profile">默认配置档案</string>
+    <string name="delay_pin">延迟解锁码</string>
+    <string name="sms_unlock">短信解锁</string>
+    <string name="enable_c_locker">启动C锁屏</string>
+    <string name="test_size">字体大小</string>
+    <string name="small">小</string>
+    <string name="medium">中</string>
+    <string name="large">大</string>
+    <string name="settings_personal_msg">个人信息</string>
+    <string name="resize_widget">调整/移动</string>
+    <string name="settings">设置</string>
+    <string name="settings_digital_clock">数码时钟设置</string>
+    <string name="settings_analog_clock">模拟时钟设置</string>
+    <string name="settings_calendar">日历事件设置</string>
+    <string name="settings_location">定位设置</string>
+    <string name="usage_info">用法信息</string>
+    <string name="max_widget">最多2小部件可以选择[免费版本]</string>
+    <string name="settings_widget_error_text1">加载小部件问题..</string>
+    <string name="settings_widget_error_text2">长按这里恢复</string>
+    <string name="settings_notices_icon_bg">图标的背景</string>
+    <string name="settings_notices_icon_position">图标位置</string>
+    <string name="show_bottombar_style">设置底部通知栏样式</string>
+    <string name="wallpaper">墙纸</string>
+    <string name="delay_lock">延迟锁屏启动</string>
+    <string name="locker_stability">锁屏稳定性</string>
+    <string name="priority_service_low">低</string>
+    <string name="priority_service_mid">中（图标停留在通知列表）</string>
+    <string name="priority_service_high">高（图标停留在状态栏）</string>
+    <string name="volume_key_map">音量键测绘</string>
+    <string name="settings_gesture_music_key_map1">模式1</string>
+    <string name="settings_gesture_music_key_map2">模式2</string>
+    <string name="screen_timeout_system">主页屏幕关闭时间</string>
+    <string name="screen_timeout_system_desc">设置主页屏幕关闭时间，这将覆盖系统设置</string>
+
+    <!-- 6.1.21 -->
+    <string name="promotion_day_desc1">C锁屏促销！</string>
+    <string name="promotion_day_desc2">按[启动]免费的解开所有的C锁屏专业版功能， 感谢天的应用程序！</string>
+    <string name="promotion_day_desc3">激活成功，请注意，清除应用程序数据或卸载C锁屏将结束本次促销和所有专业版的功能将被锁定</string>
+    <string name="promotion_day_desc4">促销日期不匹配</string>
+    <string name="promotion_day_desc5">网络错误，请启用网络连接激活专业版功能</string>
+    <string name="activate">激活</string>
+    <string name="other_event_day_text_color">选择其他日文字颜色</string>
+    <string name="security_set_long_press_app">设置长按主键</string>
+    <string name="security_set_long_press_app_desc">阻止长按主键启动谷歌搜索</string>
+    <string name="select_long_press_app_title">选择应用程序</string>
+    <string name="select_long_press_app_desc">请选择您首选长按应用程序</string>
+    <string name="firnger_print">指纹解锁</string>
+    <string name="firnger_print_desc">使用三星专用的安全指纹功能解锁</string>
+    <string name="firnger_print_cancel">指纹注册失败，请再试一次</string>
+    <string name="firnger_print_not_registered">指纹未注册</string>
+    <string name="firnger_print_enable_PIN">请先启用[PIN码解锁]以作为替代你的指纹</string>
+
+    <!-- 6.1.0 -->
+    <string name="show_notice_content">显示通知内容</string>
+    <string name="show_notice_content_desc">按下通知图标时显示内容</string>
+    <string name="inactive_screen_off">不活动屏幕关闭</string>
+    <string name="inactive_screen_off_decs">当C锁屏在屏幕开启10秒后没被触动， 屏幕将自动关闭</string>
+    <string name="tasker_unlock_desc1">Type your unlock texts below and COPY the texts into your Tasker will 
+        unlock the C Locker when Tasker sends this [Intent] in a [Tasker Event]</string>
+    <string name="tasker_unlock_desc2">解锁码</string>
+    <string name="copy">复制</string>
+    <string name="pin_digit_4">4位数</string>
+    <string name="pin_digit_6">6位数</string>
+    <string name="pin_digit_8">8位数</string>
+    <string name="delay_10_min">延迟10分钟</string>
+    <string name="delay_15_min">延迟15分钟</string>
+    <string name="delay_30_min">延迟30分钟</string>
+    <string name="widget_profile">小部件档案</string>
+    <string name="shortcut_profile">应用快捷档案</string>
+    <string name="tapping_shortcut">轻按快捷</string>
+    <string name="double_tab1">双轻按（1手指）</string>
+    <string name="double_tab2">双轻按（2手指）</string>
+    <string name="triple_tab1">三轻按（1手指）</string>
+    <string name="triple_tab2">三轻按（2手指）</string>
+    <string name="turn_off_screen">关闭屏幕</string>
+    <string name="Locker_Profiles">锁屏档案</string>
+    <string name="device_admin">启用设备管理</string>
+    <string name="device_admin_desc">C Locker needs Device Admin permission to perform [Auto Screen Off] feature, activating Device Admin will prevent the system from uninstalling C Locker. To UNINSTALL this app, you can UNTICK [Enable C Locker] in the main settings OR DEACTIVATE C Locker in the System Device Admin Settings</string>
+
+    <!-- 6.0.0 -->
+    <string name="watch">看</string>
+    <string name="bottom_bar_enable_sms">启用简讯表</string>
+    <string name="bottom_bar_enable_miss_call">启用未接来电列表</string>
+    <string name="settings_root_move_to_system_tick_note1">卸载：取消勾选[设置为系统应用程序]，重新启动，你将能够卸载应用程序</string>
+    <string name="shortcut_lock_circle">图标快捷</string>
+    <string name="shortcut_lock_1">顶部图标</string>
+    <string name="shortcut_lock_2">右上图标</string>
+    <string name="shortcut_lock_3">右图标</string>
+    <string name="shortcut_lock_4">右下图标</string>
+    <string name="shortcut_lock_5">底部图标</string>
+    <string name="shortcut_lock_6">左下图标</string>
+    <string name="shortcut_lock_7">左图标</string>
+    <string name="shortcut_lock_8">左上图标</string>
+    <string name="shortcut_gesture">手势快捷键</string>
+    <string name="shortcut_gesture1_up">向上滑动</string>
+    <string name="shortcut_gesture1_down">向下滑动</string>
+    <string name="shortcut_gesture1_left">向左滑动</string>
+    <string name="shortcut_gesture1_right">向右滑动</string>
+    <string name="shortcut_gesture2_up">向上滑动 （两手指）</string>
+    <string name="shortcut_gesture2_down">向下滑动 （两手指）</string>
+    <string name="shortcut_gesture2_left">向左滑动（两手指）</string>
+    <string name="shortcut_gesture2_right">向右滑动（两手指）</string>
+	<string name="shortcut_gesture3_horizotal">[向左/右滑动]（三手指）
+	    	将手动更改档案，自动档案将取消，直到重新启动C锁屏</string>  
+	<string name="shortcut_gesture3_vertical">[向下滑动]（三手指）
+	    	将刷新现在位置，如果该位置档案因网络错误不激活</string>
+    <string name="shortcut_volume_key">音量快捷键</string>
+    <string name="shortcut_volume_key_up">音上量键</string>
+    <string name="shortcut_volume_key_down">音量下键</string>
+    <string name="shortcut_volume_key_default">默认音量键</string>
+    <string name="no_action">无动作</string>
+    <string name="copy_locker_profile">复制从锁屏档案</string>
+    <string name="copy_music_profile">复制从音乐档案</string>
+    <string name="copy_location_profile">复制从位置档案</string>
+    <string name="select_all_pin">选择所有PIN码</string>
+    <string name="deselect_all_pin">取消选择所有PIN码</string>
+    <string name="reset_current_profile">复位现有档案</string>
+    <string name="reset_all_profile">复位所有档案</string>
+    <string name="select_location">选择GPS位置</string>
+    <string name="app_shortcut_layout">快捷布局</string>
+    <string name="fragment_location_profile">位置档案</string>
+    <string name="app_shortcut_list_desc">设置应用程序快捷，音量快捷键，手势快捷键，快捷PIN码</string>
+    <string name="map_location_error">找不到位置，网络错误</string>
+    <string name="map_on_click_desc1">点选地图上获取的位置信息</string>
+    <string name="map_location_distance_cover">位置覆盖：</string>
+    <string name="map_location_distance_50m">50米</string>
+    <string name="map_location_distance_100m">100米</string>
+    <string name="map_location_distance_200m">200米</string>
+    <string name="map_location_distance_500m">500米</string>
+    <string name="map_location_distance_1km">1公里</string>
+    <string name="map_location_distance_2km">2公里</string>
+    <string name="map_location_distance_5km">5公里</string>
+    <string name="map_location_current">当前位置档案：</string>
+    <string name="map_location_null">未选择</string>
+    <string name="map_maker_title">点击这里保存位置档案</string>
+    <string name="settings_profile_default">启用锁屏档案</string>
+    <string name="settings_profile_music">启用音乐档案</string>
+    <string name="settings_profile_location1">启用位置档案</string>
+    <string name="settings_profile_default_desc">显示默认锁屏小工具和快捷方式，这不能被禁用</string>
+    <string name="settings_profile_music_desc">当有音乐播放或耳机插入时将自动显示音乐档案小部件和快捷</string>
+    <string name="settings_profile_location1_desc">当你在你的预设位置时将自动显示位置档案小部件和快捷</string>
+    <string name="pin_not_allow">只有一个PIN码可以设置[免费版]</string>
+    <string name="ctr_tv_animation_desc">在屏幕开启时启用旧式电视机动画显示</string>
+    <string name="ctr_tv_animation">启用CRT动画</string>
+    <string name="finish_anim_desc">设置解锁动画</string>
+    <string name="default_">默认</string>
+    <string name="finish_anim_zoom_out">缩小</string>
+    <string name="finish_anim_zoom_in">放大</string>
+    <string name="finish_anim_rotation">回转</string>
+    <string name="personal_msg">个人信息</string>
+    <string name="personal_msg_desc">在这里输入个人信息</string>
+    <string name="delay_pin_desc">屏幕关闭后PIN码激活时间</string>
+    <string name="security_pin_unlock_desc">启用PIN码解锁</string>
+    <string name="show_sender_picture">显示发件人图片</string>
+    <string name="show_sender_picture_desc">从收到的消息或电子邮件显示发送者的图片（如果可用）</string>
+
+    <!-- 5.1.0 -->
+    <string name="settings_root">高级操作 (Root)</string>
+    <string name="settings_root_desc">[需用ROOT权限] 启用隐藏状态栏时钟，禁用状态栏功能等等</string>
+    <string name="settings_root_move_to_system">设置为系统应用程序</string>
+    <string name="settings_root_move_to_system_tick">设置C锁屏为系统应用程序，以获得系统权限激活以下的功能</string>
+    <string name="settings_root_move_to_system_untick">去掉勾，从系统应用程序移动到正常的应用程序</string>
+    <string name="settings_root_move_to_system_steps">过程说明</string>
+    <string name="settings_root_dialog_1">要求着Root权限..</string>
+    <string name="settings_root_dialog_2">移动apk到系统中..</string>
+    <string name="settings_root_dialog_3">如果此操作成功，C锁屏可能会有系统错误而被强制关闭</string>
+    <string name="settings_root_dialog_4">不用担心强制关闭，重新启动手机并重新做C锁屏设置就可以了</string>
+    <string name="settings_root_dialog_5">重新安装apk文件..请等待几秒钟，</string>
+    <string name="settings_root_failed">操作失败，请再试一次</string>
+    <string name="settings_root_denied">操作失败，Root权限不批</string>
+    <string name="settings_root_successful">设置成功，请重新启动您的手机</string>
+    <string name="settings_root_note">请设C锁屏为系统应用程序</string>
+    <string name="settings_root_block_statusbar">禁用状态栏</string>
+    <string name="settings_root_block_statusbar_desc">预防状态栏被拉下</string>
+    <string name="settings_root_hide_clock">隐藏状态栏时钟</string>
+    <string name="settings_root_hide_clock_desc">状态栏时钟将不显示</string>
+    <string name="configuring">正在设置..</string>
+    <string name="settings_main_backup_found">恢复备份设置</string>
+    <string name="settings_main_backup_found_desc">C锁屏备份设置有存在，你想恢复的备份设置吗？</string>
+    <string name="settings_root_hide_icon">隐藏状态栏图标</string>
+    <string name="settings_root_hide_icon_desc">状态栏通知图标将不会显示</string>
+    <string name="settings_root_hide_alert">隐藏状态栏通知</string>
+    <string name="settings_root_hide_alert_desc">这将阻止声音，振动和其他视觉或听觉的通知</string>
+    <string name="settings_root_hide_navi_keys">隐藏导航键</string>
+    <string name="settings_root_hide_navi_keys_desc">隐藏主页键，回键，最近的应用程序键（硬键不适用）</string> 
+    <string name="settings_root_move_to_system_tick_note">注：以上功能并不能保证有效运行，这将有赖于android系统版本的支持。
+        	运行自定义ROM或有任何系统修改可能干扰此功能等等</string>
+    <string name="settings_root_move_to_system_tick2">注意：设置C锁屏作为一个系统应用程序将允许它启动速度更快，因为它会比正常的应用程序优先运行</string>
+
+    <!-- 5.0.0 -->
+    <string name="sound_type_1">键按声 1</string>
+    <string name="sound_type_2">键按声 2</string>
+    <string name="sound_system_ringtone">系统铃声</string>
+    <string name="notice_settings_screen_on">打开屏幕</string>
+    <string name="notice_settings_screen_on_desc1">在屏幕关闭时当收到新信息通知将打开屏幕5秒钟</string>
+    <string name="notice_settings_screen_on_desc2">注：该屏幕将不会开启，如果它是在口袋/朝下，或如该通知是相同的重复的应用程序</string>
+    <string name="settings_gesture_music_key_map_desc">如果音量键下/上跳歌曲不起作用，尝试设置其他模拟键</string>
+    <string name="settings_notices_bg_empty">透明</string>
+    <string name="settings_notices_bg_black">黑</string>
+    <string name="settings_notices_bg_desc">设置通知图标背景</string>
+    <string name="settings_widget_desc">设置默认或自定义应用程序小部件在锁屏</string>
+    <string name="settings_widget_dialog">选择小部件</string>
+    <string name="settings_widget_locker_widget">C锁屏小部件</string>
+    <string name="settings_widget_apps_widget">应用小部件（专业版）</string>
+    <string name="settings_widget_help">提示</string>
+    <string name="settings_widget_size_over">小部件不能添加，超过屏幕尺度</string>
+    <string name="settings_widget_not_allow">此小部件已添加</string>
+    <string name="settings_display_statusbar_hide">隐藏状态栏</string>
+    <string name="settings_display_transparentbar">透明状态栏</string>
+    <string name="settings_display_transparentbar_error">仅支持Android的4.4v</string>
+    <string name="settings_widget_analog_center">模拟时钟  - 中间</string>
+    <string name="settings_widget_digital_center">数字时钟 - 中间</string>
+    <string name="settings_widget_event_list">日历议程列表</string>
+    <string name="settings_widget_rss_list">RSS列表</string>
+    <string name="list_rss">RSS新闻</string>
+    <string name="list_apps_select">选择应用程序</string>
+    <string name="fragment_locker_profile">Locker档案</string>
+    <string name="fragment_music_profile">音乐档案</string>
+    <string name="settings_widget_add">长按此处添加小部件</string>
+    <string name="settings_widget_delete">删除</string>
+    <string name="settings_widget_delete_all">删除所有小部件</string>
+    <string name="settings_widget_music_profile">-音乐档案设置会显示音乐小部件当有音乐播放或耳机插入</string>
+    <string name="settings_widget_long_press_note">-长按小部件以调整高度，删除等</string>
+    <string name="set">设</string>
+    <string name="settings_widget_music_widget">音乐小部件</string>
+    <string name="tips_tricks_youtube_01">解锁小部件按键(3.1mb)</string>
+    <string name="tips_tricks_youtube_02">隐藏状态栏C锁屏图标(4.2mb)</string>
+    <string name="tips_tricks_youtube_03">设Home键的步骤(4.9mb)</string>
+    <string name="tips_tricks_youtube_04">通知图标 - 打开应用程序(2.4mb)</string>
+    <string name="tips_tricks_youtube_05">通知图标 - 清除单个图标(1.3mb)</string>
+    <string name="tips_tricks_youtube_06">通知图标 - 清除所有图标(1.2mb)</string>
+    <string name="tips_tricks_youtube_07">打开RSS表快捷(4.6mb)</string>
+    <string name="tips_tricks_youtube_08">打开RSS网页快捷(7.4mb)</string>
+    <string name="later">迟些</string>
+    <string name="settings_about">关于C锁屏</string>
+    <string name="settings_about_translation">语言翻译</string>
+    <string name="settings_about_translation_desc">如果C锁屏没有支持你的国家翻译， 
+        我感谢您的支持到这里拿英文版以帮助翻译和当完成翻译后返送到Google+或XDA让我完成更新</string>
+    <string name="email_logs">发电邮给我</string>
+    <string name="email_logs_desc">发电子邮件给我附加日志和手机软件版本信息以便改进错误</string>
+
+    <!-- 4.6.4 -->
+    <string name="settings_clock_analog_color1">模拟时钟</string>
+    <string name="settings_clock_analog_color2">模拟时钟颜色</string>
+    <string name="settings_bottom_bar_tab_color1">底部栏选项卡</string>
+    <string name="settings_bottom_bar_tab_color2">底部栏选项卡颜色</string>
+    <string name="settings_bottom_bar">底部栏</string>
+    <string name="settings_main_general">一般选项</string>
+    <string name="settings_main_visual">视觉</string>
+    <string name="settings_main_shortcut">快捷程序</string>
+    <string name="settings_main_more">更多..</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="tips_tricks_youtube_0">YouTube链接:</string>
+    <string name="security_set_homekey_">设主页键</string>
+    <string name="security_set_homekey_desc">防止通过按主页键进入到主介面</string>
+    <string name="security_set_default_locker_none">关闭原置锁屏</string>
+    <string name="security_set_default_locker_none_desc">设原置锁屏为[无]，以防止显示2锁屏</string>
+    <string name="security_set_default_locker_none_not_support">锁屏设置不支持</string>
+    <string name="notice_settings_desc">设置来电通知，facebook，G+，WHATSAPP时，Gmail，短信，未接通话记录，日历议程，RSS新闻等</string>
+    <string name="tips_tricks_decs">告诉你一些你可能已经错过了的功能或设置在Youtube</string>
+    <string name="notice_show_icon_clear_desc">允许通知图标被拖放到清除图标时清除，</string>
+    <string name="notice_show_icon_clear">显示清除图标</string>
+    <string name="settings_tasker">Tasker</string>
+    <string name="settings_tasker_desc">For advanced users, this enable Locker to incooperate with the popular app - [Tasker] to create more advanced actions</string>
+    <string name="settings_tasker_shortcut_count_desc">Send an intent to Tasker when there is a shortcut app being launched from locker, providing extra data for total count of apps openning, type of action, shortcut index</string>
+    <string name="settings_tasker_shortcut_count">Enable Shortcut Apps Openning Listener</string>
+    <string name="settings_tasker_feedback">For more details and requesting new intents, welcome to contact me at email: [cheahchinseng@gmail.com]</string>
+    <string name="settings_tasker_shortcut_count_intent">Action: com.ccs.lockscreen_pro.mTASKER_ACTION</string>
+    <string name="settings_tasker_shortcut_count_ex_data1">Extra#1 data:%shortcut_app_count</string>
+    <string name="settings_tasker_shortcut_count_ex_data2">Extra#2 data:%shortcut_launch_type</string>
+    <string name="settings_tasker_shortcut_count_ex_data3">Extra#3 data:%shortcut_app_index</string>
+
+    <!-- 4.6.0 -->
+    <string name="event_today_text_color">选择[今天]文字颜色</string>
+    <string name="notice_only2_app_fv">最多2应用程序可以选择[免费版]</string>
+    <string name="notice_tap_to_open">拖到此处打开</string>
+    <string name="notice_tap_to_clear_all">拖到此处以清除所有通知</string>
+    <string name="notice_settings">讯息通知</string>
+    <string name="notice_apps_layout_desc">设置锁屏左/右面板上显示通知图标</string>
+    <string name="notice_apps_layout_left">左</string>
+    <string name="notice_apps_layout_right">右</string>
+    <string name="notice_apps_select_desc1">设定显示的通知图标当您想要收到新通知时</string>
+    <string name="notice_apps_select_desc2">最多2应用程序可以选择[免费版]</string>
+    <string name="notice_apps_select">选择应用程序通知</string>
+    <string name="bottom_bar_statusbar_notices">使应用程序通知</string>
+    <string name="bottom_bar_statusbar_notices_desc1">启用从Facebook，WHATSAPP，谷歌等的传入通知。基本上，所有的应用程序通知都支持</string>
+    <string name="bottom_bar_statusbar_notices_desc2">注： 仅支持Android的4.3v及以上</string>
+    <string name="bottom_bar_statusbar_notices_desc3">注：通知访问权限选择[C锁屏]是必需的</string>
+    <string name="bottom_bar_statusbar_notices_desc4">仅支持Android的4.3v及以上</string>
+    <string name="bottom_bar_set_notices_app_desc">请启用应用程序的通知</string>
+    <string name="settings_shortcut_icon_visible">图标保持显示</string>
+    <string name="settings_shortcut_animation">启用快键布局动画</string>
+    <string name="settings_shortcut_style">风格</string>
+    <string name="settings_shortcut_style_desc">选择动画的风格和色彩</string>
+    <string name="settings_shortcut_effect_on_press">启用图标背景单击效果</string>
+    <string name="settings_shortcut_effect_on_press_desc">选择动画效果样式和颜色</string>
+    <string name="picker_color_custom_color_wrong_text">请输入6位十六进制代码 (RRGGBB)</string>
+    <string name="picker_color_custom_color">选择自定义颜色代码 "RRGGBB"</string>
+
+    <!-- 4.4.0 -->
+    <string name="locker_widget_click_enable">启用小部件按键</string>
+    <string name="locker_widget_click_enabled">已解锁小部件按键</string>
+    <string name="settings_shortcut_icon_app">从应用程序中选择图标</string>
+    <string name="settings_shortcut_icon_gallery">从图库中选择图标</string>
+    <string name="security_sms_unlock">输入密码由其他手机发送短信解锁你的锁屏，此功能不适用于“系统锁定密码”</string>
+
+    <!-- 4.1.0 -->
+    <string name="color_dialog_title">应用颜色</string>
+    <string name="color_dialog_desc">你想这种颜色适用于以下项目吗？</string>
+    <string name="color_locker_text">锁屏文字</string>
+    <string name="color_locker_blinking">锁屏动画</string>
+    <string name="color_locker_icon_bg">快捷图标背景</string>
+    <string name="color_bottom_bar_btty_lvl">底部栏电池电量表</string>
+    <string name="color_bottom_bar_text">底部栏文字</string>
+    <string name="settings_others_proxi_sensor_desc1">启用接近传感器将自动关闭屏幕如果手机在不关掉屏幕后放进口袋..等</string>
+    <string name="settings_others_proxi_sensor_desc2">__如果屏幕在口袋里，包包..等意外被打开，屏幕将被自动关闭</string>
+    <string name="settings_others_proxi_sensor_desc3">__注：启用（有些三星的设备）的Smart Stay，Android的DayDream和其他类似功能可能会影响此功能的正常操作</string>
+    <string name="settings_others_proxi_sensor">启动接近传感器</string>
+
+    <!-- 4.0.0 -->
+    <string name="settings_display_desc">设置壁纸，背景亮度</string>
+    <string name="settings_app_shortcut_desc">设置自定义快捷程序，改变图标</string>
+    <string name="settings_other_options_desc">设置屏幕关闭时间，延时锁定，解锁声音，震动</string>
+    <string name="settings_security_desc">设置密码，主页键控制，系统设置控制</string>
+    <string name="settings_backup_restore_desc">当应用程序重新安装时恢复备份设置</string>
+    <string name="settings_rate_myapp">评价我</string>
+    <string name="settings_rate_myapp_desc">如果你享受这C锁屏，请考虑放在Play Store打分和评论 :)</string>
+
+    <!-- 3.2.0 -->
+    <string name="other_option_shortcuts_no_lock_desc1">当屏幕关闭再开时锁屏将不会被激活</string>
+    <string name="other_option_shortcuts_no_lock_desc2">这将让快捷程序保持在屏幕上</string>
+    <string name="other_option_shortcuts_no_lock">禁用锁屏当快捷启动</string>
+    <string name="other_option_shortcuts_delay_lock_desc">设置激活锁屏时间当屏幕关时</string>
+    <string name="other_option_shortcuts_delay_lock_now">立即锁</string>
+    <string name="other_option_shortcuts_delay_lock_5_sec">延迟5秒</string>
+    <string name="other_option_shortcuts_delay_lock_10_sec">延迟10秒</string>
+    <string name="other_option_shortcuts_delay_lock_15_sec">延迟15秒</string>
+    <string name="other_option_shortcuts_delay_lock_30_sec">延迟30秒</string>
+    <string name="other_option_shortcuts_delay_lock_1_min">延迟1分钟</string>
+    <string name="other_option_shortcuts_delay_lock_2_min">延迟2分钟</string>
+    <string name="other_option_shortcuts_delay_lock_5_min">延迟5分钟</string>
+    <string name="bottom_bar_enable_list_desc">启用显示/隐藏一些表</string>
+    <string name="bottom_bar_enable_gmail">启用Gmail表</string>
+    <string name="bottom_bar_enable_cld_event">启用日历议程</string>
+    <string name="bottom_bar_enable_rss">启用RSS新闻列表</string>
+    <string name="bottom_bar_notice_text_color">选择信息文字颜色</string>
+    <string name="bottom_bar_show_arrow_up_icon">只显示一个向上的箭头图标</string>
+    <string name="bottom_bar_show_battery_bar">显示电池的电量表与示信息文字</string>
+    <string name="bottom_bar_show_info_bar">只显示信息文字而已</string>
+
+    <!-- 3.0.0 -->
+    <string name="settings_backup_restore">备份和恢复</string>
+    <string name="settings_backup">备份设置</string>
+    <string name="settings_restore">恢复设置</string>
+    <string name="clock_analog_update_in_second_desc">启用此模拟时钟显示红色秒针，并将在每一秒更新，否则将每一分钟都在更新</string>
+    <string name="clock_analog_update_in_second">模拟时钟秒针</string>
+    <string name="tips_tricks">提示和技巧</string>
+    <string name="settings_dont_show_again">不再显示</string>
+    <string name="clock_analog_enable">模拟时钟</string>
+    <string name="viewpager_events">日历议程</string>
+    <string name="viewpager_gmail">Gmail</string>
+    <string name="viewpager_call_log">未接来电</string>
+    <string name="viewpager_sms">短信</string>
+    <string name="viewpager_rss">RSS</string>
+    <string name="bottom_bar_unread">未读</string>
+    <string name="bottom_bar_today">今天</string>
+    <string name="bottom_bar_new_notice">新</string>
+    <string name="bottom_bar_drag_enable_desc">启用底部信息栏向上滑动功能以显示以下通知的详细信息:</string>
+    <string name="bottom_bar_drag_enable_desc1">1)Gmail通知</string>
+    <string name="bottom_bar_drag_enable_desc2">2)新短信通知</string>
+    <string name="bottom_bar_drag_enable_desc3">3)未接来电通知</string>
+    <string name="bottom_bar_drag_enable_desc4">4)日历议程通知</string>
+    <string name="bottom_bar_drag_enable_desc5">5)RSS新闻通知 </string>
+    <string name="bottom_bar_drag_enable">启用底部信息栏</string>
+    <string name="bottom_bar_popup_enable_desc">当收到新的通知时底部的通知栏会弹出</string>
+    <string name="bottom_bar_popup_enable">启用底部栏弹出</string>
+    <string name="bottom_bar_sms_calllog_desc">短信/未接来电的选项</string>
+    <string name="bottom_bar_show_sms_content">显示短信联系号码，内容</string>
+    <string name="bottom_bar_show_last7day_sms">显示过去7天的短信</string>
+    <string name="bottom_bar_show_calllog_content">显示未接来电联系号码</string>
+    <string name="bottom_bar_show_last7day_calllog">显示过去7天的通话记录</string>
+    <string name="bottom_bar_test_sms_desc">有些手机可能不支持此短信通知，按下按钮，以测试该功能。如果它不支持，请发送设备信息给开发者</string>
+    <string name="bottom_bar_test_sms">测试短信通知功能</string>
+    <string name="bottom_bar_test_sms_supported">短信通知是支持</string>
+    <string name="bottom_bar_test_sms_not_supported">短信通知是不支持，请发电邮至开发者或取消</string>
+    <string name="bottom_bar_notice_not_supported_assist">短信通知不支持，请按这里发电邮给开发者</string>
+
+    <!-- 2.5.5 -->
+    <string name="security">保安</string>
+    <string name="prevent_locker_kill_notice">C锁屏</string>
+    <string name="prevent_locker_kill_notice_desc">打开C锁屏设置</string>
+    <string name="prevent_locker_kill_desc1">放C锁屏入系统优先级列表，当系统内存不足时以防止被关闭</string>
+    <string name="select_settings_app">SELECT Device System Settings</string>
+    <string name="select_settings_default_desc">Please SELECT [C_Locker] with [Always] or [Use by default], else this action will be CANCELLED.</string>
+    <string name="clear_settings_default_title">Clear Setting Default</string>
+    <string name="clear_settings_default_desc">PRESS the [Clear Defaults] in the Settings "App info" panel</string>
+    <string name="clear_launcher_default_desc">在“应用程序信息”面板里其他主介面中按[清除默认设置]</string>
+
+    <!-- 2.5.0 -->
+    <string name="no_pass_set">没有新的设置密码，请重试</string>
+    <string name="security_type">选择保安密码类型</string>
+    <string name="system_lock">系统保安 - 高安全性</string>
+
+    <!-- 2.4.0 -->
+    <string name="enable_vibration">启用振动</string>
+
+    <!-- 2.3.3 -->
+    <string name="check_all">全选</string>
+    <string name="uncheck_all">全取消</string>
+    <string name="custom_rss">自定RSS</string>
+    <string name="preset_rss">预置RSS</string>
+    <string name="test_rss">测试</string>
+    <string name="keyin_rss_url">输入RSS网址..</string>
+    <string name="empty_rss_url">未检测到的RSS链接</string>
+    <string name="error_rss_url">RSS的URL不支持</string>
+
+    <!-- 2.3.2 -->
+    <string name="set_wallpaper_dim_desc">设置壁纸背光</string>
+    <string name="set_wallpaper_dim_none">无</string>
+    <string name="set_wallpaper_dim_light">清暗</string>
+    <string name="set_wallpaper_dim_dark">暗</string>
+
+    <!-- 2.3.0 -->
+    <string name="rss_display_style_fast_top">滑动上下（快速）</string>
+    <string name="rss_display_style_fast">滑动右左（快速）</string>
+    <string name="calendar_account">日历帐户列表</string>
+    <string name="calendar_account_select">选择日历帐户</string>
+    <string name="events_loading">日历议程加载中，请稍候</string>
+    <string name="password_unlock_settings">PIN码解锁设置</string>
+    <string name="emergency_unlock">启用紧急解锁同时长按这两个[回键]和[音量下]键</string>
+    <string name="emergency_call">紧急致电</string>
+    <string name="password_not_complete">密码不完整。再试一次</string>
+    <string name="type_new_password">输入PIN码</string>
+    <string name="type_confirm_password">确认PIN码</string>
+    <string name="password_not_matched">不正确的PIN码。再试一次</string>
+    <string name="try_ec_no">尝试拨打112， 911， 999或其他紧急号码</string>
+    <string name="change_password">输入密码来停用</string>
+    <string name="dialog_pro_version_title">专业版升级</string>
+    <string name="dialog_pro_version">请支持我的工作并启用此功能，升级到专业版</string>
+    <string name="enable_screen_off_volume">启动屏幕关闭时控制音量键</string>
+    <string name="enable_screen_off_volume_desc1">如果在屏幕关闭时有媒体播放控制音量键:</string>
+    <string name="enable_screen_off_volume_desc2">1）单按上/下音键，跳过下一首/上一首歌曲</string>
+    <string name="enable_screen_off_volume_desc3">2）双按上/下音键，增加/减低音量</string>
+    <string name="enable_screen_off_volume_desc4">*这将自动禁用当插入耳机</string>
+    <string name="show_apps_image_alltime_note">注：如果没勾选，快捷程序图标会自动显示当锁图标被按下时</string>
+
+    <!-- 2.2.8 -->
+    <string name="rss_display_style">在Locker底部栏显示</string>
+    <string name="rss_display_style_slow">跑马灯（慢）</string>
+    <string name="network_error">网络错误，请稍后再试</string>
+    <string name="rss_updated">C锁屏RSS以经更新</string>
+
+    <!-- 2.1.0 -->
+    <string name="next_event_1days">显示未来今天日历议程</string>
+    <string name="next_event_3days">显示未来两天日历议程</string>
+    <string name="next_event_7days">显示未来1个星期日历议程</string>
+    <string name="next_event_14days">显示未来2个星期日历议程</string>
+    <string name="next_event_30days">显示未来1个月日历议程</string>
+    <string name="next_event_60days">显示未来3个月日历议程</string>
+    <string name="next_event_90days">显示未来6个月日历议程</string>
+    <string name="drop_statusbar">拉下状态栏</string>
+    <string name="enable_rss_refresh_notice">显示RSS更新通知</string>
+    <string name="enable_calendar_events">启用日历议程</string>
+
+    <!-- 2.0.1 -->
+    <string name="gesture_desc">手势滑动方向选项</string>
+    <string name="gesture_selection">手势选项</string>
+    <string name="gesture_action_sms_desc">发送短致您最喜爱的</string>
+    <string name="gesture_action_call_desc">致电您最喜爱的</string>
+    <string name="gesture_action_sms">发送短信到</string>
+    <string name="gesture_action_call">致电</string>
+    <string name="gesture_no_contact">无联系选择</string>
+    <string name="follow_system_timeout">按照系统屏幕关闭时间</string>
+
+    <!-- 2.0.0 -->
+    <string name="total_news">新闻总数</string>
+    <string name="rss_settings">RSS设置</string>
+    <string name="rss_select">选择RSS更新</string>
+    <string name="rss_refresh">RSS更新</string>
+    <string name="show_rss">显示RSS新闻</string>
+    <string name="show_rss_desc">显示RSS新闻在锁屏幕底部栏</string>
+    <string name="rss_updating">更新RSS新闻</string>
+    <string name="rss_update_interval">RSS更新间隔</string>
+    <string name="next_update">下次更新：</string>
+    <string name="next_update_never">下次更新：决不</string>
+    <string name="next_update_error">下次更新：错误，请重新设置</string>
+    <string name="last_update_successful_at">最后更新成功于</string>
+    <string name="never">决不</string>
+    <string name="every_1_hour">每1小时</string>
+    <string name="every_2_hour">每2小时</string>
+    <string name="every_3_hour">每3小时</string>
+    <string name="every_6_hour">每6小时</string>
+    <string name="every_12_hour">每12小时</string>
+    <string name="once_a_day">每天一次</string>
+    <string name="launch_rss">启动RSS新闻</string>
+
+    <!-- 1.9.0 -->
+    <string name="enable_animation_desc">启用锁屏时间更换，快捷图标，底部栏动画方式</string>
+    <string name="enable_animation">启用动画方式</string>
+    <string name="show_apps_image_alltime">显示/隐藏锁屏上的快捷图标</string>
+    <string name="donate">Donate</string>
+
+    <!-- 1.7.0 -->
+    <string name="set_portrait">启用固定直观屏幕</string>
+    <string name="set_portrait_desc">设置启用直观屏幕和禁横观屏幕</string>
+    <string name="unknown_number">未知来电</string>
+
+    <!-- 1.6.0 -->
+    <string name="select_app">选择应用程序</string>
+    <string name="set_as_unlock">设置为解锁</string>
+    <string name="hide_icon">隐藏图标</string>
+    <string name="shortcut_app_title">快捷应用程序选择</string>
+
+    <!-- 1.5.0 -->
+    <string name="enable_volume_rocker_control">启用音量键控制</string>
+    <string name="set_volume_rocker_selection">选择音量键操作</string>
+
+    <!-- 1.4.2 -->
+    <string name="show_square_light_on_touch_desc">显示/隐藏图标的背景圆形风格</string>
+    <string name="hide_unused_icons">显示/隐藏未使用的快捷图标</string>
+
+    <!-- 1.4.1 -->
+    <string name="screen_timeout">锁屏幕关闭时间</string>
+    <string name="enable_returnLS_disc">启用在关闭快捷程序后返回锁屏，而不是主介面</string>
+    <string name="enable_returnLS">返回锁屏</string>
+
+    <!-- 1.4.0 -->
+    <string name="enable_setLockSound">启用锁铃声</string>
+    <string name="enable_setUnlockSound">启用解锁铃声</string>
+    <string name="sound_select">选择铃声</string>
+    <string name="imageType_1">直观 (720x1280)</string>
+    <string name="imageType_2">横观 (1280x720)</string>
+    <string name="imageType_3">自由尺寸</string>
+    <string name="selectImageType">选择图片裁剪尺寸</string>
+    <string name="other_options">其他选项</string>
+
+    <!-- 1.3.2 -->
+    <string name="ringtone_notice">如果你想有自己的开锁铃声，请复制您的[媒体档案]到[/sdcard/media/audio/ringtone/]文件夹中。它就会出现在选择列表</string>
+    <string name="ringtone_title">选择开锁的铃声</string>
+    <string name="select_from_file">从系统铃声</string>
+
+    <!-- 1.3.1 -->
+    <string name="wallpaper_cancelled">取消自定义壁纸的选择</string>
+    <string name="wallpaper_not_supported">自定义壁纸不支持此手机</string>
+    <string name="wallpaper_crop_error">自定义壁纸裁剪错误</string>
+    <string name="select_launcher_default_desc">请选择[C锁屏]后按[总是]或[默认]，否则这个动作将被取消</string>
+    <string name="select_launcher_app_desc">请选择解锁后的主介面</string>
+
+    <!-- 1.2.2 -->
+    <string name="show_battery_bar_desc">显示/隐藏锁屏底部栏的电池电量</string>
+    <string name="enable_vibration_desc">在锁屏上拖动图标时启用/禁用振动</string>
+    <string name="enable">启用</string>
+
+    <!-- 1.2.0 -->
+    <string name="time_format">时间格式</string>
+    <string name="show_clock_am">显示 AM/PM</string>
+
+    <!-- LockScreenActivity -->
+    <string name="unlock">开锁</string>
+    <string name="lock">锁定</string>
+    <string name="call">通话</string>
+    <string name="sms">短信</string>
+    <string name="camera">相机</string>
+    <string name="flash">闪光灯</string>
+    <string name="off_flash">关掉闪光灯</string>
+    <string name="map">地图</string>
+    <string name="internet">网络</string>
+    <string name="youtube">YouTube</string>
+    <string name="launch_lockscreen_settings">启动锁屏设置</string>
+    <string name="launch_app">启动程序</string>
+    <string name="alarm">闹钟</string>
+    <string name="battery">电池</string>
+    <string name="usb_charging">USB 充电</string>
+    <string name="ac_charging">AC 充电</string>
+    <string name="miss_call">未接来电</string>
+    <string name="from">从</string>
+
+    <!-- AppListsActivity -->
+    <string name="updating_apps_list">更新程序列表</string>
+
+    <!-- Picker Text Style -->
+    <string name="text_style_show_free">风格 0123456789</string>
+    <string name="text_style_show_paid">风格 0123456789</string>
+
+    <!-- Lock Screen Setting -->
+    <string name="display">显示</string>
+    <string name="set_wallpaper">选择锁屏壁纸</string>
+    <string name="home_wallpaper">主屏幕墙纸/动态壁纸</string>
+    <string name="from_picture">从图片库</string>
+    <string name="mix_color">混合颜色</string>
+    <string name="show">显示</string>
+    <string name="hide">隐藏</string>
+    <string name="set_clock_bg_style">选择时钟背景风格</string>
+    <string name="clear">清除</string>
+    <string name="transparent_blk">黑色半透明</string>
+    <string name="clock_center">中心位置时钟</string>
+    <string name="show_next_alarm">显示下一个闹钟时间</string>
+    <string name="text_style">文字款式</string>
+    <string name="text_color">文字颜色</string>
+    <string name="tap_icon_to_set_shortcut">-点击图标设置锁屏程序快捷</string>
+    <string name="collecting_all_apps_info">收集程序信息</string>
+    <string name="saving_wallpaper">保存壁纸</string>
+
+    <!-- Image Content Desc -->
+    <string name="img_desc">图像</string>
+
+    <!-- Activity Title -->
+    <string name="app_name">C锁屏</string>
+    <string name="lock_screen_settings">C锁屏设置</string>
+    <string name="apps_shortcut">选择程序</string>
+    <string name="lockscreen_custom_background">锁屏自定义背景</string>
+    <string name="select_a_color">选择文字颜色</string>
+    <string name="select_a_texttype">选择锁屏文字款式</string>
+    <string name="hide_fingerprint_icon">Hide Fingerprint Icon</string>
+    <string name="access_summary">C Locker Accessibility Service Information</string>
+</resources>

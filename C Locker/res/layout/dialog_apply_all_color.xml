@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cBoxColorText"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/color_locker_text" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorAnalogClock"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/settings_clock_analog_color1" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorBlinking"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/color_locker_blinking" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorBg"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/color_locker_icon_bg" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorBttyLvl"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/color_bottom_bar_btty_lvl" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorBottomBarText"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/color_bottom_bar_text" />
+
+    <CheckBox
+        android:id="@+id/cBoxColorBottomBarTab"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/settings_bottom_bar_tab_color1" />
+</LinearLayout>

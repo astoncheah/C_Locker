@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Strings -->
+    <string name="hide_carrier">Hide Network Carrier</string>
+    <string name="back_key_unlock">Back Key Unlock</string>
+    <string name="hide_forgot_pin">Hide Forgot PIN</string>
+    <string name="smart_unlock">Smart Unlock</string>
+    <string name="smart_unlock_desc">Set to automatically unlock locker when the profile condition is met</string>
+    <!-- 8.0.0 -->
+    <string name="enable_keyboard_typing">Enable Keyboard Typing</string>
+    <string name="block_kome_key1">Enable Service Accessibility \n(Recommended)</string>
+    <string name="block_kome_key1_desc">Enable C Locker in Service Accessibility to block Home Key, Recent Apps Key and block other Apps</string>
+    <string name="block_kome_key2">Set as Home Key</string>
+    <string name="block_kome_key2_desc">Set C Locker as Home Key to block Home Key</string>
+    <string name="widget_grid">Widget Grid Settings</string>
+    <string name="widget_grid_w">Widget Grid Width</string>
+    <string name="widget_grid_h">Widget Grid Height</string>
+    <string name="widget_settings_tips">
+        -Long PRESS on an Empty Space to set widget, wallpaper, grid\n\n
+        -Long PRESS on an Apps Widget to resize, delete\n\n
+        -Long PRESS on a Default Clock to open 12/24hrs format settings </string>
+    <string name="access_desc_enable">Scroll to the Bottom to\nENABLE [C Locker]</string>
+    <string name="access_desc_disable">Scroll to the Bottom to\nDISABLE [C Locker]</string>
+	<string name="access_desc">C Locker needs Accessibility Service Permission to enable High Security features.
+	    \n\nYou may be warned about potential privacy risk, that\'s just a regular informative warning for any accessibility service. 
+	    C Locker DOES NOT, and WILL NEVER collect any of your personal information or any text you type in this accessibility service.</string>
+    <string name="notice_desc_dialog">TICK [C Locker]\nin this Notification Settings</string>
+    <string name="notice_black_list">Blacklist</string>
+    <string name="notice_black_list_desc">Set which apps you do NOT wish to show notification</string>
+    <string name="introduction">[C] Locker\nYour [C]ustomization\n\nThis Screen will close when C Locker is fully loaded. This loading screen is to prevent security breach</string>
+
+    <!-- 7.9.0 -->
+    <string name="fingerprint_unsupport">This device does support Fingerprint feature</string>
+    <string name="fingerprint_scan">Scan your Fingerprint to access Shortcut Action in 10 seconds</string>
+    <string name="fingerprint_registration_required">Please register your Fingerprint in the System Security Settings
+         to continue setting Fingerprint Unlock</string>
+    <string name="fingerprint_shortcut_cancelled">Shortcut Action Fingerprint Authentication cancelled</string>
+    <!-- 7.8.0 -->
+    <string name="group_notice">Group Notification</string>
+    <string name="group_notice_desc">The same notifications app will be grouped into one notification</string>
+    <string name="lollipop_style_widget">Lollipop Style Widget</string>
+    <string name="lollipop_style_widget_desc">PRESS to add new custom widget, LONG PRESS to delete custom widget
+        \nNote: Widget size maximum 4x2</string>
+    <string name="required_pin">[Enable PIN Unlock] is required</string>
+    <string name="notice_style">Notification Style</string>
+    <string name="notice_style_lollipop">Lollipop</string>
+    <string name="notice_style_side_icon">Side Icons</string>
+    <string name="hide_emergency_call">Hide Emergency Call</string>
+    <string name="enter_pattern">Enter Pattern</string>
+
+    <!-- 7.5.0 -->
+    <string name="block_settings">Block System Settings</string>
+    <string name="block_settings_desc">Prevent accessing to System Settings pulling down status bar C Locker is locked</string>
+    <string name="block_settings_selection">Please SELECT your default System Settings App</string>
+
+    <!-- 7.4.0 -->
+    <string name="pin_required">PIN Option</string>
+    <string name="pin_required_desc">Set whether security PIN is required when opening the shortcut call or camera app
+        \nNote: Security PIN must be enabled</string>
+    <string name="hide_pin_animation">Hide PIN/Pattern</string>
+    <string name="hide_pin_animation_desc">PIN/Pattern animation will not show when entering security codes</string>
+    <string name="sound_mode">Sound Mode</string>
+    <string name="sound_mode_silent">Silent Mode</string>
+    <string name="sound_mode_vibration">Vibration Mode</string>
+    <string name="sound_mode_normal">Sound Mode</string>
+    <string name="add_location">Add New Location</string>
+
+    <!-- 7.3.0 -->
+    <string name="home_key_bypass">Enable Home Key Bypass Block</string>
+    <string name="home_key_bypass_warn">C Locker is being bypassed, please wait for Locker to relaunch in few seconds. 
+        \n\nYou can disable this message in: 
+        \nC Locker settings > Other Options > UNTICK:\n[Enable Home Key Bypass Block]</string>
+    <string name="auto_security_selfie">Auto Security Selfie</string>
+    <string name="auto_security_selfie_desc">Automatically take Selfie with front facing camera, save to your sdcard and email to you when security unlock attempts failed</string>
+    <string name="auto_security_selfie_desc1">This one tried to unlock your device \non</string>
+    <string name="email_selfie">Email Captured Selfie</string>
+    <string name="email_selfie_desc">Immediately send an email with the picture to your gmail account once captured, 
+        \n[Gmail Permissions required]</string>
+    <string name="show_picture_on_unlock">Show Picture</string>
+    <string name="show_picture_on_unlock_desc">Immediately inform you by showing the captured picture after security PIN unlocking</string>
+    <string name="no_front_camera">No camera supported</string>
+    <string name="attempts">Fail Attempts</string>
+    <string name="select_security_type">Select Security Type</string>
+    <string name="share">Share</string>
+    <string name="share_friends">If you are enjoying this Locker, please share this app with your friends</string>
+    <string name="pin">PIN</string>
+    <string name="pattern">Pattern</string>
+    <string name="forgot">Forgot Your PIN?</string>
+    <string name="checking_connection">Checking internet connection..</string>
+    <string name="required_internet">Google Account Verification requires internet connection, would you like to enable Mobile Data?</string>
+
+    <!-- 7.1.1.5 -->
+    <string name="sec">segundos</string>
+    <string name="secs">segundos</string>
+    <string name="min">minuto</string>
+    <string name="mins">minutos</string>
+    <string name="hr">hora</string>
+    <string name="hrs">hora</string>
+    <string name="center">Center</string>
+    <string name="bottom">Bottom</string>
+    <string name="unlocking_style">Unlock Style</string>
+    <string name="lolipop_unlock">Simple Unlock</string>
+    <string name="lolipop_unlock_desc1">Slide UP to unlock</string>
+    <string name="lolipop_unlock_desc2">Slide UP to open Camera</string>
+    <string name="lolipop_unlock_desc3">Slide UP to make Call</string>
+    <string name="lolipop_unlock_desc4">Slide from LEFT/RIGHT EDGE to open shortcuts list</string>
+    <string name="gesture_unlock">Gesture Unlock</string>
+    <string name="gesture_unlock_desc1">Slide Up/Down/Left/Right to Unlock</string>
+    <string name="fingerprint_unlock">Fingerprint Unlock</string>
+    <string name="fingerprint_unlock_desc1">Scan you fingerprint to Unlock</string>
+    <string name="fingerprint_unlock_desc2">Slide from RIGHT EDGE to open shortcuts list</string>
+    <string name="fingerprint_unlock_desc3">Slide from LEFT EDGE to open PIN unlock if fingerprint fails</string>
+    <string name="center_ring">Center Ring</string>
+    <string name="center_ring_desc">Drag the center Lock Icon to any Icon to unlock/open a shortcut</string>
+    <string name="bottom_ring">Bottom Ring</string>
+    <string name="bottom_triagle">Bottom Triangle</string>
+    <string name="block_recent_apps">Block Recent Apps</string>
+    <string name="block_recent_apps_desc">Tick to block recent apps popping up</string>
+    <string name="block_other_apps">Block Other Apps</string>
+    <string name="block_other_apps_desc">Block all systems, notification Apps which are not from C Locker Shortcuts when they show up</string>
+    <string name="direct_call">Direct Call</string>
+    <string name="open_dia_pad">Open Dial Pad</string>
+    <string name="unlock_to_launcher">Unlock to Home Launcher</string>
+    <string name="unlock_to_launcher_desc">Always return to home launcher when unlocking from Locker</string>
+    <string name="block_widget_click">Widgets Clickable</string>
+    <string name="block_widget_click_desc1">Select widgets to be clickable on Lock Screen, the Non-Clickable Widgets can be UNLOCKED by TRIPLE SWIPE DOWN gesture on the Lock Screen</string>
+
+    <!-- 7.0.10 -->
+    <string name="select_launcher">Step 1: Select Launcher</string>
+    <string name="select_launcher_desc">Select your Home Launcher after unlocking</string>
+    <string name="clear_other_home_launcher">Step 2: Clear Default Home Launcher</string>
+    <string name="clear_other_home_launcher_desc">PRESS the [Clear Defaults] in the [App info]</string>
+    <string name="clear_other_home_launcher_desc1">Default Home Launcher is already cleared, please continue [Step 3]</string>
+    <string name="clear_other_home_launcher_desc3">C Locker is already set as your Home Launcher, do you want to remove it?</string>
+    <string name="set_clocker_as_home">Step 3: Set C Locker as Home</string>
+    <string name="set_clocker_as_home_desc">Set [C Locker] with [Always]</string>
+    <string name="set_clocker_as_home_desc1">Please clear other default home launcher in [Step 2]</string>
+    <string name="select_launcher_default_title">Select C Locker</string>
+
+    <!-- 7.0.4 -->
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="lets_start">Got it!</string>
+    <string name="quick_guide">Quick Guide</string>
+
+    <string name="q_title_page1">Welcome to C Locker</string> 
+    <string name="q_desc_page1_1">1) By pressing [Start], C Locker will guide you through the recommended settings, 
+        which offer the best initial experience for new users.</string>
+    <string name="q_desc_page1_2">2) Press [Skip] to navigate to the main settings screen.</string>
+
+    <string name="q_title_page2">Firstly: Enable C Locker</string>
+    <string name="q_desc_page2_1">Enable C Locker from the side menu to get started.</string>
+    <string name="q_desc_page2_2">Once enabled, you can start customizing your unique Lock Screen Look with the help of the 6 main settings menus:
+        \n- Locker Profiles 
+        \n- Unlock Style
+        \n- Visual
+        \n- Notifications
+        \n- Security 
+        \n- Other Options</string>
+
+    <string name="q_title_page3_1">Setting 1: Locker Profiles</string>
+    <string name="q_desc_page3_1">C Locker offers 5 different profiles: Default, 
+        Music, Location, Time, Wi-Fi. When certain preset conditions are met, 
+        the adequate profile lock screen is displayed. When no conditions are met, 
+        the "Default" profile lock screen is chosen.</string>
+
+    <string name="q_title_page3_2">Setting 1.1: Widget Profiles</string>
+    <string name="q_desc_page3_2">You can add/move/resize/delete widgets in each individual profile.</string>
+    <string name="q_desc_page3_3">Note: To add widgets, go to Locker Profiles > Widget Profiles.</string>
+
+    <string name="q_title_page3_3">Setting 1.2: Apps Shortcut Profiles</string>
+    <string name="q_desc_page3_4">To add shortcut apps and other actions, go to Locker Profiles > Apps Shortcut Profiles.</string>
+
+    <string name="q_title_page4_1">Setting 2: Unlock Style</string>
+    <string name="q_desc_page4_1">6 Unlock styles available to your liking including: Simple Unlock, Fingerprint Unlock, Gestures Unlock, Ring Style Unlock etc.</string>
+    <string name="q_desc_page4_2">Note: Fingerprint Unlock is only available in Samsung\'s latest galaxy models that come with fingerprint support.</string>
+
+    <string name="q_title_page5_1">Setting 3: Visual</string> 
+    <string name="q_desc_page5_1">You can set the wallpaper of your choice on each of your profile lock screens 
+        or simply stick to the device\'s default wallpaper.</string>
+    <string name="q_desc_page5_2">Note: C Locker supports Live Wallpapers.</string>
+
+    <string name="q_title_page6_1">Setting 4: Notification</string> 
+    <string name="q_desc_page6_1">C Locker can display all the latest notifications from any app you like. 
+        Enable Notification Access from the side menu and choose the desired applications from the list.</string>
+    <string name="q_desc_page6_2">Note: Due to Android\'s system restrictions, notification access requires android version 4.3+.</string>
+
+    <string name="q_title_page7_1">Setting 5: Security</string>
+    <string name="q_desc_page7_1">-[Enable PIN Unlock] to have an extra layer of protection on your lock screen.</string>
+    <string name="q_desc_page7_2">-[Set Home Key] to prevent accessing to the home launcher by pressing the home key while on the lock screen, 
+        and additionally let C Locker be the first app to appear when rebooting the device. Highly recommended.</string>
+    <string name="q_desc_page7_3">-[Activate Device Admin] to control Auto Screen Off features. Highly recommended.</string>
+    <string name="q_desc_page7_4">-[Auto Security Selfie] to take Selfie when PIN attempts failed. Highly recommended.</string>
+	<string name="q_desc_page7_5">Note: once C Locker is activated in Device Admin, the system will PREVENT C Locker from UNINSTALLATION.
+		In order to successfully UNINSTALL, Untick [Enable C Locker] from the main settings menu.</string>
+
+    <string name="q_title_page8_1">Setting 6: Other Options</string> 
+    <string name="q_desc_page8_1">Recommended to enable the following settings:
+        \n- [Return to Lock Screen]
+        \n- [Inactive Screen Off]
+        \n- [Enable Proximity Sensor]</string>
+
+    <string name="q_title_page9_1">Finally: Feedback and Support</string> 
+    <string name="q_desc_page9_1">Once you are done and satisfied with your current settings, it is recommended to do a Backup. 
+        The backup file is stored at [/sdcard/.C Lock Screen] file (it is a hidden file).</string>
+    <string name="q_desc_page9_2">Click [Email Me] to send feedback and report bugs/issues.</string>
+    <string name="q_desc_page9_3">Join our Beta group on Google+ and always receive the latest C Series Beta Apps updates.</string>   
+    <string name="q_desc_page9_4">There are still plenty more options for you to discover and various ways to customize your lock screen, 
+        so take your time and unleash all of C Locker\'s hidden potential. Enjoy!!</string>
+
+    <!-- 7.0.0.14 -->
+    <string name="copy_time_profile">Copy from Time Profile</string>
+    <string name="copy_wifi_profile">Copy from Wifi Profile</string>
+    <string name="copy_Bluetooth_profile">Copy from Bluetooth Profile</string>
+    <string name="fragment_time_profile">Time Profile</string>
+    <string name="fragment_wifi_profile">Wifi Profile</string>
+    <string name="fragment_bluetooth_profile">Bluetooth Profile</string>
+    <string name="settings_profile_time">Enable Time Profile</string>
+    <string name="settings_profile_time_desc">Display Time Profile Widgets and Shortcuts automatically when the preset time is met</string>
+    <string name="settings_profile_wifi">Enable Wifi Profile</string>
+    <string name="settings_profile_wifi_desc">Display Wifi Profile Widgets and Shortcuts automatically when a trusted wifi is connected</string>
+    <string name="settings_profile_bluetooth">Enable Bluetooth Profile</string>
+    <string name="settings_profile_bluetooth_desc">Display Bluetooth Profile Widgets and Shortcuts automatically when a Bluetooth Device is connected</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="select_wifi">Select Wifi</string>
+    <string name="select_bluetooth">Select Bluetooth</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="enable_wifi">Please ENABLE Wifi to continue this settings</string>
+    <string name="enable_bluetooth">Please ENABLE Bluetooth to continue this settings</string>
+    <string name="no_wifi_found">No Stored Wifi SSID found</string>
+    <string name="no_bluetooth_found">No Paired Bluetooth device found</string>
+    <string name="profile_prority">Profile Priority</string>
+    <string name="profile_prority_desc">Manage profiles priority from high to low</string>
+    <string name="profile_pin">Profile Security PIN</string>
+    <string name="profile_pin_desc">Set whether to enable security PIN on individual Profiles</string>
+    <string name="move_up">Move Up</string>
+    <string name="fragment_default_profile">Default Profile</string>
+    <string name="delay_pin">Delay PIN</string>
+    <string name="sms_unlock">SMS Unlock</string>
+    <string name="enable_c_locker">Enable C Locker</string>
+    <string name="test_size">Text Size</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="settings_personal_msg">Personal Information</string>
+    <string name="resize_widget">Resize/Move</string>
+    <string name="settings">Settings</string>
+    <string name="settings_digital_clock">Digital Clock Settings</string>
+    <string name="settings_analog_clock">Analog Clock Settings</string>
+    <string name="settings_calendar">Calendar Event Settings</string>
+    <string name="settings_location">Location Settings</string>
+    <string name="usage_info">Usage Information</string>
+    <string name="max_widget">Maximum 2 widgets can be selected for [Free Version]</string>
+    <string name="settings_widget_error_text1">Problem loading widget..</string>
+    <string name="settings_widget_error_text2">Long Press here to restore</string>
+    <string name="settings_notices_icon_bg">Icon Background</string>
+    <string name="settings_notices_icon_position">Icon Position</string>
+    <string name="show_bottombar_style">Set Bottom Notice Bar Style</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="delay_lock">Delay Lock</string>
+    <string name="locker_stability">Locker Stability</string>
+    <string name="priority_service_low">Low</string>
+    <string name="priority_service_mid">Mid(Icon Stays on Notification List)</string>
+    <string name="priority_service_high">High(Icon Stays on Statusbar)</string>
+    <string name="volume_key_map">Volume Keys Mapping</string>
+    <string name="settings_gesture_music_key_map1">Type 1</string>
+    <string name="settings_gesture_music_key_map2">Type 2</string>
+    <string name="screen_timeout_system">Home Launcher Screen Timeout</string>
+    <string name="screen_timeout_system_desc">set the screen timeout after unlock to your home launcher, this will overwrite your system timeout settings</string>
+
+    <!-- 6.1.21 -->
+    <string name="promotion_day_desc1">C Locker Promotion!</string>
+    <string name="promotion_day_desc2">Press [Activate] to unlock all C Locker PRO Features for free, 
+        thanks to App of the Day!</string>    
+    <string name="promotion_day_desc3">Activation is successful, please note that CLEARING the app data or 
+        UNINSTALLING C Locker will end this promotion and all PRO Features will be locked</string>
+    <string name="promotion_day_desc4">Promotion date does not match</string>
+    <string name="promotion_day_desc5">Network error, please enable internet access for PRO Features activation</string>
+    <string name="activate">Activate</string>
+    <string name="other_event_day_text_color">Select Other Day Text Color</string>
+    <string name="security_set_long_press_app">Definir pressão longa para a pesquisa Google</string>
+    <string name="security_set_long_press_app_desc">Previne aceder à pesquisa Google ao pressionar longamente o botão casa</string>
+    <string name="select_long_press_app_title">Selecionar aplicação</string>
+    <string name="select_long_press_app_desc">Por favor SELECIONE a sua aplicação favorita ao pressionar longamente</string>
+    <string name="firnger_print">Debloqueio Impressão Digital</string>
+    <string name="firnger_print_desc">Desbloquear usando o recurso impressão digital suportado por dispositivos específicos da Samsung</string>
+    <string name="firnger_print_cancel">Registo da impressão digital sem sucesso, tente de novo por favor</string>
+    <string name="firnger_print_not_registered">A impressão digital não está registada</string>
+    <string name="firnger_print_enable_PIN">Por favor ative [Desbloqueio por PIN] para usá-lo como alternativa às suas impressões digitais</string>
+
+    <!-- 6.1.0 -->
+    <string name="show_notice_content">Exibir o conteúdo da notificação</string>
+    <string name="show_notice_content_desc">Exibir o conteúdo quando pressiona o ícone da notificação</string>
+    <string name="inactive_screen_off">Desligar o ecrã inativo</string>
+	<string name="inactive_screen_off_decs">O ecrã será desligado
+		automaticamente em 10 segundos quando o C Locker não for tocado depois de ligar o ecrã</string>
+	<string name="tasker_unlock_desc1">Digitar os seus textos de desbloqueio abaixo e copiar os textos para o seu Tasker irá
+		desbloquear o C Locker quando o Tasker enviar esta transmissão num [Evento do Tasker]</string>
+    <string name="tasker_unlock_desc2">Textos de desbloqueio</string>
+    <string name="copy">Copiar</string>
+    <string name="pin_digit_4">4 Digitos</string>
+    <string name="pin_digit_6">6 Digitos</string>
+    <string name="pin_digit_8">8 Digitos</string>
+    <string name="delay_10_min">Atraso de 10 minutos</string>
+    <string name="delay_15_min">Atraso de 15 minutos</string>
+    <string name="delay_30_min">Atraso de 30 minutos</string>
+    <string name="widget_profile">Widget Perfis</string>
+    <string name="shortcut_profile">Perfis de atalhos de aplicações</string>
+    <string name="tapping_shortcut">Atalhos por toque</string>
+    <string name="double_tab1">Toque duplo (1 Dedo)</string>
+    <string name="double_tab2">Toque duplo (2 Dedos)</string>
+    <string name="triple_tab1">Toque triplo (1 Dedo)</string>
+    <string name="triple_tab2">Toque triplo (2 Dedos)</string>
+    <string name="turn_off_screen">Desligar o ecrã</string>
+    <string name="Locker_Profiles">Perfis do Locker</string>
+    <string name="device_admin">Ativar o administrador do dispositivo</string>
+    <string name="device_admin_desc">C Locker needs Device Admin permission to perform [Auto Screen Off] feature, activating Device Admin will prevent the system from uninstalling C Locker. To UNINSTALL this app, you can UNTICK [Enable C Locker] in the main settings OR DEACTIVATE C Locker in the System Device Admin Settings</string>
+
+    <!-- 6.0.0 -->
+    <string name="watch">Observar</string>
+    <string name="bottom_bar_enable_sms">Ativar lista de SMS</string>
+    <string name="bottom_bar_enable_miss_call">Ativar lista de chamadas perdidas</string>
+    <string name="settings_root_move_to_system_tick_note1">A desinstalar: DESMARCAR [Definir como aplicação do sistema], reiniciar e será capaz de desinstalar a aplicação</string>
+    <string name="shortcut_lock_circle">Bloquear ícone de atalhos</string>
+    <string name="shortcut_lock_1">Ícone superior</string>
+    <string name="shortcut_lock_2">Ícone superior direito</string>
+    <string name="shortcut_lock_3">Ícone direito</string>
+    <string name="shortcut_lock_4">Ícone inferior direito</string>
+    <string name="shortcut_lock_5">Ícone inferior</string>
+    <string name="shortcut_lock_6">Ícone inferior esquerdo</string>
+    <string name="shortcut_lock_7">Ícone esquerdo</string>
+    <string name="shortcut_lock_8">Ícone superior esquerdo</string>
+    <string name="shortcut_gesture">Atalhos de gestos</string>
+    <string name="shortcut_gesture1_up">Deslizar para cima</string>
+    <string name="shortcut_gesture1_down">Deslizar para baixo</string>
+    <string name="shortcut_gesture1_left">Deslizar para a esquerda</string>
+    <string name="shortcut_gesture1_right">Deslizar para a direita</string>
+    <string name="shortcut_gesture2_up">Deslizar para cima (2 dedos)</string>
+    <string name="shortcut_gesture2_down">Deslizar para baixo (2 dedos)</string>
+    <string name="shortcut_gesture2_left">Deslizar para a esquerda (2 dedos)</string>
+    <string name="shortcut_gesture2_right">Deslizar para a direita (2 dedos)</string>
+	<string name="shortcut_gesture3_horizotal">[Deslizar para a Esquerda/Direita] (3 dedos) 
+		irá alterar manualmente o prefil e desativará a alteração do perfil automático até o Locker ser reiniciado</string> 
+	<string name="shortcut_gesture3_vertical">[Deslizar para baixo] (3 dedos) 
+		irá atualizar a localização se a localização do perfil não estiver ativada devido a um erro de rede</string>
+    <string name="shortcut_volume_key">Atalhos dos botões de volume</string>
+    <string name="shortcut_volume_key_up">Botão de volume para cima</string>
+    <string name="shortcut_volume_key_down">Botão de volume para baixo</string>
+    <string name="shortcut_volume_key_default">Botão de volume por defeito</string>
+    <string name="no_action">Sem ação</string>
+    <string name="copy_locker_profile">Copiar a partir do perfil do Locker</string>
+    <string name="copy_music_profile">Copiar a partir do perfil de música</string>
+    <string name="copy_location_profile">Copiar a partir do perfil de localização</string>
+    <string name="select_all_pin">Selecionar PIN todos</string>
+    <string name="deselect_all_pin">Desmarcar PIN todos</string>
+    <string name="reset_current_profile">Recompor perfil atual</string>
+    <string name="reset_all_profile">Recompor todos os perfis</string>
+    <string name="select_location">Selecionar localização</string>
+    <string name="app_shortcut_layout">Layout dos atalhos de aplicações</string>
+    <string name="fragment_location_profile">Perfil de localização</string>
+    <string name="app_shortcut_list_desc">Definir atalhos de aplicações personalizadas, atalhos de botões de volume, atalhos de gestos, PIN de segurança de aplicações</string>
+    <string name="map_location_error">Localização não encontrada, erro de rede</string>
+    <string name="map_on_click_desc1">Click no mapa para obter informação sobre a localização</string>
+    <string name="map_location_distance_cover">Cobertura da localização: </string>
+    <string name="map_location_distance_50m">50 metros</string>
+    <string name="map_location_distance_100m">100 metros</string>
+    <string name="map_location_distance_200m">200 metros</string>
+    <string name="map_location_distance_500m">500 metros</string>
+    <string name="map_location_distance_1km">1 km</string>
+    <string name="map_location_distance_2km">2 km</string>
+    <string name="map_location_distance_5km">5 km</string>
+    <string name="map_location_current">Localização do perfil atual: </string>
+    <string name="map_location_null">Não selecionado</string>
+    <string name="map_maker_title">Click aqui para guardar o perfil de localização</string>
+    <string name="settings_profile_default">Ativar perfil Locker</string>
+    <string name="settings_profile_music">Ativar perfil de música</string>
+    <string name="settings_profile_location1">Ativar perfil de localização</string>
+    <string name="settings_profile_default_desc">Exibe os widgets por defeito do Locker e atalhos, isto não pode ser desativado</string>
+    <string name="settings_profile_music_desc">Exibe automáticamente os widgets do perfil de música e atalhos quando há música a ser reproduzida ou fone inserido</string>
+    <string name="settings_profile_location1_desc">Exibe automáticamente os widgets do perfil de localização e atalhos quando está na localização predefinida</string>
+    <string name="pin_not_allow">Apenas um PIN pode ser definido [Versão grátis]</string>
+    <string name="ctr_tv_animation_desc">Ativar animação TV antiga quando liga o ecrã</string>
+    <string name="ctr_tv_animation">Ativar animação CRT</string>
+    <string name="finish_anim_desc">Definir animação de desbloqueio</string>
+    <string name="default_">Por defeito</string>
+    <string name="finish_anim_zoom_out">Afastar</string>
+    <string name="finish_anim_zoom_in">Aproximar</string>
+    <string name="finish_anim_rotation">Rotação</string>
+    <string name="personal_msg">Personal Information</string>
+    <string name="personal_msg_desc">Enter your personal information here</string>
+    <string name="delay_pin_desc">PIN activation time after the Screen is OFF</string>
+    <string name="security_pin_unlock_desc">Enable PIN Unlock</string>
+    <string name="show_sender_picture">Show Sender Picture</string>
+    <string name="show_sender_picture_desc">Show sender\'s picture from incoming message or email if available</string>
+
+    <!-- 5.1.0 -->
+    <string name="settings_root">Segurança Avançada (Root)</string>
+    <string name="settings_root_desc">[ACCESSO AO ROOT REQUERIDO] Permite ocultar o relógio da barra de status, bloquear a barra de status</string>
+    <string name="settings_root_move_to_system">Definir como aplicação do sistema</string>
+    <string name="settings_root_move_to_system_tick">Definir o C Locker como aplicação do sistema para ganhar permissão para ativar os recursos abaixo</string>
+    <string name="settings_root_move_to_system_untick">Desmarc ar para mover aplicação do sistema para aplicação normal</string>
+    <string name="settings_root_move_to_system_steps">Nota do processo</string>
+    <string name="settings_root_dialog_1">Adquirir permissões do SU..</string>
+    <string name="settings_root_dialog_2">A mover aplicação para aplicação do sistema..</string>
+    <string name="settings_root_dialog_3">se esta ação for bem SUCEDIDA, o C Locker deverá ter um fecho forçado (FF)</string>
+    <string name="settings_root_dialog_4">Não se preocupe com o FF, reinicie o dispositivo e defina novamente as definições do C Locker</string>
+    <string name="settings_root_dialog_5">A reinstalar aplicação.. por favor aguarde alguns segundos</string>
+    <string name="settings_root_failed">Ação falhada, por favor tente novamente</string>
+    <string name="settings_root_denied">Ação falhada, SU não foi garantido</string>
+    <string name="settings_root_successful">Ação bem sucedida, por favor reinicie o dispositivo</string>
+    <string name="settings_root_note">Por favor defina o C Locker como aplicação do sistema</string>
+    <string name="settings_root_block_statusbar">Desativar barra de status</string>
+    <string name="settings_root_block_statusbar_desc">Previne a barra de status de ser puxada para baixo</string>
+    <string name="settings_root_hide_clock">Ocultar o relógio da barra de status</string>
+    <string name="settings_root_hide_clock_desc">O relógio da barra de status não será exibido no Locker</string>
+    <string name="configuring">A configurar..</string>
+    <string name="settings_main_backup_found">Restaurar definições</string>
+    <string name="settings_main_backup_found_desc">Foram encontrados backups das definições do C Locker, quer restaurar as definições?</string>
+    <string name="settings_root_hide_icon">Ocultar ícones da barra de status</string>
+    <string name="settings_root_hide_icon_desc">Os ícones da barra de status não serão exibidos no Locker</string>
+    <string name="settings_root_hide_alert">Ocultar alertas na barra de status</string>
+    <string name="settings_root_hide_alert_desc">Isto irá bloquear o som, vibração e outros tipos de notificações visuais</string>
+    <string name="settings_root_hide_navi_keys">Ocultar botões de navegação</string>
+    <string name="settings_root_hide_navi_keys_desc">O botão casa, voltar, recentes, não serão exibidos no Locker (NÃO aplicável aos botões físicos)</string>
+	<string name="settings_root_move_to_system_tick_note">Nota : Os recursos acima não dão garantias de funcionar, 
+		depende da versão do sistema suportada. Ao executar com roms personalizadas ou tendo modificações do sistema pode interferir com as funções</string>
+    <string name="settings_root_move_to_system_tick2">Nota: Definir o C Locker como aplicação do sistema permite ativar com mais rapidez porque tem prioridade para ser executado antes das aplicações normais</string>
+
+    <!-- 5.0.0 -->
+    <string name="sound_type_1">Pressione a tecla 1</string>
+    <string name="sound_type_2">Pressione a tecla 2</string>
+    <string name="sound_system_ringtone">Toque do sistema</string>
+    <string name="notice_settings_screen_on">Ligar ecrã</string>
+    <string name="notice_settings_screen_on_desc1">Liga o ecrã por 5 segundos quando recebe avisos com o ecrã desligado</string>
+    <string name="notice_settings_screen_on_desc2">Nota: o ecrã não se irá ligar se estiver no bolso/ turn on if it is in pocket/voltado para baixo ou se o aviso for repetido</string>
+    <string name="settings_gesture_music_key_map_desc">Se o botão de volume para saltar a Próxima/Anterior música não funcionar, tente definir outro tipo</string>
+    <string name="settings_notices_bg_empty">Transparente</string>
+    <string name="settings_notices_bg_black">Preto</string>
+    <string name="settings_notices_bg_desc">Definir o fundo dos ícones de notificação</string>
+    <string name="settings_widget_desc">Definir widgets de aplicações padrão ou personalizados no ecrã de bloqueio</string>
+    <string name="settings_widget_dialog">Selecionar Widget</string>
+    <string name="settings_widget_locker_widget">Widgets do C Locker</string>
+    <string name="settings_widget_apps_widget">Widgets de aplicações (Pro)</string>
+    <string name="settings_widget_help">Dicas</string>
+    <string name="settings_widget_size_over">O widget não pode ser adicionado, excede o tamanho do layout</string>
+    <string name="settings_widget_not_allow">O widget já foi adicionado</string>
+    <string name="settings_display_statusbar_hide">Ocultar a barra de estado</string>
+    <string name="settings_display_transparentbar">Barra de estado transparente</string>
+    <string name="settings_display_transparentbar_error">Supor tado apenas para Android 4.4v Kitkat</string>
+    <string name="settings_widget_analog_center">Relógio analógico - Centro</string>
+    <string name="settings_widget_digital_center">Relógio digital - Centro</string>
+    <string name="settings_widget_event_list">Lista do calendário</string>
+    <string name="settings_widget_rss_list">Lista RSS</string>
+    <string name="list_rss">RSS Feeds</string>
+    <string name="list_apps_select">Selecionar aplicações</string>
+    <string name="fragment_locker_profile">Perfil Locker</string>
+    <string name="fragment_music_profile">Perfil música</string>
+    <string name="settings_widget_add">Pressão longa aqui para adicionar widget</string>
+    <string name="settings_widget_delete">Apagar</string>
+    <string name="settings_widget_delete_all">Apagar todos os widgets</string>
+    <string name="settings_widget_music_profile">-Widgets definidos no perfil música serão exibidos quando está a ouvir música ou quando os fones estão inseridos</string>
+    <string name="settings_widget_long_press_note">-Pessão longa no widget para redimensionar, apagar, etc</string>
+    <string name="set">Definir</string>
+    <string name="settings_widget_music_widget">Widgets de música</string>
+    <string name="tips_tricks_youtube_01">Ocultar o ícone do C Locker(4.2mb)</string>
+    <string name="tips_tricks_youtube_02">Desbloquear o click widget personalizado (3.1mb)</string>
+    <string name="tips_tricks_youtube_03">Definir os passos do botão casa (4.9mb)</string>
+    <string name="tips_tricks_youtube_04">Ícones de notificação - Abrir aplicação (2.4mb)</string>
+    <string name="tips_tricks_youtube_05">Ícones de notificação - Excluir um ícone (1.3mb)</string>
+    <string name="tips_tricks_youtube_06">Ícones de notificação - Limpar todos os ícones (1.2mb)</string>
+    <string name="tips_tricks_youtube_07">Abrir o atalho da lista RSS (4.6mb)</string>
+    <string name="tips_tricks_youtube_08">Abrir o atalho do link RSS webpage (7.4mb)</string>
+    <string name="later">Mais tarde</string>
+    <string name="settings_about">Sobre o C Locker</string>
+    <string name="settings_about_translation">Tradução</string>
+	<string name="settings_about_translation_desc">Se a tradução do C Locker não está disponível no seu idioma, 
+		aprecio o seu apoio para obter os ficheiros de maneira a ajudar na tradução e ligar ao Google+ acima
+		ou no fórum XDA uma vez completa para eu poder atualizar</string>
+    <string name="email_logs">Envie-me um Email</string>
+    <string name="email_logs_desc">Envie-me um Email com os relatórios de erro anexados e a versão do software do seu telefone de maneira a corrigir os erros e a aperfeiçoar</string>
+
+    <!-- 4.6.4 -->
+    <string name="settings_clock_analog_color1">Relógio analógico</string>
+    <string name="settings_clock_analog_color2">Cor do relógio analógico</string>
+    <string name="settings_bottom_bar_tab_color1">Aba da barra inferior</string>
+    <string name="settings_bottom_bar_tab_color2">Cor da aba da barra inferior</string>
+    <string name="settings_bottom_bar">Barra de aviso inferior</string>
+    <string name="settings_main_general">Opções Gerais</string>
+    <string name="settings_main_visual">Visual</string>
+    <string name="settings_main_shortcut">Atalho</string>
+    <string name="settings_main_more">Mais..</string>
+    <string name="dialog_title">Lembrete amigável</string>
+    <string name="tips_tricks_youtube_0">Links do Youtube:</string>
+    <string name="security_set_homekey_">Definir o botão casa</string>
+    <string name="security_set_homekey_desc">Impedir o acesso ao ecrã principal ao pressionar o botão casa</string>
+    <string name="security_set_default_locker_none">Desligar o ecrã de bloqueio padrão</string>
+    <string name="security_set_default_locker_none_desc">Defin ir o ecrã de bloqueio padrão para [Nenhum] para impedir de mostrar 2 ecrãs de bloqueio</string>
+    <string name="security_set_default_locker_none_not_support">Configurações do ecrã de bloqueio não suportadas</string>
+    <string name="notice_settings_desc">Definir notificações recebidas, facebook, g+, whatsapp, gmail, sms, relatórios de chamadas perdidas, eventos do calendário, rss feed etc</string>
+    <string name="tips_tricks_decs">Mostrar-lhe algumas das características ou configurações que pode ter perdido no Youtube link</string>
+    <string name="notice_show_icon_clear_desc">Permitir que o ícone de notificação possa ser excluído quando arrastar e soltar para dentro do Ícone Excluir</string>
+    <string name="notice_show_icon_clear">Exibir Ícone Excluir</string>
+    <string name="settings_tasker">Tasker</string>
+    <string name="settings_tasker_desc">Para usuários avançados, isto ativa o Locker para se incorporar com aplicações populares - [Tasker] para criar mais opções avançadas</string>
+    <string name="settings_tasker_shortcut_count_desc">Enviar a intenção do Tasker quando há um atalho de uma aplicação a ser iniciado a partir do locker, fornecendo dados adicionais para a contagem total de aplicações a abrir, tipo de ação, índice de atalhos</string>
+    <string name="settings_tasker_shortcut_count">Enable Shortcut Apps Openning Listener</string>
+    <string name="settings_tasker_shortcut_count_intent">Action: com.ccs.lockscreen_pro.mTASKER_ACTION</string>
+    <string name="settings_tasker_shortcut_count_ex_data1">Extra#1 data:%shortcut_app_count</string>
+    <string name="settings_tasker_shortcut_count_ex_data2">Extra#2 data:%shortcut_launch_type</string>
+    <string name="settings_tasker_shortcut_count_ex_data3">Extra#3 data:%shortcut_app_index</string>
+    <string name="settings_tasker_feedback">Para mais detalhes e solicitar novas intenções, bem-vindo a contactar-me no e-mail: [cheahchinseng@gmail.com]</string>
+
+    <!-- 4.6.0 -->
+    <string name="notice_apps_select">Selecione as aplicações de notificação</string>
+    <string name="event_today_text_color">Selecione a cor do texto de hoje</string>
+    <string name="notice_only2_app_fv">Máximo de 2 aplicações podem ser selecionadas para [Versão grátis]</string>
+    <string name="notice_tap_to_open">Arraste aqui para abrir</string>
+    <string name="notice_tap_to_clear_all">Arraste aqui para limpar todos os avisos</string>
+    <string name="notice_settings">Notificação</string>
+    <string name="notice_apps_layout_desc">Defina os ícones de notificação mostradas na Esquerda/Direita no painel Locker</string>
+    <string name="notice_apps_layout_left">Esquerda</string>
+    <string name="notice_apps_layout_right">Direita</string>
+    <string name="notice_apps_select_desc1">Defina as aplicações que deseja mostrar ao receber novas notificações</string>
+    <string name="notice_apps_select_desc2">Máximo de 2 aplicações podem ser selecionadas para [Versão grátis]</string>
+    <string name="bottom_bar_statusbar_notices">Ativar aplicação de notificação</string>
+    <string name="bottom_bar_statusbar_notices_desc1">Ativar notificações recebidas do facebook, whatsapp, google+ etc.. basicamente, todos os avisos de aplicações são suportados</string>
+    <string name="bottom_bar_statusbar_notices_desc2">Nota: Suporta apenas Android 4.3 e acima</string>
+    <string name="bottom_bar_statusbar_notices_desc3">Nota: Notificação da permissão de acesso para [C Locker] é NECESSÁRIA</string>
+    <string name="bottom_bar_statusbar_notices_desc4">Suporta apenas Android 4.3 e acima</string>
+    <string name="bottom_bar_set_notices_app_desc">Por favor ative a aplicação de notificação</string>
+    <string name="settings_shortcut_icon_visible">Ícones permanecem visíveis</string>
+    <string name="settings_shortcut_animation">Ativa a animação do layout do atalho</string>
+    <string name="settings_shortcut_style">Estilo</string>
+    <string name="settings_shortcut_style_desc">Selecione o estilo da animação e cor</string>
+    <string name="settings_shortcut_effect_on_press">Ativar o efeito do ícone ao perssionar</string>
+    <string name="settings_shortcut_effect_on_press_desc">Sele cione o estilo do efeito e cor</string>
+    <string name="picker_color_custom_color_wrong_text">Por favor, introduzir códigos hexadecimais em 6 dígitos (RRGGBB)</string>
+    <string name="picker_color_custom_color">Escolha os seus códigos de cores personalizadas "RRGGBB"</string>
+
+    <!-- 4.4.0 -->
+    <string name="locker_widget_click_enable">Ativar o click widget</string>
+    <string name="locker_widget_click_enabled">Click widget ativado</string>
+    <string name="settings_shortcut_icon_app">Selecionar ícones das aplicações</string>
+    <string name="settings_shortcut_icon_gallery">Selecionar ícone da galeria</string>
+    <string name="security_sms_unlock">Introduza a palavra passe para desbloquear o Locker através do envio de uma SMS através de outro telefone, isto não se aplicará se tiver ativado "Password de bloqueio do sistema"</string>
+
+    <!-- 4.1.0 -->
+    <string name="color_dialog_title">Aplicar cores</string>
+    <string name="color_dialog_desc">Quer aplicar esta cor nos itens abaixo?</string>
+    <string name="color_locker_text">Textos Locker</string>
+    <string name="color_locker_blinking">Ícone central a piscar</string>
+    <string name="color_locker_icon_bg">Fundo dos ícones de atalho</string>
+    <string name="color_bottom_bar_btty_lvl">Barra do nível da bateria em baixo</string>
+    <string name="color_bottom_bar_text">Textos da barra de notas em baixo</string>
+    <string name="settings_others_proxi_sensor_desc1">Ativar o sensor de proximidade para desligar automáticamente o ecrã se o Locker for posto num bolso, mala.. com o ecrã ligado</string>
+    <string name="settings_others_proxi_sensor_desc2">__Isto também irá desligar o ecrã se ele se tiver ligado acidentalmente no bolso, mala..</string>
+    <string name="settings_others_proxi_sensor_desc3">__NOTA: Ativando(alguns dispositivos Samsung) o Smart Stay, Swipe Screen Capture, Android DayDream e outros recursos semelhantes pode afetar esta função e não funcionará corretamente</string>
+    <string name="settings_others_proxi_sensor">Ativar o sensor de proximidade</string>
+
+    <!-- 4.0.0 -->
+    <string name="settings_display_desc">Definir o papel de parede, fundo nível de escurecimento, luzes a piscar</string>
+    <string name="settings_app_shortcut_desc">Definir atalhos de aplicações personalizadas, alterar o ícone dos atalhos</string>
+    <string name="settings_other_options_desc">Definir o tempo limite do ecrã, atrasar o bloqueio, som de desbloqueio, vibração</string>
+    <string name="settings_security_desc">Definir a senha do Locker, controlo do botão casa, controlo das configurações do sistema</string>
+    <string name="settings_backup_restore_desc">Configurações de backup e restauro quando a aplicação é reinstalada</string>
+    <string name="settings_rate_myapp">Avalie-me</string>
+    <string name="settings_rate_myapp_desc">Se está a gostar do Locker, por favor, considere colocar a sua avaliação e revisão na Play Store :)</string>
+
+    <!-- 3.2.0 -->
+    <string name="other_option_shortcuts_no_lock_desc1">O Locker não será ATIVADO quando iniciar qualquer aplicação de atalho a partir do Locker depois do ecrã estar desligado e em seguida ligado</string>
+    <string name="other_option_shortcuts_no_lock_desc2">Isto permitirá que a aplicação Atalho permaneça no ecrã</string>
+    <string name="other_option_shortcuts_no_lock">Desativar o Locker em Atalho</string>
+    <string name="other_option_shortcuts_delay_lock_desc">Temp o de ativação do Locker depois do ecrã estar desligado</string>
+    <string name="other_option_shortcuts_delay_lock_now">Bloqu ear imediatamente</string>
+    <string name="other_option_shortcuts_delay_lock_5_sec">Atr asar 5 segundos</string>
+    <string name="other_option_shortcuts_delay_lock_10_sec">At rasar 10 segundos</string>
+    <string name="other_option_shortcuts_delay_lock_15_sec">At rasar 15 segundos</string>
+    <string name="other_option_shortcuts_delay_lock_30_sec">At rasar 30 segundos</string>
+    <string name="other_option_shortcuts_delay_lock_1_min">Atr asar 1 minuto</string>
+    <string name="other_option_shortcuts_delay_lock_2_min">Atr asar 2 minutos</string>
+    <string name="other_option_shortcuts_delay_lock_5_min">Atr asar 5 minutos</string>
+    <string name="bottom_bar_enable_list_desc">Ativar para Exibir/Ocultar alguns da lista</string>
+    <string name="bottom_bar_enable_gmail">Ativar a lista do Gmail</string>
+    <string name="bottom_bar_enable_cld_event">Ativar a lista de eventos do calendário</string>
+    <string name="bottom_bar_enable_rss">Ativar a lista de RSS Feeds</string>
+    <string name="bottom_bar_notice_text_color">Selecionar a cor do texto do aviso</string>
+    <string name="bottom_bar_show_arrow_up_icon">Exibir apenas o ícone da seta para cima</string>
+    <string name="bottom_bar_show_battery_bar">Exibir a barra da bateria com textos de informação</string>
+    <string name="bottom_bar_show_info_bar">Exibir apenas textos de informação</string>
+
+    <!-- 3.0.0 -->
+    <string name="settings_backup_restore">Backup e Restauração</string>
+    <string name="settings_backup">configurações de backup</string>
+    <string name="settings_restore">restaurar configurações</string>
+    <string name="clock_analog_update_in_second_desc">Ativar isto para atualizar o relógio analógico a cada segundo e exibir a segunda seta vermelha, caso contrário irá ser atualizado a cada minuto</string>
+    <string name="clock_analog_update_in_second">Relógio analógico atualizado ao segundo</string>
+    <string name="tips_tricks">Truques e dicas</string>
+    <string name="settings_dont_show_again">Não exibir isto novamente</string>
+    <string name="clock_analog_enable">Relógio analógico</string>
+    <string name="viewpager_events">Eventos</string>
+    <string name="viewpager_gmail">Gmail</string>
+    <string name="viewpager_call_log">Chamadas perdidas</string>
+    <string name="viewpager_sms">SMS</string>
+    <string name="viewpager_rss">RSS</string>
+    <string name="bottom_bar_unread">Não lido</string>
+    <string name="bottom_bar_today">Hoje</string>
+    <string name="bottom_bar_new_notice">Novo</string>
+    <string name="bottom_bar_drag_enable_desc">Ativar a função de exibir a barra inferior de aviso deslizando para cima, para exibir os detalhes da notificação na parte inferior:</string>
+    <string name="bottom_bar_drag_enable_desc1">1)Lembrete dos eventos do calendário(Pro)</string>
+    <string name="bottom_bar_drag_enable_desc2">2)Aviso do Gmail</string>
+    <string name="bottom_bar_drag_enable_desc3">3)Aviso de chamadas perdidas</string>
+    <string name="bottom_bar_drag_enable_desc4">4)Aviso de nova mensagem</string>
+    <string name="bottom_bar_drag_enable_desc5">5)Aviso de RSS Feeds</string>
+    <string name="bottom_bar_drag_enable">Ativar barra de aviso</string>
+    <string name="bottom_bar_popup_enable_desc">A barra inferior de aviso irá surgir para exibir a notificação quando receber novas notificações</string>
+    <string name="bottom_bar_popup_enable">Ativar notificação da barra de aviso</string>
+    <string name="bottom_bar_sms_calllog_desc">Opções de SMS / chamadas perdidas</string>
+    <string name="bottom_bar_show_sms_content">Exibir SMS número de contacto, conteúdo</string>
+    <string name="bottom_bar_show_last7day_sms">Exibir SMS dos últimos 7 dias</string>
+    <string name="bottom_bar_show_calllog_content">Exibir o número do contacto das chamadas perdidas</string>
+    <string name="bottom_bar_show_last7day_calllog">Exibir o registo das chamadas dos últimos 7 dias</string>
+    <string name="bottom_bar_test_sms_desc">O aviso das SMS pode não funcionar em alguns dispositivos, pressione o botão para testar a função. Se não funcionar, envie a informação do dispositivo ao desenvolvedor para obter ajuda</string>
+    <string name="bottom_bar_test_sms">Testar a função de aviso das SMS</string>
+    <string name="bottom_bar_test_sms_supported">O aviso das SMS funciona</string>
+    <string name="bottom_bar_test_sms_not_supported">O aviso das SMS não funciona, enviar email ao Desenvolvedor ou cancelar</string>
+    <string name="bottom_bar_notice_not_supported_assist">O aviso das não funciona, pressione aqui para enviar a informação do dispositivo ao Desenvolvedor</string>
+
+    <!-- 2.5.5 -->
+    <string name="security">Segurança</string>
+    <string name="prevent_locker_kill_notice">O C Locker está ativado</string>
+    <string name="prevent_locker_kill_notice_desc">Pressione para abrir as definições do Locker</string>
+    <string name="prevent_locker_kill_desc1">Coloque o Locker na lista de prioridade do Sistema para evitar de ser parado facilmente pelo sistema quando a memória do dispositivo está baixa</string>
+    <string name="select_settings_app">SELECIONE Configurações do sistema do dispositivo</string>
+    <string name="select_settings_default_desc">Por favor SELECIONE [C_Locker] com [Sempre] ou [Use por padrão], senão esta ação será CANCELADA.</string>
+    <string name="clear_settings_default_title">Limpar configuração padrão</string>
+    <string name="clear_settings_default_desc">PRESSIONE em [Limpar Padrões] no painel "informação da aplicação" das configurações</string>
+    <string name="clear_launcher_default_desc">PRESSIONE em [Limpar Padrões] no painel "informação da aplicação" do outro lançador</string>
+
+    <!-- 2.5.0 -->
+    <string name="no_pass_set">Não foi definida nenhuma senha, tente de novo por favor</string>
+    <string name="security_type">Selecione o tipo de segurança</string>
+    <string name="system_lock">Sistema de bloqueio - Segurança alta</string>
+
+    <!-- 2.4.0 -->
+    <string name="enable_vibration">Ativar Vibração</string>
+
+    <!-- 2.3.3 -->
+    <string name="check_all">Marcar todos</string>
+    <string name="uncheck_all">Desmarcar todos</string>
+    <string name="custom_rss">RSS personalizado</string>
+    <string name="preset_rss">RSS predefinido</string>
+    <string name="test_rss">Teste</string>
+    <string name="keyin_rss_url">Chave do url RSS..</string>
+    <string name="empty_rss_url">RSS url não foi detetado</string>
+    <string name="error_rss_url">RSS url não suportado</string>
+
+    <!-- 2.3.2 -->
+    <string name="set_wallpaper_dim_desc">Defina o nível de escurecimento do papel de parede</string>
+    <string name="set_wallpaper_dim_none">Nenhum</string>
+    <string name="set_wallpaper_dim_light">Claro Escuro</string>
+    <string name="set_wallpaper_dim_dark">Escuro</string>
+
+    <!-- 2.3.0 -->
+    <string name="rss_display_style_fast_top">Deslizamento Superfície superior-Superfície inferior(Rápido)</string>
+    <string name="rss_display_style_fast">Deslizamento Direita-Esquerda(Rápido)</string>
+    <string name="calendar_account">Lista da conta do calendário</string>
+    <string name="calendar_account_select">Selecione contas do calendário</string>
+    <string name="events_loading">A carregar eventos, Aguarde</string>
+    <string name="password_unlock_settings">Definições do PIN para desbloquear</string>
+    <string name="emergency_unlock">Ativar o desbloqueador de chamadas de emergência ficando a pressionar o botão Voltar e o botão do volume para baixo</string>
+    <string name="emergency_call">Chamadas de emergência</string>
+    <string name="password_not_complete">PIN imcompleto. Tente de novo</string>
+    <string name="type_new_password">Introduzir o PIN</string>
+    <string name="type_confirm_password">Confirmar o PIN</string>
+    <string name="password_not_matched">PIN incorreto. Tente de novo</string>
+    <string name="try_ec_no">Tente marcar 112, 911, 999 ou outro número de emergência</string>
+    <string name="change_password">Introduzir PIN para desativar</string>
+    <string name="dialog_pro_version_title">Atualize para a versão Pro</string>
+	<string name="dialog_pro_version">Por favor atualize para a versão Pro para apoiar o meu trabalho e
+	    para ativar as seguintes funções</string>
+    <string name="enable_screen_off_volume">Ativar o controlo dos botões do volume quando o ecrã está desligado</string>
+    <string name="enable_screen_off_volume_desc1">Controle os botões do volume do seu dispositivo com o ecrã desligado se não estiver a ser reproduzido mais nada ao:</string>
+    <string name="enable_screen_off_volume_desc2">1)Pressionar 1 vez o volume Cima/Baixo para ir para a Próxima/Anterior música</string>
+    <string name="enable_screen_off_volume_desc3">2)Ir pressionando para Aumentar/Diminuir o volume</string>
+    <string name="enable_screen_off_volume_desc4">*Isto desativará automáticamente os fones</string>
+    <string name="show_apps_image_alltime_note">NOTA: quando o Exibir não está marcado, os ícones das aplicações serão exibidos automáticamente quando o botão Lock é pressionado</string>
+
+    <!-- 2.2.8 -->
+    <string name="rss_display_style">Exibir estilo na barra de informação do Locker</string>
+    <string name="rss_display_style_slow">Marquesinha (Lento)</string>
+    <string name="network_error">Erro de rede, por favor tente mais tarde</string>
+    <string name="rss_updated">C Locker RSS Feeds Atualizado</string>
+
+    <!-- 2.1.0 -->
+    <string name="next_event_1days">Exibir apenas evento(s) para hoje</string>
+    <string name="next_event_3days">Exibir eventos dos próximos 3 dias</string>
+    <string name="next_event_7days">Exibir evento(s) da próxima semana</string>
+    <string name="next_event_14days">Exibir evento(s) das próximas 2 semanas</string>
+    <string name="next_event_30days">Exibir evento(s) do próximo mês</string>
+    <string name="next_event_60days">Exibir evento(s) dos próximos 3 meses</string>
+    <string name="next_event_90days">Exibir evento(s) dos próximos 6 meses</string>
+    <string name="drop_statusbar">Barra de estado suspensa</string>
+    <string name="enable_rss_refresh_notice">Exibir noticías RSS atualizadas</string>
+    <string name="enable_calendar_events">Ativar eventos do calendário</string>
+
+    <!-- 2.0.1 -->
+    <string name="gesture_desc">Defina os gestos do Locker para iniciar ações deslizando para qualquer direção</string>
+    <string name="gesture_selection">Selecione as ações dos gestos</string>
+    <string name="gesture_action_sms_desc">Envie SMS para o seu favorito</string>
+    <string name="gesture_action_call_desc">Chamar o seu favorito</string>
+    <string name="gesture_action_sms">Enviar SMS para</string>
+    <string name="gesture_action_call">Chamada</string>
+    <string name="gesture_no_contact">Nenhum contacto selecionado</string>
+    <string name="follow_system_timeout">Seguir o tempo limite do ecrã definido pelo sistema</string>
+
+    <!-- 2.0.0 -->
+    <string name="total_news">Novidades Totais</string>
+    <string name="rss_settings">Definições RSS Feeds</string>
+    <string name="rss_select">Selecione novas feeds</string>
+    <string name="rss_refresh">Atualizar RSS Feeds</string>
+    <string name="show_rss">Exibir notícias RSS</string>
+    <string name="show_rss_desc">Exibir notícias RSS News na parte inferior da barra de informação no ecrã de bloqueio quando está ativado</string>
+    <string name="rss_updating">A atualizar notícias Feeds</string>
+    <string name="rss_update_interval">Intervalo das atualizações RSS</string>
+    <string name="next_update">Próxima atualização:</string>
+    <string name="next_update_never">Próxima atualização: Nunca</string>
+    <string name="next_update_error">Próxima atualização: Erro, Por favor refaça as definições</string>
+    <string name="last_update_successful_at">Última atualização feita com sucesso</string>
+    <string name="never">Nunca</string>
+    <string name="every_1_hour">A toda a hora</string>
+    <string name="every_2_hour">Todas as 2 horas</string>
+    <string name="every_3_hour">Todas as 3 horas</string>
+    <string name="every_6_hour">Todas as 6 horas</string>
+    <string name="every_12_hour">Todas as 12 horas</string>
+    <string name="once_a_day">Uma vez por dia</string>
+    <string name="launch_rss">Iniciar as notícias RSS Feeds</string>
+
+    <!-- 1.9.0 -->
+    <string name="enable_animation_desc">Ativar mudança de hora, ícones de atalhos, animação da barra de informação no ecrã de bloqueio</string>
+    <string name="enable_animation">Ativar animação</string>
+    <string name="show_apps_image_alltime">Exibir/Ocultar os ícones dos atalhos no ecrã de desbloqueio</string>
+    <string name="donate">Doar</string>
+
+    <!-- 1.7.0 -->
+    <string name="set_portrait">Aivar o ecrã apenas em modo retrato</string>
+    <string name="set_portrait_desc">Definir para ativar o ecrã em modo retrato e em modo paisagem</string>
+    <string name="unknown_number">Número desconhecido</string>
+
+    <!-- 1.6.0 -->
+    <string name="select_app">Selecione uma aplicação</string>
+    <string name="set_as_unlock">Definir como botão de desbloquear</string>
+    <string name="hide_icon">Ocultar o ícone</string>
+    <string name="shortcut_app_title">Seleção de atalhos de aplicações</string>
+
+    <!-- 1.5.0 -->
+    <string name="enable_volume_rocker_control">Ativar o controlo dos botões do volume</string>
+    <string name="set_volume_rocker_selection">Selecione a ação dos botões do volume</string>
+
+    <!-- 1.4.2 -->
+    <string name="show_square_light_on_touch_desc">Exibir/Ocultar as luzes brilhantes à volta dos ícones pressionados</string>
+    <string name="hide_unused_icons">Exibir/Ocultar os ícones dos atalhos não utilizados</string>
+
+    <!-- 1.4.1 -->
+    <string name="screen_timeout">Tempo limite do ecrã de desbloqueio</string>
+    <string name="enable_returnLS_disc">Ative isto para voltar ao ecrã de desbloqueio depois de fechar o atalho da aplicação em vez do lançador padrão</string>
+    <string name="enable_returnLS">Ative para voltar ao ecrã de desbloqueio</string>
+
+    <!-- 1.4.0 -->
+    <string name="enable_setLockSound">Ative o som de bloqueio</string>
+    <string name="enable_setUnlockSound">Ative o som de desbloqueio</string>
+    <string name="sound_select">Selecione um som</string>
+    <string name="imageType_1">Retrato (720x1280)</string>
+    <string name="imageType_2">Paisagem (1280x720)</string>
+    <string name="imageType_3">Tamanho livre</string>
+    <string name="selectImageType">Selecione o tamanho de corte da imagem</string>
+    <string name="other_options">Outras opções</string>
+
+    <!-- 1.3.2 -->
+    <string name="ringtone_notice">If you wish have your own unlock sound, please copy your [media file] to [/sdcard/media/audio/ringtone/]folder. it will appear in the selection list</string>
+    <string name="ringtone_title">Select unlocking sound</string>
+    <string name="select_from_file">Dos toques de telefone do sistema</string>
+
+    <!-- 1.3.1 -->
+    <string name="wallpaper_cancelled">Seleção do papel de parede personalizado cancelada</string>
+    <string name="wallpaper_not_supported">O papel de parede personalizado não é suportado por este dispositivo</string>
+    <string name="wallpaper_crop_error">Erro ao cortar o papel de parede personalizado, por favor tente selecionar outra opção de corte</string>
+    <string name="select_launcher_default_desc">Por favor Selecione [C_Locker] com [Sempre] ou [Use por defeito], senão esta ação será cancelada</string>
+    <string name="select_launcher_app_desc">Por favor Selecione o lançador que quiser depois de desbloquear o ecrã de bloqueio</string>
+
+    <!-- 1.2.2 -->
+    <string name="show_battery_bar_desc">Exibir/Ocultar a informação da bateria no ecrã de desbloqueio</string>
+    <string name="enable_vibration_desc">Ativar/Desativar a vibração quando arrasta um ícone no ecrã de desbloqueio</string>
+    <string name="enable">Ativar</string>
+
+    <!-- 1.2.0 -->
+    <string name="time_format">Formato da hora</string>
+    <string name="show_clock_am">Exibir AM/PM</string>
+
+    <!-- LockScreenActivity -->
+    <string name="unlock">Desbloquear</string>
+    <string name="lock">Bloqueado</string>
+    <string name="call">Chamada</string>
+    <string name="sms">SMS</string>
+    <string name="camera">Câmera</string>
+    <string name="flash">Flash</string>
+    <string name="off_flash">Desligar a luz do flash</string>
+    <string name="map">Mapas</string>
+    <string name="internet">Internet</string>
+    <string name="youtube">YouTube</string>
+    <string name="launch_lockscreen_settings">Iniciar definições do ecrã de desbloqueio</string>
+    <string name="launch_app">Iniciar aplicação</string>
+    <string name="alarm">Alarme</string>
+    <string name="battery">Bateria</string>
+    <string name="usb_charging">Carregamento USB</string>
+    <string name="ac_charging">Carregamento AC</string>
+    <string name="miss_call">Chamada perdida</string>
+    <string name="from">de</string>
+
+    <!-- AppListsActivity -->
+    <string name="updating_apps_list">Atualizar lista de aplicações</string>
+
+    <!-- Picker Text Style -->
+    <string name="text_style_show_free">Estilo 0123456789</string>
+    <string name="text_style_show_paid">Estilo 0123456789 (Versão Pro)</string>
+
+    <!-- Lock Screen Setting -->
+    <string name="display">Ecrã</string>
+    <string name="set_wallpaper">Selecione o papel de parede a ser exibido no ecrã de desbloqueio</string>
+    <string name="home_wallpaper">Papel de parede do ecrã principal/papel de parede animado</string>
+    <string name="from_picture">Da galeria</string>
+    <string name="mix_color">Cores misturadas</string>
+    <string name="show">Exibir</string>
+    <string name="hide">Ocultar</string>
+    <string name="set_clock_bg_style">Selecionar o estilo do plano de fundo do relógio</string>
+    <string name="clear">Limpar</string>
+    <string name="transparent_blk">Preto transparente</string>
+    <string name="clock_center">Relógio no centro</string>
+    <string name="show_next_alarm">Exibir a hora do próximo alarme</string>
+    <string name="text_style">Estilo do texto</string>
+    <string name="text_color">Cor do texto</string>
+    <string name="tap_icon_to_set_shortcut">-Clique no ícone para definir o atalho da aplicação no ecrã de desbloqueio</string>
+    <string name="collecting_all_apps_info">A recolher todas as informações das aplicações</string>
+    <string name="saving_wallpaper">A guardar papel de parede</string>
+
+    <!-- Image Content Desc -->
+    <string name="img_desc">Imagem</string>
+
+    <!-- Activity Title -->
+    <string name="app_name">C Locker</string>
+    <string name="lock_screen_settings">Definições do C Locker</string>
+    <string name="apps_shortcut">Selecione uma aplicação</string>
+    <string name="lockscreen_custom_background">Papéis de parede personalizados para o fundo do ecrã de bloqueio</string>
+    <string name="select_a_color">Selecione uma cor</string>
+    <string name="select_a_texttype">Selecione um estilo de texto para o ecrã de bloqueio</string>
+    <string name="hide_fingerprint_icon">Hide Fingerprint Icon</string>
+    <string name="access_summary">C Locker Accessibility Service Information</string>
+</resources>

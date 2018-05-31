@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_selector"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_small"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large"
+    android:paddingTop="@dimen/padding_small">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_cld_account_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:textColor="@color/colorTextDesc"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/text_size_decs" />
+
+        <TextView
+            android:id="@+id/txt_cld_account_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:textColor="@color/colorTextTitle"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/text_size_title" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/cBox_cld_account_name"
+        layout="@layout/view_checkbox_right" />
+</LinearLayout>

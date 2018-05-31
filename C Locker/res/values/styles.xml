@@ -1,0 +1,95 @@
+<resources>
+
+    <style name="Theme.Locker" parent="android:style/Theme.Black.NoTitleBar">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    </style>
+
+    <style name="Theme.LockerCustomWallpaperTransparentStatusBar" parent="android:style/Theme.Holo.NoActionBar.TranslucentDecor">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    </style>
+
+    <style name="Theme.LockerCustomWallpaper" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    </style>
+    <!--<style name="Theme.LockerHomeWallpaper" parent="android:style/Theme.Wallpaper">-->
+    <style name="Theme.LockerHomeWallpaperTransparentStatusBar" parent="android:style/Theme.Holo.NoActionBar.TranslucentDecor">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="Theme.LockerHomeWallpaper" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <!--<item name="android:windowExitAnimation">@null</item>-->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <color name="custom_theme_semi_transplarent">#88000000</color>
+
+    <style name="Theme.PasswordTransparent" parent="android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/custom_theme_semi_transplarent</item>
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item> -->
+    </style>
+
+
+    <declare-styleable name="LockPatternView">
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect" format="string" />
+        <!-- Color to use when drawing LockPatternView paths. -->
+        <attr name="pathColor" format="color|reference" />
+        <!-- The regular pattern color -->
+        <attr name="regularColor" format="color|reference" />
+        <!-- The error color -->
+        <attr name="errorColor" format="color|reference" />
+        <!-- The success color -->
+        <attr name="successColor" format="color|reference" />
+    </declare-styleable>
+</resources>

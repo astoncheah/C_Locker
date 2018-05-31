@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <LinearLayout
+                android:id="@+id/lytSetDefaultLockerNone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_default_locker_none"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_default_locker_none_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytPinUnlock"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="@string/security_pin_unlock_desc"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/text_size_title" />
+
+                <include
+                    android:id="@+id/cBoxEnablePasswordUnlock"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytSecuritySelfie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_security_selfie"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_security_selfie_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="@string/delay_pin"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/delay_pin_desc"
+                android:textColor="@color/colorTextDesc"
+                android:textSize="@dimen/text_size_decs" />
+
+            <Spinner
+                android:id="@+id/spnDelayPin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_x_large"
+                android:layout_marginRight="@dimen/padding_x_large"
+                android:layout_marginTop="@dimen/padding_small" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytBlockStatusbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_root_block_statusbar"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_root_block_statusbar_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxBlockStatusbar"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytHidePinAnimation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hide_pin_animation"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hide_pin_animation_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxHidePinAnimation"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytDisableHomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_homekey_"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_homekey_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytActivateDeviceAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_admin"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_admin_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxActivateDeviceAdmin"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytDisableSearchLongPress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_long_press_app"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/security_set_long_press_app_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxDisableSearchLongPress"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytBlockSystemSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_settings"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_settings_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxBlockSystemSettings"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytBlockRecentApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_recent_apps"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_recent_apps_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxBlockRecentApps"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytBlockNoneShortcutApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_other_apps"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/block_other_apps_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/cBoxBlockNoneShortcutApps"
+                    layout="@layout/view_checkbox_right" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <LinearLayout
+                android:id="@+id/lytAdvancedRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:paddingTop="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_root"
+                        android:textColor="@color/colorTextTitle"
+                        android:textSize="@dimen/text_size_title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_root_desc"
+                        android:textColor="@color/colorTextDesc"
+                        android:textSize="@dimen/text_size_decs" />
+                </LinearLayout>
+
+                <include layout="@layout/view_img_open" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="@string/sms_unlock"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/text_size_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/security_sms_unlock"
+                android:textColor="@color/colorTextDesc"
+                android:textSize="@dimen/text_size_decs" />
+
+            <EditText
+                android:id="@+id/editTxtSmsUnlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_x_large"
+                android:layout_marginRight="@dimen/padding_x_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:ems="10" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout> 

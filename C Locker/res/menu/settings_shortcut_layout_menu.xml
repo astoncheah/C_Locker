@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemResetShortcutLayout"
+        android:showAsAction="never|collapseActionView"
+        android:title="@string/reset_current_profile"></item>
+</menu>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelyt_lock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_lockBackground"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <LinearLayout
+        android:id="@+id/lyt_lock"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_lock"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/img_desc"
+            android:padding="12dp"
+            android:src="@drawable/ic_https_white_48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps01"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps02"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="-5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps02"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps03"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginRight="-30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps03"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps04"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/lyt_lock"
+        android:layout_alignRight="@+id/lyt_lock"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="-30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps04"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps05"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/lyt_lock"
+        android:layout_alignLeft="@+id/lyt_lock"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="-30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps05"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps06"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps06"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps07"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="-5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps07"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_apps08"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/lyt_lock"
+        android:layout_alignTop="@+id/lyt_lock"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_apps08"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/img_desc"
+            android:visibility="invisible" />
+    </LinearLayout>
+</RelativeLayout> 

@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New Strings -->
+    <string name="hide_carrier">ネットワークキャリアを隠す</string>
+    <string name="back_key_unlock">戻るキーでロック解除</string>
+    <string name="hide_forgot_pin">Forgot PINを隠す</string>
+    <string name="smart_unlock">スマートアンロック</string>
+    <string name="smart_unlock_desc">プロファイル条件に一致したとき自動的にロック解除するように指定します。</string>
+    <!-- 8.0.0 -->
+    <string name="enable_keyboard_typing">キーボードタイピングを有効</string>
+    <string name="block_kome_key1">ユーザ補助サービスを有効(推奨)</string>
+    <string name="block_kome_key1_desc">ホームキーや最近使ったアプリキー、その他のアプリをブロックするために、ユーザ補助サービスにおいてC Lockerを有効にします。</string>
+    <string name="block_kome_key2">ホームキーとして指定</string>
+    <string name="block_kome_key2_desc">ホームキーとしてC Lockerを指定してホームキーをブロックする</string>
+    <string name="widget_grid">ウィジェットのグリッド</string>
+    <string name="widget_grid_w">ウィジェットのグリッド列数</string>
+    <string name="widget_grid_h">ウィジェットのグリッド行数</string>
+    <string name="widget_settings_tips">
+        -余白上の長押し：ウィジェット、壁紙、グリッドを設定\n\n
+        -アプリウィジェットの長押し：サイズ変更、削除\n\n
+        -標準時計の長押し：12/24時間フォーマット設定を開く</string>
+    <string name="access_desc_enable">下までスクロールし\n[C Locker]を有効に</string>
+    <string name="access_desc_disable">下までスクロールし\n[C Locker]を無効に</string>
+    <string name="access_desc">高セキュリティ機能を有効にするため、C Lockerはユーザ補助サービスの権限を必要とします。
+	    \n\n潜在的プライバシーリスクについて警告されるでしょう。それはいつものユーザ補助サービスの定期的でな有益な警告です。
+        あなたの個人情報も、ユーザ補助サービスで入力したいかなるテキストも、C Lockerは決して収集していませんし今後もすることはありません。</string>
+    <string name="notice_desc_dialog">[C Locker]をチェック\nこの通知設定において</string>
+    <string name="notice_black_list">ブラックリスト</string>
+    <string name="notice_black_list_desc">どのアプリの通知を表示したくないか</string>
+    <string name="introduction">[C] Locker\nYour [C]ustomization\n\nこのスクリーンはC Lockerがすべてロードされると閉じます\nこの起動スクリーンはセキュリティ漏れを防止します</string>
+
+    <!-- 7.9.0 -->
+    <string name="fingerprint_unsupport">このデバイスは指紋認証に対応してません</string>
+    <string name="fingerprint_scan">ショートカットアクションに10秒アクセスして指紋をスキャン</string>
+    <string name="fingerprint_registration_required">システムのセキュリティ設定で指紋を登録してから、指紋認証ロック解除の設定を続けてください</string>
+    <string name="fingerprint_shortcut_cancelled">指紋認証キャンセルのショートカットアクション</string>
+    <!-- 7.8.0 -->
+    <string name="group_notice">通知グループ</string>
+    <string name="group_notice_desc">同じ通知アプリを１つの通知にグループ</string>
+    <string name="lollipop_style_widget">Lollipopスタイルのウィジェット</string>
+    <string name="lollipop_style_widget_desc">タップして新しいカスタムウィジェット、長押しでカスタムウィジェットを削除
+        \nメモ: ウィジェットの最大サイズは4x2</string>
+    <string name="required_pin">[PINロック解除を有効] が必須</string>
+    <string name="notice_style">通知スタイル</string>
+    <string name="notice_style_lollipop">Lollipop</string>
+    <string name="notice_style_side_icon">サイドアイコン</string>
+    <string name="hide_emergency_call">緊急通話を隠す</string>
+    <string name="enter_pattern">パターンを入力</string>
+
+    <!-- 7.5.0 -->
+    <string name="block_settings">システム設定を隠す</string>
+    <string name="block_settings_desc">ステータスバープルダウンからシステム設定へのアクセスをC Lockerのロック中は防止</string>
+    <string name="block_settings_selection">デフォルトのシステム設定アプリを選択してください</string>
+
+    <!-- 7.4.0 -->
+    <string name="pin_required">PINオプション</string>
+    <string name="pin_required_desc">ショートカット呼び出しやカメラアプリが開くときにセキュリティPINを要求するかどうか指定
+        \nメモ: セキュリティPINは有効でなければなりません</string>
+    <string name="hide_pin_animation">PIN/パターンを隠す</string>
+    <string name="hide_pin_animation_desc">セキュリティコードを入力中にPIN/パターンのアニメーションを表示しない</string>
+    <string name="sound_mode">サウンドモード</string>
+    <string name="sound_mode_silent">サイレントモード</string>
+    <string name="sound_mode_vibration">バイブレーションモード</string>
+    <string name="sound_mode_normal">サウンドモード</string>
+    <string name="add_location">新しいロケーションを追加</string>
+
+    <!-- 7.3.0 -->
+    <string name="home_key_bypass">ホームキーのバイパスブロックを有効</string>
+    <string name="home_key_bypass_warn">C Lockerは回避されています。数秒で再起動されるまでお待ちください。
+        \n\nこのメッセージを無効にするには:
+        \nC Locker settings > その他のオプション > チェックを外す:\n[ホームキーのバイパスブロックを有効]</string>
+    <string name="auto_security_selfie">オートセキュリティセルフィー</string>
+    <string name="auto_security_selfie_desc">セキュリティのロック解除に失敗したとき、自動的にフロントカメラで自撮りし、SCカードに保存したうえでメールを送ります。</string>
+    <string name="auto_security_selfie_desc1">この人物がデバイスのロック解除を試みました \non</string>
+    <string name="email_selfie">自撮り画像をメール送信</string>
+    <string name="email_selfie_desc">捕らえたら直ちに、あなたのGmailアカウントに写真添付のメールを送信します。
+        \n[Gmailにアクセス許可を要求]</string>
+    <string name="show_picture_on_unlock">写真を表示</string>
+    <string name="show_picture_on_unlock_desc">セキュリティPINをロック解除後に捕らえた写真を表示して通知します。</string>
+    <string name="no_front_camera">カメラ非対応</string>
+    <string name="attempts">失敗回数</string>
+    <string name="select_security_type">セキュリティタイプの選択</string>
+    <string name="share">共有</string>
+    <string name="share_friends">このロック画面を気に入っていただけたなら、是非ご友人にシェアしてください。</string>
+    <string name="pin">PIN</string>
+    <string name="pattern">パターン</string>
+    <string name="forgot">PINを忘れましたか?</string>
+    <string name="checking_connection">インターネット接続を確認中..</string>
+    <string name="required_internet">Googleのアカウント確認はインターネット接続を必要とします。モバイルデータを有効にしますか?</string>
+
+    <!-- 7.1.1.5 -->
+    <string name="sec">秒</string>
+    <string name="secs">秒</string>
+    <string name="min">分</string>
+    <string name="mins">分</string>
+    <string name="hr">時間</string>
+    <string name="hrs">時間</string>
+    <string name="center">Center</string>
+    <string name="bottom">Bottom</string>
+    <string name="unlocking_style">ロック解除のスタイル</string>
+    <string name="lolipop_unlock">シンプルロック解除</string>
+    <string name="lolipop_unlock_desc1">上にスライドして"ロック解除"</string>
+    <string name="lolipop_unlock_desc2">上にスライドして"カメラ起動"</string>
+    <string name="lolipop_unlock_desc3">上にスライドして"通話"</string>
+    <string name="lolipop_unlock_desc4">スクリーンの左右端からスライドして"ショートカットリストを開く"</string>
+    <string name="gesture_unlock">ジェスチャーロック解除</string>
+    <string name="gesture_unlock_desc1">上下左右にスライドして"ロック解除"</string>
+    <string name="fingerprint_unlock">指紋認証ロック解除</string>
+    <string name="fingerprint_unlock_desc1">指紋をスキャンして"ロック解除"</string>
+    <string name="fingerprint_unlock_desc2">スクリーンの右端からスライドして"ショートカットリストを開く"</string>
+    <string name="fingerprint_unlock_desc3">スクリーンの左端からスライドして"PINロック解除を開く" (指紋認証に失敗したとき)</string>
+    <string name="center_ring">センターリング</string>
+    <string name="center_ring_desc">中央のロックアイコンを他のアイコンまでタップ&amp;ドラッグすることでロック解除したり、電話や事前登録されたショートカットアプリを開く</string>
+    <string name="bottom_ring">ボトムリング</string>
+    <string name="bottom_triagle">ボトムトライアングル</string>
+    <string name="block_recent_apps">最近使用したアプリをブロック</string>
+    <string name="block_recent_apps_desc">チェックすると最近使用したアプリのポップアップをブロック</string>
+    <string name="block_other_apps">他のアプリをブロック</string>
+    <string name="block_other_apps_desc">C Lockerのショートカットを経ないで表示されるすべてのシステムと通知アプリをブロック</string>
+    <string name="direct_call">Direct Call</string>
+    <string name="open_dia_pad">ダイヤルパッドを開く</string>
+    <string name="unlock_to_launcher">ロック解除でホームランチャー</string>
+    <string name="unlock_to_launcher_desc">ロック解除したときロック画面から常にホームランチャーに戻る</string>
+    <string name="block_widget_click">Widgets Clickable</string>
+    <string name="block_widget_click_desc1">Select widgets to be clickable on Lock Screen, the Non-Clickable Widgets can be UNLOCKED by TRIPLE SWIPE DOWN gesture on the Lock Screen</string>
+
+    <!-- 7.0.10 -->
+    <string name="select_launcher">ステップ1: ランチャーを選択</string>
+    <string name="select_launcher_desc">ロック解除後に実行するホームランチャーを選択してください</string>
+    <string name="clear_other_home_launcher">ステップ2: デフォルトのホームランチャーをクリア</string>
+    <string name="clear_other_home_launcher_desc">[アプリ情報]でデフォルトの[設定を消去]を押す</string>
+    <string name="clear_other_home_launcher_desc1">デフォルトのホームランチャーはすでにクリアされています。[ステップ3]に進んでください</string>
+    <string name="clear_other_home_launcher_desc3">C Lockerはすでにホームランチャーに設定されています。これを削除しますか?</string>
+    <string name="set_clocker_as_home">ステップ3: C Lockerをホームに指定</string>
+    <string name="set_clocker_as_home_desc">[C Locker]を[常時]に指定してください。</string>
+    <string name="set_clocker_as_home_desc1">他のデフォルトホームランチャーを[ステップ2]でクリアしてください</string>
+    <string name="select_launcher_default_title">C Lockerを選択</string>
+
+    <!-- 7.0.4 -->
+    <string name="skip">スキップ</string>
+    <string name="previous">前へ</string>
+    <string name="next">次へ</string>
+    <string name="lets_start">開始する</string>
+    <string name="quick_guide">クイックガイド</string>
+
+    <string name="q_title_page1">C Lockerへようこそ</string>
+    <string name="q_desc_page1_1">1) [スタート]を押すと、C Lockerは推奨された設定を案内します。
+        それは新しいユーザーにとって最高で最初の経験となるでしょう。</string>
+    <string name="q_desc_page1_2">2) [スキップ]を押すとメインの設定画面へナビゲートします。</string>
+
+    <string name="q_title_page2">最初に: C Lockerを有効</string>
+    <string name="q_desc_page2_1">サイドメニューからC Lockerを有効にして開始してください。</string>
+    <string name="q_desc_page2_2">有効にすると、あなた独自のロックスクリーンのカスタマイズが開始できます。それは6つのメイン設定メニューの助けがあります:
+        \n- ロック画面のプロファイル
+        \n- ロック解除のスタイル
+        \n- ビジュアル
+        \n- 通知
+        \n- セキュリティ
+        \n- その他のオプション</string>
+
+    <string name="q_title_page3_1">設定1: ロック画面のプロファイル</string>
+    <string name="q_desc_page3_1">C Lockerは5つの異なるプロファイルを提供します: 標準、ミュージック、ロケーション、時刻、Wi-Fi。
+        あらかじめ設定した条件が満たされるとき、十分なプロファイルのロック画面が表示されます。
+        条件が満たされなないときは、"標準"のプロファイルのロック画面が選ばれます。</string>
+
+    <string name="q_title_page3_2">設定1.1: ウィジェットのプロファイル</string>
+    <string name="q_desc_page3_2">それぞれのプロファイルごとに、ウィジェットを追加、移動、サイズ変更、削除できます。</string>
+    <string name="q_desc_page3_3">メモ: ウィジェットの追加は、ロック画面のプロファイル > ウィジェットのプロファイル</string>
+
+    <string name="q_title_page3_3">設定1.2: アプリショートカットのプロファイル</string>
+    <string name="q_desc_page3_4">アプリやその他のアクションのショートカットの追加は、ロック画面のプロファイル > アプリショートカットのプロファイル</string>
+
+    <string name="q_title_page4_1">設定2: ロック解除のスタイル</string>
+    <string name="q_desc_page4_1">あなた好みの6つのロック解除スタイルが有効: シンプルロック解除、指紋認証ロック解除、ジェスチャーロック解除、リングスタイルロック解除、他</string>
+    <string name="q_desc_page4_2">メモ: 指紋認証ロック解除はサムソンのギャラクシー指紋認証対応機種移行でのみ有効。</string>
+
+    <string name="q_title_page5_1">設定3: ビジュアル</string>
+    <string name="q_desc_page5_1">ロック画面プロファイルごとに壁紙を選択、またはデバイスの壁紙をそのままと表示することを設定できます。</string>
+    <string name="q_desc_page5_2">メモ: C Lockerはライブ壁紙をサポートします。</string>
+
+    <string name="q_title_page6_1">設定4: 通知</string>
+    <string name="q_desc_page6_1">C Lockerは必要などのアプリからでも最新の通知を表示することができます。
+        サイドメニューから通知アクセスを有効にし、希望するアプリケーションをリストから選択してください。</string>
+    <string name="q_desc_page6_2">メモ: システム上の制約から、通知アクセスにはAndroidバージョn4.3移行が必要です。</string>
+
+    <string name="q_title_page7_1">設定5: セキュリティ</string>
+    <string name="q_desc_page7_1">-[PINロック解除を有効]は、ロック画面の上に追加のプロテクションレイヤを持ちます</string>
+    <string name="q_desc_page7_2">-[ホームキー設定]は、ロック画面上でのホームキー押し下げによるホームランチャーへのアクセスを防ぎ、
+        さらに、C Lockerをデバイスブート時に最初の現れるアプリにします。強く推奨します。</string>
+    <string name="q_desc_page7_3">-[デバイス管理機能を有効]は、自動スクリーンオフ機能を制御します。強く推奨します。</string>
+    <string name="q_desc_page7_4">-[オートセキュリティセルフィー]は、PIN解除失敗時に自撮りします。強く推奨します。</string>
+    <string name="q_desc_page7_5">メモ: C Lockerのデバイス管理機能を一度有効にすると、システムはC Lockerをアンインストール不可にします。
+        アンインストールを成功させるには、メインの設定メニューから[C Lockerを有効]のチェックを外してください。</string>
+
+    <string name="q_title_page8_1">設定6: その他のオプション</string>
+    <string name="q_desc_page8_1">次の設定を有効にすることを推奨します:
+        \n- [ロック画面に戻る]
+        \n- [非アクティブのスクリーンオフ]
+        \n- [近接センサーを有効]</string>
+
+    <string name="q_title_page9_1">最後に: フィードバックとサポート</string>
+    <string name="q_desc_page9_1">設定が完了して現在の状態に満足したなら、バックアップすることを推奨します。
+        バックアップファイルは[/sdcard/.C Lock Screen]に保存されます（隠しファイル）。</string>
+    <string name="q_desc_page9_2">[メールで連絡]をタップすると、バグ・課題のフィードバックやレポートが送れます</string>
+    <string name="q_desc_page9_3">Google+のベータグループに参加すると、Cシリーズの最新ベータアプリの更新をいつも受け取れます。</string>
+    <string name="q_desc_page9_4">あなたのロック画面をカスタマイズするいろんな方法と、たくさんのオプションがまだまだ豊富に見つかります。
+        C Lockerの秘めたポテンシャルをすべて解放することに時間を費やしてください。お楽しみに!!</string>
+
+    <!-- 7.0.0.14 -->
+    <string name="copy_time_profile">時刻プロファイルからコピー</string>
+    <string name="copy_wifi_profile">Wifiプロファイルからコピー</string>
+    <string name="copy_Bluetooth_profile">Bluetoothプロファイルからコピー</string>
+    <string name="fragment_time_profile">時刻プロファイル</string>
+    <string name="fragment_wifi_profile">Wifiプロファイル</string>
+    <string name="fragment_bluetooth_profile">Bluetoothプロファイル</string>
+    <string name="settings_profile_time">時刻プロファイルを有効</string>
+    <string name="settings_profile_time_desc">予めセットした時間が来たら、時刻プロファイルのウィジェットとショートカットを自動的に表示</string>
+    <string name="settings_profile_wifi">Wifiプロファイルを有効</string>
+    <string name="settings_profile_wifi_desc">信頼されたWifiに接続したとき、Wifiプロファイルのウィジェットとショートカットを自動的に表示</string>
+    <string name="settings_profile_bluetooth">Bluetoothプロファイルを有効</string>
+    <string name="settings_profile_bluetooth_desc">Bluetoothデバイスに接続したとき、Bluetoothプロファイルのウィジェットとショートカットを自動的に表示</string>
+    <string name="start">開始</string>
+    <string name="end">終了</string>
+    <string name="select_wifi">Wifiの選択</string>
+    <string name="select_bluetooth">Bluetoothの選択</string>
+    <string name="monday">月</string>
+    <string name="tuesday">火</string>
+    <string name="wednesday">水</string>
+    <string name="thursday">木</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+    <string name="sunday">日</string>
+    <string name="enable_wifi">Wifiを有効にしてから設定を続けてください</string>
+    <string name="enable_bluetooth">Bluetoothを有効にしてから設定を続けてください</string>
+    <string name="no_wifi_found">保存されたWifi SSIDが見つかりません</string>
+    <string name="no_bluetooth_found">ペアリングされたBluetoothデバイスが見つかりません</string>
+    <string name="profile_prority">プロファイルの優先順位</string>
+    <string name="profile_prority_desc">プロファイルの優先順位の高低を管理</string>
+    <string name="profile_pin">プロファイルのセキュリティPIN</string>
+    <string name="profile_pin_desc">プロファイルごとにセキュリティPINを有効にするかどうかの指定</string>
+    <string name="move_up">上へ</string>
+    <string name="fragment_default_profile">標準プロファイル</string>
+    <string name="delay_pin">PINの遅延</string>
+    <string name="sms_unlock">SMSロック解除</string>
+    <string name="enable_c_locker">C Lockerを有効</string>
+    <string name="test_size">テキストサイズ</string>
+    <string name="small">小</string>
+    <string name="medium">中</string>
+    <string name="large">大</string>
+    <string name="settings_personal_msg">個人情報</string>
+    <string name="resize_widget">サイズ変更/移動</string>
+    <string name="settings">設定</string>
+    <string name="settings_digital_clock">デジタル時計の設定</string>
+    <string name="settings_analog_clock">アナログ時計の設定</string>
+    <string name="settings_calendar">カレンダーイベントの設定</string>
+    <string name="settings_location">ロケーションの設定</string>
+    <string name="usage_info">使い方</string>
+    <string name="max_widget">[フリーバージョン]では2つのウィジェットが選択できます</string>
+    <string name="settings_widget_error_text1">ウィジェットのロード中の問題..</string>
+    <string name="settings_widget_error_text2">ここを長押しして復元</string>
+    <string name="settings_notices_icon_bg">アイコンの背景</string>
+    <string name="settings_notices_icon_position">アイコンの位置</string>
+    <string name="show_bottombar_style">ボトム通知バースタイルの指定</string>
+    <string name="wallpaper">壁紙</string>
+    <string name="delay_lock">ロックの遅延</string>
+    <string name="locker_stability">ロック画面の安定性</string>
+    <string name="priority_service_low">低</string>
+    <string name="priority_service_mid">中(通知リスト上にアイコンが常駐)</string>
+    <string name="priority_service_high">高(通知バーにアイコンが常駐)</string>
+    <string name="volume_key_map">ボリュームキーのマッピング</string>
+    <string name="settings_gesture_music_key_map1">タイプ1</string>
+    <string name="settings_gesture_music_key_map2">タイプ2</string>
+    <string name="screen_timeout_system">ホームランチャーのタイムアウト</string>
+    <string name="screen_timeout_system_desc">ロック解除後のホームランチャーでのスクリーンタイムアウトの指定。システムのタイムアウト設定を上書きします。</string>
+
+    <!-- 6.1.21 -->
+    <string name="promotion_day_desc1">C Lockerプロモーション!</string>
+    <string name="promotion_day_desc2">[アクティベート]をタップして、すべてのC Locker PROの機能を解除してください。
+        今日のアプリに感謝します!</string>
+    <string name="promotion_day_desc3">アクティベートは成功しました。アプリデータの初期化やC Lockerのアンインストールをすると、このプロモーションは終了して、すべてのPRO機能はロックされますのでご注意ください。</string>
+    <string name="promotion_day_desc4">プロモーションデータが一致しません</string>
+    <string name="promotion_day_desc5">ネットワークエラーです。PRO機能のアクティベートにはインターネットアクセスを有効にしてください。</string>
+    <string name="activate">アクティベート</string>
+    <string name="other_event_day_text_color">その他の日のテキスト色の選択</string>
+    <string name="security_set_long_press_app">Googleサーチをブロック</string>
+    <string name="security_set_long_press_app_desc">ホームボタンを長押しによるGoogleサーチへのアクセスを防ぎます。</string>
+    <string name="select_long_press_app_title">アプリの選択</string>
+    <string name="select_long_press_app_desc">好みのホーム長押しアプリを選択してください。</string>
+    <string name="firnger_print">指紋認証ロック解除</string>
+    <string name="firnger_print_desc">サムソンの特定デバイスでサポートされるセキュリティの指紋認証機能を使ってロック解除します。</string>
+    <string name="firnger_print_cancel">指紋登録に失敗しました。やり直してください。</string>
+    <string name="firnger_print_not_registered">指紋が登録されていません。</string>
+    <string name="firnger_print_enable_PIN">指紋認証の代わりとなるように、[PINロック解除]を有効にしてください。</string>
+
+    <!-- 6.1.0 -->
+    <string name="show_notice_content">通知の内容を表示</string>
+    <string name="show_notice_content_desc">通知アイコンをタップしたときに内容を表示</string>
+    <string name="inactive_screen_off">非アクティブのスクリーンオフ</string>
+    <string name="inactive_screen_off_decs">スクリーンをオンにした後、C Lockerにタッチせずでいると、10秒後に自動でスクリーンをオフにします</string>
+    <string name="tasker_unlock_desc1">ロック解除のテキストを以下に入力したらそのテキストをTaskerにコピーし、TaskerがそのEventの[Intent]としてこれを送るようにすればC Lockerをロック解除できます。</string>
+    <string name="tasker_unlock_desc2">ロック解除テスト</string>
+    <string name="copy">コピー</string>
+    <string name="pin_digit_4">4桁</string>
+    <string name="pin_digit_6">6桁</string>
+    <string name="pin_digit_8">8桁</string>
+    <string name="delay_10_min">10分後</string>
+    <string name="delay_15_min">15分後</string>
+    <string name="delay_30_min">30分後</string>
+    <string name="widget_profile">ウィジェットのプロファイル</string>
+    <string name="shortcut_profile">アプリショートカットのプロファイル</string>
+    <string name="tapping_shortcut">ショートカットのタップ</string>
+    <string name="double_tab1">ダブルタップ (1本指)</string>
+    <string name="double_tab2">ダブルタップ (2本指)</string>
+    <string name="triple_tab1">トリプルタップ (1本指)</string>
+    <string name="triple_tab2">トリプルタップ (2本指)</string>
+    <string name="turn_off_screen">スクリーンをオン</string>
+    <string name="Locker_Profiles">ロック画面のプロファイル</string>
+    <string name="device_admin">デバイス管理機能を有効</string>
+    <string name="device_admin_desc">C Locker needs Device Admin permission to perform [Auto Screen Off] feature, activating Device Admin will prevent the system from uninstalling C Locker. To UNINSTALL this app, you can UNTICK [Enable C Locker] in the main settings OR DEACTIVATE C Locker in the System Device Admin Settings</string>
+
+    <!-- 6.0.0 -->
+    <string name="watch">Watch</string>
+    <string name="bottom_bar_enable_sms">SMSリストを有効</string>
+    <string name="bottom_bar_enable_miss_call">不在着信リストを有効</string>
+    <string name="settings_root_move_to_system_tick_note1">アンインストール: [システムアプリに設定]のチェックを外し、リブートするとアプリのアンインストールが可能になります。</string>
+    <string name="shortcut_lock_circle">ロックアイコンのショートカット</string>
+    <string name="shortcut_lock_1">上のアイコン</string>
+    <string name="shortcut_lock_2">右上のアイコン</string>
+    <string name="shortcut_lock_3">右のアイコン</string>
+    <string name="shortcut_lock_4">右下のアイコン</string>
+    <string name="shortcut_lock_5">下のアイコン</string>
+    <string name="shortcut_lock_6">左下のアイコン</string>
+    <string name="shortcut_lock_7">左のアイコン</string>
+    <string name="shortcut_lock_8">左上のアイコン</string>
+    <string name="shortcut_gesture">ジェスチャーのショートカット</string>
+    <string name="shortcut_gesture1_up">上にスワイプ</string>
+    <string name="shortcut_gesture1_down">下にスワイプ</string>
+    <string name="shortcut_gesture1_left">左にスワイプ</string>
+    <string name="shortcut_gesture1_right">右にスワイプ</string>
+    <string name="shortcut_gesture2_up">上にスワイプ (2本指)</string>
+    <string name="shortcut_gesture2_down">下にスワイプ (2本指)</string>
+    <string name="shortcut_gesture2_left">左にスワイプ (2本指)</string>
+    <string name="shortcut_gesture2_right">右にスワイプ (2本指)</string>
+    <string name="shortcut_gesture3_horizotal">[左右にスワイプ] (3本指)で、ロック画面が再起動するまで自動プロファイルが無効になるように、手動によるプロファイル変更します。</string>
+    <string name="shortcut_gesture3_vertical">[下のスワイプ] (3本指)で、ロケーションをリフレッシュし、ネットワークエラーによる場所プロファイルの非アクティブ状態を解決します。</string>
+    <string name="shortcut_volume_key">ボリュームキーのショートカット</string>
+    <string name="shortcut_volume_key_up">ボリュームを上げる</string>
+    <string name="shortcut_volume_key_down">ボリュームを下げる</string>
+    <string name="shortcut_volume_key_default">標準のボリュームキー</string>
+    <string name="no_action">No Action</string>
+    <string name="copy_locker_profile">標準プロファイルからコピー</string>
+    <string name="copy_music_profile">音楽プロファイルからコピー</string>
+    <string name="copy_location_profile">場所プロファイルからコピー</string>
+    <string name="select_all_pin">すべてのPINを選択</string>
+    <string name="deselect_all_pin">すべてのPINを選択解除</string>
+    <string name="reset_current_profile">現在のプロファイルをリセット</string>
+    <string name="reset_all_profile">すべてのプロファイルをリセット</string>
+    <string name="select_location">ロケーションの選択</string>
+    <string name="app_shortcut_layout">アプリショートカットのレイアウト</string>
+    <string name="fragment_location_profile">場所プロファイル</string>
+    <string name="app_shortcut_list_desc">カスタムアプリショートカット、ボリュームキーショートカット、ジェスチャーショートカット、アプリセキュリティPINの指定</string>
+    <string name="map_location_error">ロケーションが見つかりません、ネットワークエラーです</string>
+    <string name="map_on_click_desc1">マップをタップするとロケーション情報が得られます</string>
+    <string name="map_location_distance_cover">ロケーションの範囲: </string>
+    <string name="map_location_distance_50m">50メートル</string>
+    <string name="map_location_distance_100m">100メートル</string>
+    <string name="map_location_distance_200m">200メートル</string>
+    <string name="map_location_distance_500m">500メートル</string>
+    <string name="map_location_distance_1km">1 km</string>
+    <string name="map_location_distance_2km">2 km</string>
+    <string name="map_location_distance_5km">5 km</string>
+    <string name="map_location_current">現在の場所プロファイル: </string>
+    <string name="map_location_null">Not Selected</string>
+    <string name="map_maker_title">ここをタップして場所プロファイルを保存</string>
+    <string name="settings_profile_default">標準プロファイルを有効</string>
+    <string name="settings_profile_music">音楽プロファイルを有効</string>
+    <string name="settings_profile_location1">場所プロファイルを有効</string>
+    <string name="settings_profile_default_desc">標準ロック画面のウィジェットとショートカットを表示。これは無効にできません。</string>
+    <string name="settings_profile_music_desc">ミュージックプレイヤーが存在するときまたはハンドセットが挿入されたとき、音楽プロファイルのウィジェットとショートカットを自動で表示。</string>
+    <string name="settings_profile_location1_desc">予めセットしたロケーションにいるときに、場所プロファイルのウィジェットとショートカットを自動で表示。</string>
+    <string name="pin_not_allow">[フリーバーション]で設定できるPINは1つだけ</string>
+    <string name="ctr_tv_animation_desc">スクリーンオン時の古いTVアニメーションを有効</string>
+    <string name="ctr_tv_animation">CRTアニメーションを有効</string>
+    <string name="finish_anim_desc">ロック解除アニメーション</string>
+    <string name="default_">標準</string>
+    <string name="finish_anim_zoom_out">ズームアウト</string>
+    <string name="finish_anim_zoom_in">ズームイン</string>
+    <string name="finish_anim_rotation">回転</string>
+    <string name="personal_msg">個人情報</string>
+    <string name="personal_msg_desc">個人情報を入力してください</string>
+    <string name="delay_pin_desc">スクリーンをオフにしたあとのPIN認証時間</string>
+    <string name="security_pin_unlock_desc">PINロック解除を有効</string>
+    <string name="show_sender_picture">送信者の写真を表示</string>
+    <string name="show_sender_picture_desc">有効にすると、メッセージやメールが来たときに送信者の写真を表示します。</string>
+
+    <!-- 5.1.0 -->
+    <string name="settings_root">高度なセキュリティ(ルート)</string>
+    <string name="settings_root_desc">[ルートアクセス必須] ステータスバー時計の非表示とステータスバーのブロックを有効</string>
+    <string name="settings_root_move_to_system">システムアプリに指定</string>
+    <string name="settings_root_move_to_system_tick">以下の機能を有効にするためには、C Lockerをシステムアプリに登録してシステム権限を与えてください。</string>
+    <string name="settings_root_move_to_system_untick">チェックを外すと、システムアプリから通常アプリに移動します。</string>
+    <string name="settings_root_move_to_system_steps">Process Note</string>
+    <string name="settings_root_dialog_1">SU権限を取得中..</string>
+    <string name="settings_root_dialog_2">apkをシステムアプリに移動中..</string>
+    <string name="settings_root_dialog_3">アクションが成功すると、C Lockerは強制終了(FC)されます。</string>
+    <string name="settings_root_dialog_4">強制終了しても気にしないください。すぐにデバイスがリブートしてC Lockerの設定に復帰します。</string>
+    <string name="settings_root_dialog_5">apkを再インストール中.. 数分お待ちください。</string>
+    <string name="settings_root_failed">アクションに失敗しました。やり直してください。</string>
+    <string name="settings_root_denied">アクションに失敗しました。SUは承認されませんでした。</string>
+    <string name="settings_root_successful">アクションに成功しました。デバイスをリブートしてください。</string>
+    <string name="settings_root_note">C Lockerをシステムアプリに登録してください。</string>
+    <string name="settings_root_block_statusbar">ステータスバーを無効</string>
+    <string name="settings_root_block_statusbar_desc">ステータスバーのプルダウンを無効にします。</string>
+    <string name="settings_root_hide_clock">ステータスバーの時計を隠す</string>
+    <string name="settings_root_hide_clock_desc">ステータスバーの時計をロック画面で表示させません。</string>
+    <string name="configuring">設定中..</string>
+    <string name="settings_main_backup_found">設定の復元</string>
+    <string name="settings_main_backup_found_desc">C Lockerのバックアップ設定が見つかりました。この設定を復元しますか?</string>
+    <string name="settings_root_hide_icon">ステータスバーのアイコンを隠す</string>
+    <string name="settings_root_hide_icon_desc">ステータスバーの通知アイコンをロック画面では表示させません。</string>
+    <string name="settings_root_hide_alert">ステータスバーのアラートを隠す</string>
+    <string name="settings_root_hide_alert_desc">サウンド、バイブレーション、その他の画面表示や音による通知をブロックします。</string>
+    <string name="settings_root_hide_navi_keys">ナビゲーションキーを隠す</string>
+    <string name="settings_root_hide_navi_keys_desc">ホーム、戻る、最近使ったアプリのソフトキーをロック画面で表示させません（ハードキーには適用されません）</string>
+    <string name="settings_root_move_to_system_tick_note">メモ: 上記はAndroidのシステムバージョンに依存して機能を保証しません。
+        カスタムロムを使用や、何かシステム修正を施しているとうまく働くかもしれません。</string>
+    <string name="settings_root_move_to_system_tick2">メモ: C Lockerをシステムアプリとして設定して、通常アプリの前に走る速い優先権を与えてください。</string>
+
+    <!-- 5.0.0 -->
+    <string name="sound_type_1">キー押し下げタイプ1</string>
+    <string name="sound_type_2">キー押し下げタイプ2</string>
+    <string name="sound_system_ringtone">システムの着信音</string>
+    <string name="notice_settings_screen_on">スクリーンをオン</string>
+    <string name="notice_settings_screen_on_desc1">スクリーンオフで通知を受信したとき、5秒間スクリーンをオンにします。</string>
+    <string name="notice_settings_screen_on_desc2">メモ: ポケットの中にあるとき、画面が伏せられているとき、通知が同じアプリからのときはスクリーンはオンになりません。</string>
+    <string name="settings_gesture_music_key_map_desc">ボリュームキーによる次/前の歌へのスキップが機能しないときは、他のタイプを試してください。</string>
+    <string name="settings_notices_bg_empty">透明</string>
+    <string name="settings_notices_bg_black">ブラック</string>
+    <string name="settings_notices_bg_desc">通知アイコンの背景を指定</string>
+    <string name="settings_widget_desc">標準またはカスタムアプリをロックスクリーンのウィジェットに指定</string>
+    <string name="settings_widget_dialog">ウィジェットの選択</string>
+    <string name="settings_widget_locker_widget">C Lockerのウィジェット</string>
+    <string name="settings_widget_apps_widget">アプリのウィジェット (Pro)</string>
+    <string name="settings_widget_help">ヒント</string>
+    <string name="settings_widget_size_over">レイアウトサイズを超えるウィジェットは追加できません。</string>
+    <string name="settings_widget_not_allow">ウィジェットはすでに追加されています。</string>
+    <string name="settings_display_statusbar_hide">ステータスバーを隠す</string>
+    <string name="settings_display_transparentbar">透明なステータスバー</string>
+    <string name="settings_display_transparentbar_error">Android 4.4v Kitkatのみ対応</string>
+    <string name="settings_widget_analog_center">アナログ時計 - 中央</string>
+    <string name="settings_widget_digital_center">デジタル時計 - 中央</string>
+    <string name="settings_widget_event_list">カレンダーリスト</string>
+    <string name="settings_widget_rss_list">RSSリスト</string>
+    <string name="list_rss">RSSフィード</string>
+    <string name="list_apps_select">アプリの選択</string>
+    <string name="fragment_locker_profile">標準プロファイル</string>
+    <string name="fragment_music_profile">音楽プロファイル</string>
+    <string name="settings_widget_add">ここを長押しするとウィジェットを追加</string>
+    <string name="settings_widget_delete">削除</string>
+    <string name="settings_widget_delete_all">ウィジェットの全削除</string>
+    <string name="settings_widget_music_profile">-ミュージックプレイヤーが存在するときまたはハンドセットが挿入されたとき、音楽プロファイルを表示してウィジェットを設置</string>
+    <string name="settings_widget_long_press_note">-ウィジェットを長押しするとサイズ変更、削除、他</string>
+    <string name="set">指定</string>
+    <string name="settings_widget_music_widget">ミュージックウィジェット</string>
+    <string name="tips_tricks_youtube_01">ウィジェットをクリックしてロック解除(3.1mb)</string>
+    <string name="tips_tricks_youtube_02">ステータスバーのC Lockerアイコンを隠す(4.2mb)</string>
+    <string name="tips_tricks_youtube_03">ホームボタン指定手順(4.9mb)</string>
+    <string name="tips_tricks_youtube_04">通知アイコン - アプリを開く(2.4mb)</string>
+    <string name="tips_tricks_youtube_05">通知アイコン - アイコンを１つクリア(1.3mb)</string>
+    <string name="tips_tricks_youtube_06">通知アイコン - すべてのアイコンをクリア(1.2mb)</string>
+    <string name="tips_tricks_youtube_07">RSSリストのショートカットを開く(4.6mb)</string>
+    <string name="tips_tricks_youtube_08">RSSページリンクのショートカットを開く(7.4mb)</string>
+    <string name="later">後で</string>
+    <string name="settings_about">C Lockerについて</string>
+    <string name="settings_about_translation">翻訳</string>
+    <string name="settings_about_translation_desc">あなたの国の言語にC Lockerが対応していないときは翻訳の手助けをしていただけると助かります。
+        ここからファイルを入手して完了したら上記Google+かXDAスレッドにおいでください。</string>
+    <string name="email_logs">メールで連絡</string>
+    <string name="email_logs_desc">バグフィックスと改良のために、ログの添付と電話のソフトウェアバージョン情報を含むメールを送信します。</string>
+
+    <!-- 4.6.4 -->
+    <string name="settings_clock_analog_color1">アナログ時計</string>
+    <string name="settings_clock_analog_color2">アナログ時計の色</string>
+    <string name="settings_bottom_bar_tab_color1">ボトムバーのタブ</string>
+    <string name="settings_bottom_bar_tab_color2">ボトムバーのタブの色</string>
+    <string name="settings_bottom_bar">ボトム通知バー</string>
+    <string name="settings_main_general">一般オプション</string>
+    <string name="settings_main_visual">ビジュアル</string>
+    <string name="settings_main_shortcut">ショートカット</string>
+    <string name="settings_main_more">More..</string>
+    <string name="dialog_title">お知らせ</string>
+    <string name="tips_tricks_youtube_0">Youtubeリンク:</string>
+    <string name="security_set_homekey_">ホームキーをブロック</string>
+    <string name="security_set_homekey_desc">ホームボタン押し下げによるホームランチャーへのアクセスをブロック</string>
+    <string name="security_set_default_locker_none">標準のロック画面を無効</string>
+    <string name="security_set_default_locker_none_desc">２種類のロック画面が表示されないように、標準のロック解除方法は[なし]にします。</string>
+    <string name="security_set_default_locker_none_not_support">ロック画面の設定はサポートされていません。</string>
+    <string name="notice_settings_desc">新着通知、faceboo、g+、whatsapp、gmail、SMS、着信、ログ、カレンダーイベント、RSSフィード等を設定</string>
+    <string name="tips_tricks_decs">あなたが見逃したかもしれない機能や設定をYoutubeリンクで紹介します。</string>
+    <string name="notice_show_icon_clear_desc">通知アイコンを許可し、アイコンのクリアへドラッグ&amp;ドロップしたときにクリア</string>
+    <string name="notice_show_icon_clear">アイコンのクリアを表示</string>
+    <string name="settings_tasker">Tasker</string>
+    <string name="settings_tasker_desc">上級ユーザ向けです。人気アプリ - [Takser]とを連携させて、より高度なアクションを作成できます。</string>
+    <string name="settings_tasker_shortcut_count_desc">ロック画面から立ち上がったショートカップアプリがあるときに[Tasker]にインテントを送り、開いてるアプリの総数やアクションのタイプ、ショートカットのインデックスについて追加情報を提供します。</string>
+    <string name="settings_tasker_shortcut_count">ショートカットアプリの起動リスナーを有効</string>
+    <string name="settings_tasker_feedback">さらなる詳細や新しいインテントの希望がなるなら、メールでのコンタクトを受け付けます: [cheahchinseng@gmail.com]</string>
+    <string name="settings_tasker_shortcut_count_intent">アクション: com.ccs.lockscreen_pro.mTASKER_ACTION</string>
+    <string name="settings_tasker_shortcut_count_ex_data1">Extra#1 data:%shortcut_app_count</string>
+    <string name="settings_tasker_shortcut_count_ex_data2">Extra#2 data:%shortcut_launch_type</string>
+    <string name="settings_tasker_shortcut_count_ex_data3">Extra#3 data:%shortcut_app_index</string>
+
+    <!-- 4.6.0 -->
+    <string name="event_today_text_color">今日のテキストの色を選択</string>
+    <string name="notice_only2_app_fv">[フリーバージョン]では最大2つのアプリが選択できます。</string>
+    <string name="notice_tap_to_open">ここをドラッグして開く</string>
+    <string name="notice_tap_to_clear_all">ここをドラッグしてすべての通知をクリア</string>
+    <string name="notice_settings">通知</string>
+    <string name="notice_apps_layout_desc">ロック画面の左右パネルどちらに通知アイコンを表示するか</string>
+    <string name="notice_apps_layout_left">左</string>
+    <string name="notice_apps_layout_right">右</string>
+    <string name="notice_apps_select_desc1">新しい通知が来たときに表示するアプリの設定</string>
+    <string name="notice_apps_select_desc2">[フリーバージョン]では最大2つのアプリが選択できます。</string>
+    <string name="notice_apps_select">通知アプリの選択</string>
+    <string name="bottom_bar_statusbar_notices">アプリの通知を有効</string>
+    <string name="bottom_bar_statusbar_notices_desc1">facebook、whatsapp、google+他、基本的に対応するすべてのアプリからの新着通知を有効</string>
+    <string name="bottom_bar_statusbar_notices_desc2">メモ: Android 4.3v移行でのみ対応</string>
+    <string name="bottom_bar_statusbar_notices_desc3">メモ: 通知へのアクセス権限が[C Locker]に必須です。</string>
+    <string name="bottom_bar_statusbar_notices_desc4">Android 4.3v移行でのみ対応</string>
+    <string name="bottom_bar_set_notices_app_desc">アプリの通知を有効にしてください。</string>
+    <string name="settings_shortcut_icon_visible">アイコンを常に表示</string>
+    <string name="settings_shortcut_animation">Enable Shortcut Layout Animation</string>
+    <string name="settings_shortcut_style">スタイル</string>
+    <string name="settings_shortcut_style_desc">アニメーションのスタイルと色を選択</string>
+    <string name="settings_shortcut_effect_on_press">Enable Icon On Press Effect</string>
+    <string name="settings_shortcut_effect_on_press_desc">エフェクトのスタイルと色を選択</string>
+    <string name="picker_color_custom_color_wrong_text">6桁の16進数コード(RRGGBB)で指定してください。</string>
+    <string name="picker_color_custom_color">カスタムのカラーコード"RRGGBB"を選択してください。</string>
+
+    <!-- 4.4.0 -->
+    <string name="locker_widget_click_enable">ウィジェットのクリックを有効</string>
+    <string name="locker_widget_click_enabled">ウィジェットのクリックは有効</string>
+    <string name="settings_shortcut_icon_app">アプリからアイコンを選択</string>
+    <string name="settings_shortcut_icon_gallery">ギャラリーからアイコンを選択</string>
+    <string name="security_sms_unlock">他のスマホからSMSを送信してロック解除のパスワードを入力。ただし、[システムロックパスワード]を有効にしたときは適用されません。</string>
+
+    <!-- 4.1.0 -->
+    <string name="color_dialog_title">適用する色</string>
+    <string name="color_dialog_desc">以下のアイテムにこの色を適用しますか?</string>
+    <string name="color_locker_text">ロック画面のテキスト</string>
+    <string name="color_locker_blinking">Lock Layout Animation</string>
+    <string name="color_locker_icon_bg">Shortcut Icons Background</string>
+    <string name="color_bottom_bar_btty_lvl">ボトムバーのバッテリーレベル</string>
+    <string name="color_bottom_bar_text">ボトム通知バーのテキスト</string>
+    <string name="settings_others_proxi_sensor_desc1">近接センサーを有効にすると、スクリーンをオフにせずポケットやバッグその他にしまったとき、自動的にスクリーンをオフにします。</string>
+    <string name="settings_others_proxi_sensor_desc2">__また、スクリーンがポケットやバッグその他の中で偶然オンになったときにもオフにします。</string>
+    <string name="settings_others_proxi_sensor_desc3">__メモ: Smart Stay(サムソンの一部機種)、Swipe Screen Capture、Android DayDreamその他類似機能が有効のとき、この機能は正常に働きません。</string>
+    <string name="settings_others_proxi_sensor">近接センサーを有効</string>
+
+    <!-- 4.0.0 -->
+    <string name="settings_display_desc">壁紙、背景の調光、明滅ライトの指定</string>
+    <string name="settings_app_shortcut_desc">カスタムショートカットの指定とアイコン変更</string>
+    <string name="settings_other_options_desc">スクリーンのタイムアウト、遅延ロック、ロック解除音、バイブレーションの指定</string>
+    <string name="settings_security_desc">ロックパスワード、ホームボタン制御、システム設定制御の指定</string>
+    <string name="settings_backup_restore_desc">設定のバックアップとアプリを再インストール時の復旧</string>
+    <string name="settings_rate_myapp">評価する</string>
+    <string name="settings_rate_myapp_desc">このロック画面をお楽しみいただけたなら、プレイストアでの評価とレビューをご検討ください。:)</string>
+
+    <!-- 3.2.0 -->
+    <string name="other_option_shortcuts_no_lock_desc1">ロック画面からショートカットアプリが起動したときは、スクリーンがオフになってもロック画面を有効にしません。</string>
+    <string name="other_option_shortcuts_no_lock_desc2">これによりショートカットアプリはスクリーンにとどまります。</string>
+    <string name="other_option_shortcuts_no_lock">ショートカット中のロック画面を無効</string>
+    <string name="other_option_shortcuts_delay_lock_desc">スクリーンがオフになってからのロック画面を有効にする時間</string>
+    <string name="other_option_shortcuts_delay_lock_now">直ちにロック</string>
+    <string name="other_option_shortcuts_delay_lock_5_sec">5秒後</string>
+    <string name="other_option_shortcuts_delay_lock_10_sec">10秒後</string>
+    <string name="other_option_shortcuts_delay_lock_15_sec">15秒後</string>
+    <string name="other_option_shortcuts_delay_lock_30_sec">30秒後</string>
+    <string name="other_option_shortcuts_delay_lock_1_min">1分後</string>
+    <string name="other_option_shortcuts_delay_lock_2_min">2分後</string>
+    <string name="other_option_shortcuts_delay_lock_5_min">5分後</string>
+    <string name="bottom_bar_enable_list_desc">リストごとに表示/隠すを有効にします。</string>
+    <string name="bottom_bar_enable_gmail">Gmailリストを有効</string>
+    <string name="bottom_bar_enable_cld_event">カレンダーイベントリストを有効</string>
+    <string name="bottom_bar_enable_rss">RSSフィードリストを有効</string>
+    <string name="bottom_bar_notice_text_color">通知のテキスト色の選択</string>
+    <string name="bottom_bar_show_arrow_up_icon">上矢印アイコンだけ表示</string>
+    <string name="bottom_bar_show_battery_bar">バッテリーバーと情報テキストを表示</string>
+    <string name="bottom_bar_show_info_bar">情報テキストのみ表示</string>
+
+    <!-- 3.0.0 -->
+    <string name="settings_backup_restore">バックアップと復元</string>
+    <string name="settings_backup">設定のバックアップ</string>
+    <string name="settings_restore">設定の復元</string>
+    <string name="clock_analog_update_in_second_desc">有効にすると毎秒ごとにアナログ時計を更新して赤い秒針を表示し、さらに毎分ごとに更新されます。</string>
+    <string name="clock_analog_update_in_second">アナログ時計の秒針</string>
+    <string name="tips_tricks">ヒントと裏技</string>
+    <string name="settings_dont_show_again">二度と表示しない</string>
+    <string name="clock_analog_enable">アナログ時計</string>
+    <string name="viewpager_events">イベント</string>
+    <string name="viewpager_gmail">Gmail</string>
+    <string name="viewpager_call_log">不在着信 Call</string>
+    <string name="viewpager_sms">SMS</string>
+    <string name="viewpager_rss">RSS</string>
+    <string name="bottom_bar_unread">未読</string>
+    <string name="bottom_bar_today">今日</string>
+    <string name="bottom_bar_new_notice">New</string>
+    <string name="bottom_bar_drag_enable_desc">ボトム通知バーを有効にすると、スライドアップして以下の通知詳細を表示できます:</string>
+    <string name="bottom_bar_drag_enable_desc1">1)Gmailの通知</string>
+    <string name="bottom_bar_drag_enable_desc2">2)新しいSMSの通知</string>
+    <string name="bottom_bar_drag_enable_desc3">3)不在着信の通知</string>
+    <string name="bottom_bar_drag_enable_desc4">4)カレンダーイベントのお知らせ</string>
+    <string name="bottom_bar_drag_enable_desc5">5)RSSフィードの通知</string>
+    <string name="bottom_bar_drag_enable">通知バーを有効</string>
+    <string name="bottom_bar_popup_enable_desc">ボトム通知バーは、新しい通知を受けたときに通知をポップアップします。</string>
+    <string name="bottom_bar_popup_enable">通知バーのポップアップを有効</string>
+    <string name="bottom_bar_sms_calllog_desc">SMS/不在着信のオプション</string>
+    <string name="bottom_bar_show_sms_content">SMSの連絡先番号と内容を表示</string>
+    <string name="bottom_bar_show_last7day_sms">最近7日間のSMSを表示</string>
+    <string name="bottom_bar_show_calllog_content">不在着信の連絡先番号を表示</string>
+    <string name="bottom_bar_show_last7day_calllog">最近7日間の着信履歴を表示</string>
+    <string name="bottom_bar_test_sms_desc">デバイスによってはこのSMS通知に対応しません。機能テストボタンをタップしてみてください。対応しないときは、デバイス情報を開発者にお送ってご協力ください。</string>
+    <string name="bottom_bar_test_sms">SMS通知機能のテスト</string>
+    <string name="bottom_bar_test_sms_supported">SMS通知に対応しています。</string>
+    <string name="bottom_bar_test_sms_not_supported">SMS通知に対応してません。開発者にメールを送るかキャンセルしてください。</string>
+    <string name="bottom_bar_notice_not_supported_assist">通知に対応してません。ここをタップしてデバイス情報を開発者にお送りください。</string>
+
+    <!-- 2.5.5 -->
+    <string name="security">セキュリティ</string>
+    <string name="prevent_locker_kill_notice">C Lockerは有効です</string>
+    <string name="prevent_locker_kill_notice_desc">タップするとC Lockerのロック画面を表示</string>
+    <string name="prevent_locker_kill_desc1">デバイスのメモリが不足したときシステムにより終了されてしまわないよう、システムの優先リストにロック画面を入れてください。</string>
+    <string name="select_settings_app">デバイスのシステム設定を選択してください。</string>
+    <string name="select_settings_default_desc">[C Locker]を[常時]で選択してください。でなければこのアクションはキャンセルされます。</string>
+    <string name="clear_settings_default_title">標準の設定のクリア</string>
+    <string name="clear_settings_default_desc">設定の"アプリ情報"パネルにおいて[デフォルトでの起動]の[設定を消去]をタップしてください。</string>
+    <string name="clear_launcher_default_desc">他のランチャーの"アプリ情報"パネルにおいて[デフォルトでの起動]の[設定を消去]をタップしてください。</string>
+
+    <!-- 2.5.0 -->
+    <string name="no_pass_set">新しいパスワードが指定されていません。入力してください。</string>
+    <string name="security_type">セキュリティタイプの選択</string>
+    <string name="system_lock">システムロック - 高セキュリティ</string>
+
+    <!-- 2.4.0 -->
+    <string name="enable_vibration">バイブレーションを有効</string>
+
+    <!-- 2.3.3 -->
+    <string name="check_all">すべて選択</string>
+    <string name="uncheck_all">選択を解除</string>
+    <string name="custom_rss">カスタムRSS</string>
+    <string name="preset_rss">プリセットRSS</string>
+    <string name="test_rss">テスト</string>
+    <string name="keyin_rss_url">Key in RSS url..</string>
+    <string name="empty_rss_url">RSS urlが検出できません</string>
+    <string name="error_rss_url">サポート外のRSS urlです</string>
+
+    <!-- 2.3.2 -->
+    <string name="set_wallpaper_dim_desc">壁紙の調光レベル</string>
+    <string name="set_wallpaper_dim_none">なし</string>
+    <string name="set_wallpaper_dim_light">少し暗く</string>
+    <string name="set_wallpaper_dim_dark">暗く</string>
+
+    <!-- 2.3.0 -->
+    <string name="rss_display_style_fast_top">上下にスライド(速い)</string>
+    <string name="rss_display_style_fast">左右にスライド(速い)</string>
+    <string name="calendar_account">カレンダーアカウンのトリスト</string>
+    <string name="calendar_account_select">カレンダーアカウントの選択</string>
+    <string name="events_loading">イベントの読み込み中。お待ちください</string>
+    <string name="password_unlock_settings">PINロック解除の設定</string>
+    <string name="emergency_unlock">戻るボタンとボリューム下ボタンをどうに長押しによる緊急ロック解除を有効</string>
+    <string name="emergency_call">緊急通話</string>
+    <string name="password_not_complete">PINが完了してません。やり直してください。</string>
+    <string name="type_new_password">PINの入力</string>
+    <string name="type_confirm_password">PINの確認</string>
+    <string name="password_not_matched">PINが正しくありません。やり直してください。</string>
+    <string name="try_ec_no">110番、119番他の緊急番号をダイヤルしてください。</string>
+    <string name="change_password">PINを入力すると無効</string>
+    <string name="dialog_pro_version_title">プロバージョンにアップデート</string>
+    <string name="dialog_pro_version">プロバージョンにアップデートすることで、私の仕事を応援するとともにこの機能を有効にしてください。</string>
+    <string name="enable_screen_off_volume">スクリーンオフ時のボリューム制御を有効</string>
+    <string name="enable_screen_off_volume_desc1">スクリーンオフでメディア再生中にデバイスのボリュームを次のように制御します:</string>
+    <string name="enable_screen_off_volume_desc2">1)ボリュームの上/下を1度押すと、次/前の歌にスキップ</string>
+    <string name="enable_screen_off_volume_desc3">2)2度押しするとボリュームの上下</string>
+    <string name="enable_screen_off_volume_desc4">*ハンドセットによる自動で無効になります。</string>
+    <string name="show_apps_image_alltime_note">メモ: 表示のチェックを外すと、アプリアイコンはロックボタンが押されたときに自動で表示されます。</string>
+
+    <!-- 2.2.8 -->
+    <string name="rss_display_style">ロック画面情報バーの表示スタイル</string>
+    <string name="rss_display_style_slow">囲み枠線 (遅い)</string>
+    <string name="network_error">ネットワークエラーです。やり直してください。</string>
+    <string name="rss_updated">C Locker RSSふぃーどが更新されました。</string>
+
+    <!-- 2.1.0 -->
+    <string name="next_event_1days">今日のイベントだけ表示</string>
+    <string name="next_event_3days">3日間のイベントを表示</string>
+    <string name="next_event_7days">1週間のイベントを表示</string>
+    <string name="next_event_14days">2週間のイベントを表示</string>
+    <string name="next_event_30days">1ヶ月のイベントを表示</string>
+    <string name="next_event_60days">3ヶ月のイベントを表示</string>
+    <string name="next_event_90days">6ヶ月のイベントを表示</string>
+    <string name="drop_statusbar">ドロップダウンスタータスバー</string>
+    <string name="enable_rss_refresh_notice">RSS更新通知を表示</string>
+    <string name="enable_calendar_events">カレンダーイベントを有効</string>
+
+    <!-- 2.0.1 -->
+    <string name="gesture_desc">ロック画面のジェスチャーでスライド方向による起動アクションの指定</string>
+    <string name="gesture_selection">ジェスチャーアクションの選択</string>
+    <string name="gesture_action_sms_desc">お気に入りにSMSを送る</string>
+    <string name="gesture_action_call_desc">お気に入りへ発信</string>
+    <string name="gesture_action_sms">SMSを送る</string>
+    <string name="gesture_action_call">通話</string>
+    <string name="gesture_no_contact">連絡先が選択されていません。</string>
+    <string name="follow_system_timeout">システムのタイムアウトに従う</string>
+
+    <!-- 2.0.0 -->
+    <string name="total_news">すべてのニュース</string>
+    <string name="rss_settings">RSSフィードの設定</string>
+    <string name="rss_select">新しいフィードの選択</string>
+    <string name="rss_refresh">RSSフィードの更新</string>
+    <string name="show_rss">RSSニュースを表示</string>
+    <string name="show_rss_desc">有効にするとロック画面のボトム情報バーにRSSニュースを表示します。</string>
+    <string name="rss_updating">ニュースフィードの更新中</string>
+    <string name="rss_update_interval">RSS更新頻度</string>
+    <string name="next_update">次の更新:</string>
+    <string name="next_update_never">次の更新: しない</string>
+    <string name="next_update_error">次の更新: エラー、設定し直してください</string>
+    <string name="last_update_successful_at">最終更新日時:</string>
+    <string name="never">しない</string>
+    <string name="every_1_hour">1時間ごと</string>
+    <string name="every_2_hour">2時間ごと</string>
+    <string name="every_3_hour">3時間ごと</string>
+    <string name="every_6_hour">6時間ごと</string>
+    <string name="every_12_hour">12時間ごと</string>
+    <string name="once_a_day">1日に1回</string>
+    <string name="launch_rss">RSSニュースフィードを開く</string>
+
+    <!-- 1.9.0 -->
+    <string name="enable_animation_desc">
+        Enable Lock Screen Time Change, Shortcut Icons, Information Bar Animation</string>
+    <string name="enable_animation">アニメーションを有効</string>
+    <string name="show_apps_image_alltime">ロック画面上のショートカットアイコンを表示/隠す</string>
+    <string name="donate">Donate</string>
+
+    <!-- 1.7.0 -->
+    <string name="set_portrait">縦向きスクリーンのみを有効</string>
+    <string name="set_portrait_desc">縦向きモードのスクリーンを有効にして、横向きモードを無効にします。</string>
+    <string name="unknown_number">Unknown Number</string>
+
+    <!-- 1.6.0 -->
+    <string name="select_app">アプリの選択</string>
+    <string name="set_as_unlock">ロック解除ボタンの設定</string>
+    <string name="hide_icon">アイコンを隠す</string>
+    <string name="shortcut_app_title">ショートカットアプリの選択</string>
+
+    <!-- 1.5.0 -->
+    <string name="enable_volume_rocker_control">ボリュームのロック画面制御を有効</string>
+    <string name="set_volume_rocker_selection">ボリュームのロック画面アクションを選択</string>
+
+    <!-- 1.4.2 -->
+    <string name="show_square_light_on_touch_desc">タップしたアイコンの周りにライト円を表示/隠す</string>
+    <string name="hide_unused_icons">使用しないショートカットアイコンを表示/隠す</string>
+
+    <!-- 1.4.1 -->
+    <string name="screen_timeout">ロック画面のタイムアウト</string>
+    <string name="enable_returnLS_disc">有効にすると、ホームランチャーを経由しないショートカットアプリが閉じた後はロック画面に戻ります。</string>
+    <string name="enable_returnLS">ロック画面に戻る</string>
+
+    <!-- 1.4.0 -->
+    <string name="enable_setLockSound">ロックの音を有効</string>
+    <string name="enable_setUnlockSound">ロック解除の音を有効</string>
+    <string name="sound_select">音の選択</string>
+    <string name="imageType_1">縦向き (720x1280)</string>
+    <string name="imageType_2">横向き (1280x720)</string>
+    <string name="imageType_3">フリーサイズ</string>
+    <string name="selectImageType">画像クロップサイズの選択</string>
+    <string name="other_options">その他のオプション</string>
+
+    <!-- 1.3.2 -->
+    <string name="ringtone_notice">独自のロック解除音を希望する場合、必要なメディアファイルを[/sdcard/media/audio/ringtone/]フォルダにコピーしてください。選択リストに表示されるようになります。</string>
+    <string name="ringtone_title">ロック解除の音の選択</string>
+    <string name="select_from_file">システム着信音から</string>
+
+    <!-- 1.3.1 -->
+    <string name="wallpaper_cancelled">カスタム壁紙の選択はキャンセルされました</string>
+    <string name="wallpaper_not_supported">カスタム壁紙をこの機種は対応していません</string>
+    <string name="wallpaper_crop_error">カスタム壁紙のクロップエラーです。他のクロップアクションを選択し直してください。</string>
+    <string name="select_launcher_default_desc">[C_Locker]を[常時]を[デフォルトに使用]に選択してください。でなければこのアクションはキャンセルされます。</string>
+    <string name="select_launcher_app_desc">ロック画面をロック解除した後に起動するホームランチャーを選択してください。</string>
+
+    <!-- 1.2.2 -->
+    <string name="show_battery_bar_desc">ロック画面の通知バーにバッテリー情報を表示/隠す</string>
+    <string name="enable_vibration_desc">ロック画面でのアイコンドラック中のバイブレーションを有効/無効</string>
+    <string name="enable">有効</string>
+
+    <!-- 1.2.0 -->
+    <string name="time_format">時刻のフォーマット</string>
+    <string name="show_clock_am">AM/PMを表示</string>
+
+    <!-- LockScreenActivity -->
+    <string name="unlock">ロック解除</string>
+    <string name="lock">ロック済み</string>
+    <string name="call">通話</string>
+    <string name="sms">SMS</string>
+    <string name="camera">カメラ</string>
+    <string name="flash">終了</string>
+    <string name="off_flash">フラッシュライトを切る</string>
+    <string name="map">マップ</string>
+    <string name="internet">インターネット</string>
+    <string name="youtube">YouTube</string>
+    <string name="launch_lockscreen_settings">ロック画面の設定を開く</string>
+    <string name="launch_app">実行するアプリ</string>
+    <string name="alarm">アラーム</string>
+    <string name="battery">バッテリー</string>
+    <string name="usb_charging">USB充電中</string>
+    <string name="miss_call">不在着信</string>
+    <string name="from">from</string>
+
+    <!-- AppListsActivity -->
+    <string name="updating_apps_list">アプリリストを更新中</string>
+
+    <!-- Picker Text Style -->
+    <string name="text_style_show_free">Style 0123456789</string>
+    <string name="text_style_show_paid">Style 0123456789 (Paid Version)</string>
+
+    <!-- Lock Screen Setting -->
+    <string name="display">ディスプレイ</string>
+    <string name="set_wallpaper">ロック画面に表示する壁紙の選択</string>
+    <string name="home_wallpaper">ホーム画面の壁紙/ライブ壁紙</string>
+    <string name="from_picture">画像ギャラリーから</string>
+    <string name="mix_color">混色</string>
+    <string name="show">表示</string>
+    <string name="hide">隠す</string>
+    <string name="set_clock_bg_style">時計の背景スタイルを選択</string>
+    <string name="clear">クリア</string>
+    <string name="transparent_blk">透明なブラック</string>
+    <string name="clock_center">時計を中央</string>
+    <string name="show_next_alarm">次回アラーム時刻を表示</string>
+    <string name="text_style">テキストのスタイル</string>
+    <string name="text_color">テキストの色</string>
+    <string name="tap_icon_to_set_shortcut">-アイコンをタップして、ロック画面のアプリショートカットを設定</string>
+    <string name="collecting_all_apps_info">すべてのアプリ情報を収集中</string>
+    <string name="saving_wallpaper">壁紙の保存</string>
+
+    <!-- Image Content Desc -->
+    <string name="img_desc">Image</string>
+
+    <!-- Activity Title -->
+    <string name="app_name">C Locker</string>
+    <string name="lock_screen_settings">C Lockerの設定</string>
+    <string name="apps_shortcut">アプリの選択</string>
+    <string name="lockscreen_custom_background">ロック画面のカスタム背景</string>
+    <string name="select_a_color">色の選択</string>
+    <string name="select_a_texttype">ロック画面のテキストスタイルの選択</string>
+    <string name="hide_fingerprint_icon">指紋認証アイコンを隠す</string>
+    <string name="ac_charging">AC充電中</string>
+    <string name="access_summary">C Locker Accessibility Service Information</string>
+</resources>

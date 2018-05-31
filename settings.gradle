@@ -1,0 +1,7 @@
+include ':C Locker'// Remove this if only c locker pro is launching
+//include ':C Locker Pro'// Remove this if only c locker free is launching
+//include ':SupportGoogleService'
+include ':SupportLicensingVerification'
+//include ':SupportV7AppCompat'
+//include ":CLockerFreeProject"
+//project(":CLockerFreeProject").projectDir = file("F:\\BackupDrive\\AndroidStudioProjects\\C Locker (AStudio)\\C Locker Free")

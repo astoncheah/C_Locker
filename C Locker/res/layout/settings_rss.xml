@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="none">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="@string/rss_display_style"
+                android:textColor="@color/colorTextDesc"
+                android:textSize="@dimen/text_size_decs" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupRssDisplayType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rBtn_rssDisplayFastTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:checked="true"
+                    android:text="@string/rss_display_style_fast_top" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_rssDisplayFast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/rss_display_style_fast" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_rssDisplaySlow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:text="@string/rss_display_style_slow" />
+            </RadioGroup>
+
+            <include layout="@layout/view_line_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_small"
+                android:text="@string/rss_update_interval"
+                android:textColor="@color/colorTextDesc"
+                android:textSize="@dimen/text_size_decs" />
+
+            <Spinner
+                android:id="@+id/spinner_timeFormat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_x_large"
+                android:layout_marginRight="@dimen/padding_x_large"
+                android:layout_marginTop="@dimen/padding_small" />
+
+            <CheckBox
+                android:id="@+id/cBox_showRSSRefreshNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/enable_rss_refresh_notice" />
+
+            <include layout="@layout/view_line_vertical" />
+
+            <RadioButton
+                android:id="@+id/rBtnCustomRSS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/custom_rss" />
+
+            <LinearLayout
+                android:id="@+id/lytCustomRSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/edTextTestRSS"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="50"
+                    android:gravity="center_vertical"
+                    android:hint="@string/keyin_rss_url"
+                    android:scrollHorizontally="false"
+                    android:selectAllOnFocus="true" />
+
+                <Button
+                    android:id="@+id/btnTestRSS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_rss" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/rBtnPresetRSS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:text="@string/preset_rss" />
+
+            <LinearLayout
+                android:id="@+id/lytPresetRSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_small"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rss_select"
+                    android:textColor="@color/colorTextDesc"
+                    android:textSize="@dimen/text_size_decs" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupRSS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_marginRight="@dimen/padding_large"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small"
+                        android:background="#444444"
+                        android:gravity="center"
+                        android:text="CNN News Feeds" />
+
+                    <RadioButton
+                        android:id="@+id/radio01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small"
+                        android:checked="true" />
+
+                    <RadioButton
+                        android:id="@+id/radio02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small"
+                        android:background="#444444"
+                        android:gravity="center"
+                        android:text="BBC News Feeds" />
+
+                    <RadioButton
+                        android:id="@+id/radio13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+
+                    <RadioButton
+                        android:id="@+id/radio24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/padding_small"
+                        android:layout_marginTop="@dimen/padding_small" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
